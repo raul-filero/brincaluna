@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
+  <!-- Favicon Brincaluna: luna + órbita + bola coral (del wordmark oficial) -->
+  <rect width="88" height="88" rx="20" fill="#FFF9F0"/>
+  <g transform="translate(44,44)">
+    <ellipse rx="34" ry="14" transform="rotate(-24)" fill="none" stroke="#9B8CFF" stroke-width="4" stroke-dasharray="0.5 9" stroke-linecap="round"/>
+    <circle r="19" fill="#FFD766"/>
+    <circle cx="-6" cy="-4" r="4" fill="#F0B429" opacity=".6"/>
+    <circle cx="28" cy="-15" r="6" fill="#FF6B4A"/>
+  </g>
+</svg>
