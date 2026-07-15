@@ -18,10 +18,11 @@ export default function AmazonButton({ url, asin, texto = "Ver precio en Amazon"
       className="btn-primary"
       href={withTag(url)}
       target="_blank"
-      rel="sponsored nofollow noopener"
+      rel="sponsored nofollow noopener noreferrer"
       data-asin={asin}
     >
       <span aria-hidden="true">🧸</span> {texto}
+      <span className="sr-only">(se abre en una pestaña nueva)</span>
     </a>
   );
 }

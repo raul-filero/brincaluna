@@ -24,6 +24,8 @@ export default function ProductCard({ p }: { p: Producto }) {
             src={`/products/${p.asin}.jpg`}
             alt={p.titulo}
             loading="lazy"
+            width={250}
+            height={170}
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </div>
@@ -36,13 +38,14 @@ export default function ProductCard({ p }: { p: Producto }) {
         </span>
       ) : null}
       <h3 style={{ fontSize: 20, margin: 0 }}>{p.titulo}</h3>
-      {p.habilidad_frase ? <p className="producto-trabaja">{cat?.emoji} Trabaja: {p.habilidad_frase}</p> : null}
+      {p.habilidad_frase ? <p className="producto-trabaja"><span aria-hidden="true">{cat?.emoji}</span> Trabaja: {p.habilidad_frase}</p> : null}
       <p style={{ margin: 0, fontSize: 15, color: "var(--color-text-soft)" }}>
-        ⭐ {p.rating.toLocaleString("es-ES")} · {p.num_resenas.toLocaleString("es-ES")} reseñas
+        <span className="sr-only">Valoración: </span>
+        <span aria-hidden="true">⭐</span> {p.rating.toLocaleString("es-ES")} de 5 · {p.num_resenas.toLocaleString("es-ES")} reseñas
         {p.edad_recomendada ? ` · ${p.edad_recomendada}` : ""}
       </p>
       {p.nota_seguridad ? (
-        <p style={{ margin: 0, fontSize: 15, color: "var(--color-primary-ink)" }}>⚠️ {p.nota_seguridad}</p>
+        <p style={{ margin: 0, fontSize: 15, color: "var(--color-primary-ink)" }}><span aria-hidden="true">⚠️</span> {p.nota_seguridad}</p>
       ) : null}
       <div style={{ marginTop: "auto" }}>
         <AmazonButton url={p.url} asin={p.asin} />

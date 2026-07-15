@@ -10,7 +10,7 @@ export default function EtapasList({ actual }: { actual?: string }) {
           key={e.slug}
           href={`/por-etapa/${e.slug}/`}
           className="pill-etapa"
-          aria-current={actual === e.slug ? "true" : undefined}
+          aria-current={actual === e.slug ? "page" : undefined}
         >
           <span aria-hidden="true">{e.emoji}</span> {e.etiqueta}
           <span style={{ fontWeight: 400, color: "var(--color-text-soft)", fontSize: 15 }}>· {e.rango}</span>

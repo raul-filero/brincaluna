@@ -12,9 +12,20 @@ export const SITE_TAGLINE = "Juguetes elegidos para cómo aprende tu hijo";
 // --- Amazon Associates ---
 export const AMAZON_TAG = process.env.NEXT_PUBLIC_AMAZON_TAG || "";
 
-/** Añade el tag de afiliado a una URL de Amazon si está configurado. */
+// Aviso ruidoso en build de producción sin tag: el sitio saldría sin monetizar.
+if (process.env.NODE_ENV === "production" && !AMAZON_TAG) {
+  console.warn("⚠️ BUILD SIN TAG DE AFILIADO — define NEXT_PUBLIC_AMAZON_TAG antes de publicar.");
+}
+
+/**
+ * Añade el tag de afiliado a una URL de Amazon si está configurado.
+ * Blindado: solo toca enlaces https://www.amazon.es/ que no lleven ya un tag.
+ * Cualquier otra URL (o si no hay tag) se devuelve intacta.
+ */
 export function withTag(url: string): string {
   if (!AMAZON_TAG) return url;
+  if (!/^https:\/\/www\.amazon\.es\//.test(url)) return url;
+  if (url.includes("tag=")) return url;
   const sep = url.includes("?") ? "&" : "?";
   return `${url}${sep}tag=${AMAZON_TAG}`;
 }

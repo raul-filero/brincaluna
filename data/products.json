@@ -117,7 +117,7 @@
       "etapas": [
         "pequeno-explorador"
       ],
-      "habilidad_frase": "Tirar de la ventosa para despegarla. Da fuerza a los dedos con un \"pop\" que engancha.",
+      "habilidad_frase": "Tirar de la ventosa para despegarla: da fuerza a los dedos con un \"pop\".",
       "nota_seguridad": "Silicona sin BPA. Recomendado por terapeutas para la fuerza de mano.",
       "reserva": false
     },
@@ -325,7 +325,7 @@
         "pequeno-explorador"
       ],
       "habilidad_frase": "Buscar la imagen igual y decir su nombre. Vocabulario y esperar el turno.",
-      "nota_seguridad": null,
+      "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
       "reserva": false
     },
     {
@@ -344,7 +344,7 @@
         "pequeno-explorador"
       ],
       "habilidad_frase": "Nombrar objetos de la casa jugando por turnos. Palabras del día a día.",
-      "nota_seguridad": null,
+      "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
       "reserva": false
     },
     {
@@ -571,7 +571,7 @@
         "primeros-pasos"
       ],
       "habilidad_frase": "Aprieta un botón y suena música: causa y efecto muy claros.",
-      "nota_seguridad": "volumen regulable, clave si hay hipoacusia o molestia con ruidos. Bordes redondeados.",
+      "nota_seguridad": "volumen regulable, clave si hay problemas de oído o molestia con ruidos. Bordes redondeados.",
       "reserva": false
     },
     {
@@ -700,7 +700,7 @@
       "etapas": [
         "primeros-meses"
       ],
-      "habilidad_frase": "El tiempo boca abajo fortalece el cuello y el tronco. Es la base de toda la motricidad.",
+      "habilidad_frase": "El tiempo boca abajo fortalece cuello y tronco: la base de toda la motricidad.",
       "nota_seguridad": "Usar siempre con un adulto delante. Los juguetes colgantes motivan a levantar la cabeza.",
       "reserva": false
     },
@@ -718,7 +718,7 @@
       "etapas": [
         "primeros-meses"
       ],
-      "habilidad_frase": "El bebé se mira y aguanta más tiempo boca abajo. Así entrena cuello y espalda sin darse cuenta.",
+      "habilidad_frase": "Se mira en el espejo y aguanta más tiempo boca abajo: entrena cuello y espalda.",
       "nota_seguridad": "Espejo infantil irrompible. Colocar a la altura de los ojos del bebé.",
       "reserva": false
     },
@@ -737,7 +737,7 @@
         "primeros-meses",
         "primeros-pasos"
       ],
-      "habilidad_frase": "Alcanzar y rodar pelotas variadas invita a moverse. Cada textura anima a estirarse un poco más.",
+      "habilidad_frase": "Alcanzar y rodar pelotas variadas invita a moverse y a estirarse un poco más.",
       "nota_seguridad": "Sin BPA. Tamaños grandes, sin piezas pequeñas.",
       "reserva": false
     },
@@ -773,7 +773,7 @@
       "etapas": [
         "primeros-pasos"
       ],
-      "habilidad_frase": "Empujar un carro ancho y estable da confianza para andar. El asa se ajusta en altura.",
+      "habilidad_frase": "Empujar un carro ancho y estable da confianza para andar. Asa ajustable en altura.",
       "nota_seguridad": "Madera de abedul robusta. Es un correpasillos de empuje, no un tacatá fijo.",
       "reserva": false
     },
@@ -810,7 +810,7 @@
         "pequeno-explorador",
         "ya-juega-con-otros"
       ],
-      "habilidad_frase": "Sentarse o pisar el cojín activa el tronco. Entrena el equilibrio con un reto suave y gradual.",
+      "habilidad_frase": "Sentarse o pisar el cojín activa el tronco y entrena el equilibrio con reto suave.",
       "nota_seguridad": "Usar sobre suelo no deslizante y con un adulto al lado. Incluye bombín para regular el aire.",
       "reserva": false
     },
@@ -848,7 +848,7 @@
         "primeros-pasos",
         "pequeno-explorador"
       ],
-      "habilidad_frase": "Pedalear enseña a mover las piernas de forma alterna. El adulto guía con la barra mientras aprende.",
+      "habilidad_frase": "Pedalear enseña a mover las piernas de forma alterna. El adulto guía con la barra.",
       "nota_seguridad": "Lleva arnés, barrera de seguridad y rueda libre. El adulto controla la dirección al principio.",
       "reserva": false
     },
@@ -1037,7 +1037,7 @@
         "primeros-meses"
       ],
       "habilidad_frase": "Alarga el tiempo boca abajo. Es la base de toda la motricidad.",
-      "nota_seguridad": "incluye almohada de apoyo para tummy time. Música electrónica: vigilar volumen (frecuente hipoacusia asociada).",
+      "nota_seguridad": "incluye almohada de apoyo para el juego boca abajo. Música electrónica: vigilar el volumen (los problemas de oído son frecuentes).",
       "reserva": false
     },
     {
@@ -1090,7 +1090,7 @@
       "etapas": [
         "primeros-meses"
       ],
-      "habilidad_frase": "Invita al tiempo boca abajo. Eso fortalece cuello y tronco. Su estampado de alto contraste engancha la mirada.",
+      "habilidad_frase": "Invita al tiempo boca abajo: fortalece cuello y tronco. El alto contraste engancha la mirada.",
       "nota_seguridad": "Arcos ajustables. Usar siempre con supervisión. No es para dormir.",
       "reserva": false
     },
@@ -1145,7 +1145,7 @@
         "primeros-meses"
       ],
       "habilidad_frase": "Botón grande: él aprieta y suena la música. Él manda, no el juguete.",
-      "nota_seguridad": "Tiene dos niveles de volumen (confirmado en reseñas). Usa el bajo: la hipoacusia es frecuente.",
+      "nota_seguridad": "Tiene dos niveles de volumen (confirmado en reseñas). Usa el bajo: los problemas de oído son frecuentes.",
       "reserva": false
     },
     {

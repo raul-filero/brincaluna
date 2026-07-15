@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { todasLasGuias } from "@/lib/guias";
+import JsonLd, { itemListLd } from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 /** Índice de guías: el contenido que captura el hueco SEO edad-desarrollo × habilidad. */
 export const metadata: Metadata = {
@@ -14,6 +16,13 @@ export default function GuiasPage() {
   const guias = todasLasGuias();
   return (
     <section className="container" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 24 }}>
+      <JsonLd
+        data={itemListLd(
+          "Guías para elegir juguetes · síndrome de Down",
+          `${SITE_URL}/guias/`,
+          guias.map((g) => ({ name: g.title, url: `${SITE_URL}/guias/${g.slug}/` }))
+        )}
+      />
       <h1 style={{ fontSize: "clamp(30px, 4vw, 42px)", margin: 0 }}>Guías que se leen en cinco minutos</h1>
       <p style={{ margin: 0, fontSize: 19, maxWidth: 680 }}>
         Sin jerga y con fuentes. Para dejar de dudar antes de comprar.

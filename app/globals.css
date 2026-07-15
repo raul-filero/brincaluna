@@ -37,7 +37,21 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+/* Texto solo para lectores de pantalla (patrón clip estándar) */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
 body {
   margin: 0;
   background: var(--color-bg);
@@ -117,7 +131,7 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; }
   font-weight: 800; font-size: 17px; color: var(--color-text); text-decoration: none;
 }
 .pill-etapa:hover { border-color: var(--color-secondary); color: var(--color-text); }
-.pill-etapa[aria-current="true"] { border-color: var(--color-secondary); background: var(--color-secondary-soft); }
+.pill-etapa[aria-current="page"] { border-color: var(--color-secondary); background: var(--color-secondary-soft); }
 
 /* Badge de aval (verde, honesto: cita fuentes) */
 .badge-aval {

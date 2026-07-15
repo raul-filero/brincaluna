@@ -20,8 +20,8 @@ export default function AvisoLegalPage() {
         <h2>Enlaces de afiliado</h2>
         <p>
           Brincaluna participa en el Programa de Afiliados de Amazon EU (Amazon Associates).
-          En calidad de afiliado, Amazon nos paga una comisión por las compras adscritas que
-          cumplen los requisitos. Para ti el precio es exactamente el mismo.
+          En calidad de Afiliado de Amazon, Brincaluna obtiene ingresos por las compras
+          adscritas que cumplen los requisitos aplicables. Para ti el precio es exactamente el mismo.
         </p>
         <p>
           Los precios y la disponibilidad se muestran siempre en Amazon en el momento de la

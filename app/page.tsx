@@ -11,7 +11,8 @@ import { SITE_NAME, SITE_URL, PARTNER_ORBITOYS } from "@/lib/site";
 
 /** Home: hero de álbum ilustrado + doble entrada (habilidad / etapa) + confianza. */
 export const metadata: Metadata = {
-  title: "Juguetes para niños con síndrome de Down · elegidos por cómo aprende tu hijo",
+  // absolute: evita el sufijo del template para no pasar de 60 chars en la home
+  title: { absolute: "Juguetes para niños con síndrome de Down · Brincaluna" },
   description:
     "Tienda-guía de juguetes para niños con síndrome de Down: por habilidad (manitas, lenguaje, calma, movimiento) y por etapa de desarrollo. Con el porqué, sin jerga.",
   alternates: { canonical: "/" },
@@ -84,7 +85,7 @@ export default function Home() {
       <section className="container" style={{ marginTop: 48, display: "flex", flexDirection: "column", gap: 24 }}>
         <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
           <h2 style={{ fontSize: 32, margin: 0 }}>Los más útiles</h2>
-          <Link href="/motricidad-fina/" style={{ fontWeight: 800, fontSize: 17 }}>Ver más juguetes →</Link>
+          <Link href="/motricidad-fina/" style={{ fontWeight: 800, fontSize: 17, display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Ver más juguetes →</Link>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 24 }}>
           {destacados.map((p) => <ProductCard key={p.asin} p={p} />)}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ETAPAS, productosDeEtapa } from "@/lib/data";
+import JsonLd, { itemListLd } from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 /** Hub "Por etapa": elige por su desarrollo, no por la edad de la caja. */
 export const metadata: Metadata = {
@@ -13,6 +15,13 @@ export const metadata: Metadata = {
 export default function PorEtapaPage() {
   return (
     <section className="container" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 24 }}>
+      <JsonLd
+        data={itemListLd(
+          "Juguetes por etapa de desarrollo",
+          `${SITE_URL}/por-etapa/`,
+          ETAPAS.map((e) => ({ name: e.h1, url: `${SITE_URL}/por-etapa/${e.slug}/` }))
+        )}
+      />
       <h1 style={{ fontSize: "clamp(30px, 4vw, 42px)", margin: 0 }}>Elige por su etapa, no por su edad</h1>
       <p style={{ margin: 0, fontSize: 19, maxWidth: 680 }}>
         Los niños con síndrome de Down pasan por las mismas etapas. Solo van a su ritmo.

@@ -78,6 +78,24 @@ def url_imagen(html: str) -> str | None:
     return None
 
 
+def redimensionar(raw: bytes, lado_max: int = 600, calidad: int = 80) -> bytes:
+    """Reduce la imagen a thumbnail web (la card la pinta a 250px; el original
+    de Amazon llega a 1500px+ y dispara el peso de public/products/)."""
+    import io
+    from PIL import Image
+    try:
+        im = Image.open(io.BytesIO(raw))
+        im = im.convert("RGB")
+        im.thumbnail((lado_max, lado_max), Image.LANCZOS)
+        buf = io.BytesIO()
+        im.save(buf, "JPEG", quality=calidad, optimize=True)
+        out = buf.getvalue()
+        return out if len(out) < len(raw) else raw
+    except Exception as e:  # noqa: BLE001 — mejor original que lote roto
+        print(f"[WARN] redimensionar: {e}", file=sys.stderr)
+        return raw
+
+
 def main() -> None:
     DEST.mkdir(parents=True, exist_ok=True)
     productos = json.loads((RAIZ / "data" / "products.json").read_text(encoding="utf-8"))["products"]
@@ -115,7 +133,7 @@ def main() -> None:
         img = fetch(img_url)
         # Guardia: una "imagen" de <5KB suele ser un error/placeholder de Amazon.
         if img and len(img) > 5000:
-            destino.write_bytes(img)
+            destino.write_bytes(redimensionar(img))
             manifest[asin] = True
             ok += 1
             print(f"[OK] {asin} ({len(img)//1024} KB)")

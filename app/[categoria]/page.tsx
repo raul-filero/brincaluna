@@ -5,6 +5,8 @@ import ProductCard from "@/components/ProductCard";
 import EtapasList from "@/components/EtapasList";
 import AvalBadge from "@/components/AvalBadge";
 import JsonLd from "@/components/JsonLd";
+import MedicalNote from "@/components/MedicalNote";
+import AffiliateNote from "@/components/AffiliateNote";
 import { SITE_URL } from "@/lib/site";
 
 /**
@@ -34,21 +36,24 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
   const productos = productosDeCategoria(cat.slug);
   return (
     <>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          name: cat.title,
-          url: `${SITE_URL}/${cat.slug}/`,
-          numberOfItems: productos.length,
-          itemListElement: productos.map((p, i) => ({
-            "@type": "ListItem",
-            position: i + 1,
-            name: p.titulo,
-            url: p.url, // el destino real es la ficha de Amazon (sin precio: vive allí)
-          })),
-        }}
-      />
+      {/* ItemList SOLO si hay productos: un numberOfItems:0 no aporta a Google */}
+      {productos.length > 0 ? (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: cat.title,
+            url: `${SITE_URL}/${cat.slug}/`,
+            numberOfItems: productos.length,
+            itemListElement: productos.map((p, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: p.titulo,
+              url: p.url, // el destino real es la ficha de Amazon (sin precio: vive allí)
+            })),
+          }}
+        />
+      ) : null}
 
       <section className="container" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 16 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 20, flexWrap: "wrap" }}>
@@ -70,8 +75,13 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
 
       <section className="container" style={{ marginTop: 32 }}>
         {productos.length > 0 ? (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 24 }}>
-            {productos.map((p) => <ProductCard key={p.asin} p={p} />)}
+          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+            <h2 style={{ fontSize: 26, margin: 0 }}>Los juguetes elegidos</h2>
+            <AffiliateNote />
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 24 }}>
+              {productos.map((p) => <ProductCard key={p.asin} p={p} />)}
+            </div>
+            <MedicalNote />
           </div>
         ) : (
           /* Estado vacío digno: estas categorías se llenan en la 2ª pasada del curador */
@@ -84,6 +94,23 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
             </p>
           </div>
         )}
+      </section>
+
+      {/* interlinking: chips a las otras habilidades (SEO + navegación) */}
+      <section className="container" style={{ marginTop: 40, display: "flex", flexDirection: "column", gap: 16 }}>
+        <h2 style={{ fontSize: 22, margin: 0 }}>Otras habilidades</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
+          {CATEGORIAS.filter((c) => c.slug !== cat.slug).map((c) => (
+            <Link
+              key={c.slug}
+              href={`/${c.slug}/`}
+              className="chip-habilidad"
+              style={{ ["--chip-color" as string]: c.color, ["--chip-soft" as string]: c.colorSoft }}
+            >
+              <span aria-hidden="true">{c.emoji}</span> {c.etiqueta}
+            </Link>
+          ))}
+        </div>
       </section>
     </>
   );
