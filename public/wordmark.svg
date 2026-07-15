@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 100" width="348" height="100" role="img" aria-label="Brincaluna">
+  <defs>
+    <radialGradient id="luna" cx="38%" cy="34%" r="75%">
+      <stop offset="0" stop-color="#FFEDBF"></stop>
+      <stop offset=".72" stop-color="#FFD766"></stop>
+      <stop offset="1" stop-color="#F2B72E"></stop>
+    </radialGradient>
+  </defs>
+  <g transform="translate(44,46)">
+    <circle r="26" fill="#FFE3A1" opacity=".45"></circle>
+    <ellipse rx="36" ry="15" transform="rotate(-24)" fill="none" stroke="#9B8CFF" stroke-width="3" stroke-dasharray="0.5 8.5" stroke-linecap="round"></ellipse>
+    <circle r="19" fill="url(#luna)"></circle>
+    <circle cx="-6" cy="-4" r="4" fill="#F0B429" opacity=".55"></circle>
+    <circle cx="5" cy="7" r="2.6" fill="#F0B429" opacity=".55"></circle>
+    <circle cx="29" cy="-16" r="6" fill="#FF6B4A"></circle>
+  </g>
+  <text x="92" y="58" font-size="42" fill="#2B2440">brincaluna</text>
+  <path d="M94 72 q46 9 84 5 q34 -3 66 -8" fill="none" stroke="#FF6B4A" stroke-width="5" stroke-linecap="round" opacity=".9"></path>
+</svg>

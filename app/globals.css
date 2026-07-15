@@ -1,0 +1,161 @@
+/* ============================================================
+   Brincaluna — estilos globales.
+   Tokens v2 "Alegría clara + álbum ilustrado" (Claude Design,
+   contrastes verificados — ver design/output/tokens.css).
+   Reglas duras: icono siempre con texto · targets ≥56px ·
+   nunca blanco sobre coral · acuarela solo decorativa.
+   ============================================================ */
+:root {
+  --color-bg: #FFF9F0;
+  --color-surface: #FFFFFF;
+  --color-text: #2B2440;
+  --color-text-soft: #5A5470;
+  --color-line: #EDE4D6;
+  --color-primary: #FF6B4A;
+  --color-primary-hover: #FF7E61;
+  --color-primary-soft: #FFE1D8;
+  --color-primary-ink: #7A2410;
+  --color-secondary: #2368B8;
+  --color-secondary-hover: #17518F;
+  --color-secondary-soft: #E1EDFA;
+  --color-accent-sun: #FFC93C;
+  --color-accent-mint: #3EC99F;
+  --color-accent-lilac: #9B8CFF;
+  --color-accent-lilac-ink: #4A3FA3;
+  --color-success-ink: #1E6B47;
+  --color-success-soft: #E8F3EC;
+  --color-focus: #2D7DD2;
+  --wash-sky: #C4EAE4;
+  --wash-gold: #FFE3A1;
+  --wash-mint: #CDEFDF;
+  --wash-lilac: #E4DDFF;
+  --font-display: "Baloo 2", "Quicksand", sans-serif;
+  --font-body: "Nunito Sans", "Atkinson Hyperlegible", sans-serif;
+  --radius-card: 20px;
+  --tap: 56px;
+  --shadow-card: 0 4px 16px rgba(43, 36, 64, 0.08);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 18px;           /* cuerpo grande: evidencia accesibilidad cognitiva */
+  line-height: 1.6;
+}
+a { color: var(--color-secondary); }
+a:hover { color: var(--color-secondary-hover); }
+:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---- layout ---- */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.skip-link {
+  position: absolute; left: -9999px; top: 0; background: var(--color-surface);
+  padding: 12px 20px; border-radius: 0 0 12px 0; z-index: 100; font-weight: 800;
+}
+.skip-link:focus { left: 0; }
+
+/* ---- componentes base ---- */
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* Botón/enlace pill: target ≥56px SIEMPRE */
+.pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: var(--tap); padding: 0 20px;
+  border-radius: 999px; font-weight: 800; font-size: 17px;
+  color: var(--color-text); text-decoration: none;
+  font-family: var(--font-body);
+}
+.pill:hover { background: var(--color-primary-soft); color: var(--color-text); }
+
+/* CTA principal: coral con texto oscuro (5,2:1) — PROHIBIDO texto blanco (2,8:1) */
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: var(--tap); padding: 0 26px; border-radius: 999px;
+  background: var(--color-primary); color: var(--color-text);
+  font-weight: 800; font-size: 17px; text-decoration: none; border: none; cursor: pointer;
+}
+.btn-primary:hover { background: var(--color-primary-hover); color: var(--color-text); }
+
+.btn-secondary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: var(--tap); padding: 0 26px; border-radius: 999px;
+  background: var(--color-surface); color: var(--color-secondary);
+  border: 3px solid var(--color-secondary); font-weight: 800; font-size: 17px;
+  text-decoration: none; cursor: pointer;
+}
+.btn-secondary:hover { background: var(--color-secondary-soft); }
+
+/* Chip de habilidad: pill con subrayado grueso del color de la categoría */
+.chip-habilidad {
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: var(--tap); padding: 0 22px; border-radius: 999px;
+  background: var(--color-bg); font-weight: 800; font-size: 17px;
+  color: var(--color-text); text-decoration: none;
+  border-bottom: 5px solid var(--chip-color, var(--color-accent-mint));
+}
+.chip-habilidad:hover { background: var(--chip-soft, var(--color-primary-soft)); color: var(--color-text); }
+
+/* Fila de etapa (borde neutro, hover azul) */
+.pill-etapa {
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: var(--tap); padding: 0 20px; border-radius: 999px;
+  background: var(--color-bg); border: 2px solid var(--color-line);
+  font-weight: 800; font-size: 17px; color: var(--color-text); text-decoration: none;
+}
+.pill-etapa:hover { border-color: var(--color-secondary); color: var(--color-text); }
+.pill-etapa[aria-current="true"] { border-color: var(--color-secondary); background: var(--color-secondary-soft); }
+
+/* Badge de aval (verde, honesto: cita fuentes) */
+.badge-aval {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--color-success-soft); color: var(--color-success-ink);
+  border-radius: 12px; padding: 10px 16px; font-size: 15px; font-weight: 800;
+}
+
+/* ---- capa acuarela (SOLO decorativa, siempre aria-hidden) ---- */
+.wash-band { position: relative; height: 80px; margin: 8px 0; overflow: hidden; }
+.wash-blob { position: absolute; border-radius: 48% 52% 55% 45%/60% 45% 55% 40%; }
+.grain {
+  position: absolute; inset: 0; opacity: 0.5; pointer-events: none;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0.42 0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0.08 0"/></filter><rect width="160" height="160" filter="url(%23n)"/></svg>');
+}
+
+/* ---- tarjeta de producto ---- */
+.producto-media {
+  height: 170px; border-radius: 14px; overflow: hidden; background: #F6F1E8;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 44px;
+}
+.producto-trabaja { margin: 0; font-size: 16px; font-weight: 800; color: var(--color-success-ink); }
+.producto-etapa {
+  align-self: flex-start; background: var(--color-bg); border: 2px solid var(--color-line);
+  border-radius: 999px; padding: 4px 14px; font-size: 15px; font-weight: 800; color: var(--color-text-soft);
+}
+
+/* ---- prosa de guías (easy-read) ---- */
+.prosa { max-width: 760px; }
+.prosa h2 { font-size: 28px; margin: 40px 0 12px; }
+.prosa h3 { font-size: 22px; margin: 28px 0 8px; }
+.prosa p, .prosa li { font-size: 18px; }
+.prosa ul { padding-left: 24px; }
+.prosa a { font-weight: 700; }
+.prosa blockquote {
+  margin: 24px 0; padding: 16px 24px; background: var(--color-surface);
+  border-left: 6px solid var(--color-accent-sun); border-radius: 0 14px 14px 0;
+}
+.prosa table { border-collapse: collapse; width: 100%; font-size: 16px; }
+.prosa th, .prosa td { border: 1px solid var(--color-line); padding: 10px 12px; text-align: left; }
