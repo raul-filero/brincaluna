@@ -17,8 +17,13 @@ export const metadata: Metadata = {
   },
   description:
     "Juguetes para niños con síndrome de Down elegidos por la habilidad que trabajan: manitas, lenguaje, calma, movimiento. Con el porqué y sin jerga.",
-  openGraph: { siteName: SITE_NAME, type: "website", locale: "es_ES" },
-  twitter: { card: "summary" },
+  openGraph: {
+    siteName: SITE_NAME,
+    type: "website",
+    locale: "es_ES",
+    images: [{ url: "/illos/og-default.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

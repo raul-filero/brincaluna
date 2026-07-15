@@ -1,31 +1,18 @@
 /**
- * Logo Brincaluna: luna dorada + órbita lila punteada + bola coral,
- * con el wordmark en Baloo 2 y su swash coral debajo.
- * (Del wordmark.svg entregado por Claude Design; cuando llegue la
- * ilustración de Codex —niño saltando de la luna, rollo Principito—
- * este SVG se sustituye por ella.)
+ * Logo Brincaluna: mascota acuarela (niño saltando desde la luna, Codex
+ * 2026-07-15) + wordmark en Baloo 2 con su swash coral debajo.
  */
 export default function Logo({ size = 46 }: { size?: number }) {
   return (
     <span style={{ display: "flex", alignItems: "center", gap: 10 }}>
-      <svg viewBox="0 0 88 88" width={size} height={size} aria-hidden="true">
-        <defs>
-          <radialGradient id="lunaLogo" cx="38%" cy="34%" r="75%">
-            <stop offset="0" stopColor="#FFEDBF" />
-            <stop offset=".72" stopColor="#FFD766" />
-            <stop offset="1" stopColor="#F2B72E" />
-          </radialGradient>
-        </defs>
-        <g transform="translate(44,44)">
-          <ellipse
-            rx="36" ry="15" transform="rotate(-24)" fill="none"
-            stroke="#9B8CFF" strokeWidth="3" strokeDasharray="0.5 8.5" strokeLinecap="round"
-          />
-          <circle r="19" fill="url(#lunaLogo)" />
-          <circle cx="-6" cy="-4" r="4" fill="#F0B429" opacity=".6" />
-          <circle cx="29" cy="-16" r="6" fill="#FF6B4A" />
-        </g>
-      </svg>
+      <img
+        src="/illos/logo-nino-luna.png"
+        alt=""
+        aria-hidden="true"
+        width={size}
+        height={size}
+        style={{ borderRadius: "50%", display: "block" }}
+      />
       <span style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
         <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: size > 40 ? 28 : 22 }}>
           brincaluna

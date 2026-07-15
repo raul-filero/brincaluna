@@ -57,9 +57,9 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
 
       <section className="container" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 16 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 20, flexWrap: "wrap" }}>
-          {/* viñeta de la categoría: hueco para la acuarela encargada; mientras, su emoji sobre el color suave */}
-          <div aria-hidden="true" style={{ width: 96, height: 96, borderRadius: "50%", background: cat.colorSoft, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 44, flexShrink: 0 }}>
-            {cat.emoji}
+          {/* viñeta acuarela de la categoría (capa emocional, al lado del H1) */}
+          <div aria-hidden="true" style={{ width: 120, height: 120, borderRadius: "50%", background: cat.colorSoft, overflow: "hidden", flexShrink: 0, boxShadow: "var(--shadow-card)" }}>
+            <img src={`/illos/vineta-${cat.slug}.jpg`} alt="" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             <h1 style={{ fontSize: "clamp(30px, 4vw, 42px)", margin: 0 }}>{cat.h1}</h1>

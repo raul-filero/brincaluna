@@ -39,9 +39,9 @@ export default function HeroScene() {
         <path d="M520 170 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" fill="#FF8A6E" opacity=".8" />
         <path d="M64 250 l1.8 4.6 4.6 1.8 -4.6 1.8 -1.8 4.6 -1.8 -4.6 -4.6 -1.8 4.6 -1.8 z" fill="#9B8CFF" opacity=".8" />
       </svg>
-      {/* medallón reservado para la ilustración final (Codex) */}
-      <div style={{ position: "absolute", left: "22%", bottom: "5%", width: "42%", aspectRatio: "1", borderRadius: "50%", background: "radial-gradient(circle at 40% 35%, #FFF6E8, #FBEBD4)", boxShadow: "var(--shadow-card)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 64 }}>
-        🌙
+      {/* medallón: ilustración acuarela (niños jugando juntos) */}
+      <div style={{ position: "absolute", left: "22%", bottom: "5%", width: "42%", aspectRatio: "1", borderRadius: "50%", boxShadow: "var(--shadow-card)", overflow: "hidden", background: "#FBEBD4" }}>
+        <img src="/illos/hero-medallon.jpg" alt="" width={640} height={640} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
       </div>
     </div>
   );
