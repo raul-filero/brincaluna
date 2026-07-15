@@ -1,0 +1,29 @@
+{
+ "descripcion": [
+  "Es un juego de mesa cooperativo para los más pequeños: entre todos hay que ayudar a los animales a llegar a su refugio antes de que caiga la noche. No se compite; se gana o se pierde en equipo.",
+  "Se juega por turnos tirando el dado y avanzando a los animales juntos, decidiendo entre todos el siguiente paso. Las partidas duran unos 10 minutos, cortas para mantener la atención, y admite hasta cuatro jugadores.",
+  "Para un niño con síndrome de Down, que sea cooperativo cambia mucho: nadie pierde solo ni se queda fuera, así que no hay frustración por perder. Ayuda a esperar el turno, seguir una regla sencilla y jugar con otros sin la presión de ganar."
+ ],
+ "caracteristicas": [
+  "Juego de mesa cooperativo: todos juegan en el mismo equipo.",
+  "Objetivo: llevar a los animales a su refugio entre todos.",
+  "Hasta 4 jugadores.",
+  "Partidas de unos 10 minutos.",
+  "Piezas de madera.",
+  "Edad sugerida en ficha: de 2 años y medio a 5 años."
+ ],
+ "faq": [
+  {
+   "q": "¿Se juega en equipo o compitiendo?",
+   "a": "En equipo. Es un juego cooperativo: todos ayudan a los animales y ganan o pierden juntos, sin que nadie quede el último."
+  },
+  {
+   "q": "¿Cuánto dura una partida?",
+   "a": "Unos 10 minutos, pensado para la atención de los más pequeños."
+  },
+  {
+   "q": "¿Hace falta saber leer o contar?",
+   "a": "No hace falta leer. Se avanza tirando el dado y siguiendo reglas muy sencillas que un adulto puede guiar."
+  }
+ ]
+}

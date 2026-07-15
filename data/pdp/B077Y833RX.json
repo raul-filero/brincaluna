@@ -1,0 +1,29 @@
+{
+ "descripcion": [
+  "Es un juego de mesa para aprender colores y formas. Se tiran dos dados (uno de color y otro de forma) y hay que colocar o quitar en el tablero la ficha que corresponde, por ejemplo un cuadrado azul.",
+  "Se juega solo o hasta con seis jugadores, y tiene varios niveles de dificultad. Podéis empezar por lo más simple (solo emparejar por color) y añadir la forma cuando el niño lo domine. Las fichas tienen autocontrol, así que se ve si encaja.",
+  "Para un niño con síndrome de Down, clasificar por color y por forma es un aprendizaje concreto y muy visual, que aprovecha su memoria visual. Ir de una sola regla a dos (color más forma) permite ajustar el reto para que avance sin agobiarse."
+ ],
+ "caracteristicas": [
+  "Juego de asignación para aprender colores y formas.",
+  "Se juega con dos dados: uno de color y otro de forma.",
+  "De 1 a 6 jugadores.",
+  "Varios niveles de dificultad y mecanismo de autocontrol.",
+  "Fichas pequeñas: supervisar la fase oral.",
+  "Edad sugerida en ficha: de 3 a 6 años."
+ ],
+ "faq": [
+  {
+   "q": "¿Se puede jugar solo?",
+   "a": "Sí. Admite de 1 a 6 jugadores, así que sirve para jugar en solitario o en grupo."
+  },
+  {
+   "q": "¿Hace falta saber leer?",
+   "a": "No. Se juega con dados de color y forma y fichas; se entiende mirando, sin texto que leer."
+  },
+  {
+   "q": "¿Las piezas son pequeñas?",
+   "a": "Las fichas son pequeñas, así que conviene supervisar si el niño aún se lleva cosas a la boca."
+  }
+ ]
+}

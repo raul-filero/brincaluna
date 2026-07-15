@@ -1,8 +1,8 @@
 {
  "meta": {
   "fecha": "2026-07-15",
-  "total": 88,
-  "unicos_no_reserva": 83,
+  "total": 112,
+  "unicos_no_reserva": 107,
   "reservas": 5,
   "duplicados_fusionados": 6,
   "fuente": "catalogo/*.md"
@@ -1817,6 +1817,509 @@
    "reserva": false,
    "slug": "kidkraft-cocina-de-juguete-modern-country-de",
    "tipo": "cocinitas-imitacion"
+  },
+  {
+   "asin": "B0BFN56MVY",
+   "titulo": "Jellycat — Bashful Conejo Crema (peluche de apego, talla pequeña)",
+   "url": "https://www.amazon.es/dp/B0BFN56MVY",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "tipo": "munecos-peluches",
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Un peluche muy suave para abrazar y calmarse. Compañero de apego desde el primer día.",
+   "nota_seguridad": "Ojos bordados, sin piezas pequeñas que se desprendan. Limpieza en superficie; lavado a mano suave.",
+   "edad_recomendada": "desde el nacimiento (ficha: 0+)",
+   "rating": 4.3,
+   "num_resenas": 218,
+   "precio_aprox": "19,95",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "jellycat-bashful-conejo-crema-peluche-de-apego"
+  },
+  {
+   "asin": "B0DBQ6G3ZF",
+   "titulo": "NICI — Conejo de Peluche Crema 20 cm (tejido suave reciclado)",
+   "url": "https://www.amazon.es/dp/B0DBQ6G3ZF",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "tipo": "munecos-peluches",
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Peluche pequeño y blandito para manos pequeñas. Objeto de apego que da seguridad.",
+   "nota_seguridad": "Felpa suave, lavable en superficie. Sin piezas sueltas diminutas. Supervisar la fase oral.",
+   "edad_recomendada": "desde bebés; ideal como regalo de nacimiento",
+   "rating": 4.7,
+   "num_resenas": 60,
+   "precio_aprox": "9,99",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "nici-conejo-de-peluche-crema-20-cm"
+  },
+  {
+   "asin": "B078WQK7X1",
+   "titulo": "Nenuco — Mi Primer Baño (muñeco blandito sumergible 35 cm, Famosa)",
+   "url": "https://www.amazon.es/dp/B078WQK7X1",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "tipo": "munecos-peluches",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Bañar al muñeco en el agua. Ensaya el autocuidado y la rutina del baño.",
+   "nota_seguridad": "Cuerpo sumergible de drenado rápido. Secar bien tras el baño para evitar humedad interior.",
+   "edad_recomendada": "a partir de 2 años (ficha)",
+   "rating": 4.8,
+   "num_resenas": 1569,
+   "precio_aprox": "16,99",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "nenuco-mi-primer-bano-muneco-blandito-sumergible"
+  },
+  {
+   "asin": "B01AIFT6MO",
+   "titulo": "Nenuco — Muñeco Blandito 5 Funciones (Famosa 700012664)",
+   "url": "https://www.amazon.es/dp/B01AIFT6MO",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "tipo": "munecos-peluches",
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Dice mamá y papá al apretar sus manos. Cuidar al bebé despierta lenguaje y afecto.",
+   "nota_seguridad": "Cuerpo blandito, sin piezas sueltas. Requiere pilas; que las cambie un adulto.",
+   "edad_recomendada": "primera infancia (ficha); apto para los más pequeños con supervisión",
+   "rating": 4.8,
+   "num_resenas": 12711,
+   "precio_aprox": "18,98",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "nenuco-muneco-blandito-5-funciones-famosa-700012664"
+  },
+  {
+   "asin": "B08497KHN6",
+   "titulo": "Melissa & Doug — 6 Títeres de Mano Animales Domésticos (perro, gato, conejo…)",
+   "url": "https://www.amazon.es/dp/B08497KHN6",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "tipo": "munecos-peluches",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Hacer hablar a los títeres invita a conversar por turnos e imitar sonidos.",
+   "nota_seguridad": "Tela suave, lavable en superficie y sin piezas sueltas.",
+   "edad_recomendada": "a partir de 2 años (ficha: 2-6 años)",
+   "rating": 4.6,
+   "num_resenas": 190,
+   "precio_aprox": "24,99",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "melissa-doug-6-titeres-de-mano-animales"
+  },
+  {
+   "asin": "B0BB2BMVNH",
+   "titulo": "KOOFIT — Luz Quitamiedos Infantil Recargable (luz cálida regulable, sin pantalla)",
+   "url": "https://www.amazon.es/dp/B0BB2BMVNH",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "tipo": "calma-peso",
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Una luz cálida y tenue acompaña el sueño. Calma el miedo a la oscuridad.",
+   "nota_seguridad": "Luz cálida anti-azul que no parpadea. Sin pantalla ni cuenta atrás. Temporizador opcional 30/60 min.",
+   "edad_recomendada": "todas las edades; útil desde bebé para tomas nocturnas",
+   "rating": 4.7,
+   "num_resenas": 2099,
+   "precio_aprox": "12,63",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "koofit-luz-quitamiedos-infantil-recargable-luz-calida"
+  },
+  {
+   "asin": "B078MCYFGY",
+   "titulo": "Tekemai — Luz Nocturna Oso de Silicona con Sensor Táctil (recargable)",
+   "url": "https://www.amazon.es/dp/B078MCYFGY",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "tipo": "calma-peso",
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Un oso blando de luz suave para tocar. Da calma y compañía al dormir.",
+   "nota_seguridad": "Silicona sin BPA, sin bordes afilados. Luz suave regulable, sin pantalla. Carga USB por un adulto.",
+   "edad_recomendada": "bebés y niños pequeños",
+   "rating": 4.4,
+   "num_resenas": 321,
+   "precio_aprox": "27,31",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "tekemai-luz-nocturna-oso-de-silicona-con"
+  },
+  {
+   "asin": "B0BRKHF3N7",
+   "titulo": "Ella — Manta con Peso Infantil 3,2 kg (100×150 cm, algodón OEKO-TEX)",
+   "url": "https://www.amazon.es/dp/B0BRKHF3N7",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "tipo": "calma-peso",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "El peso repartido da presión profunda que relaja el cuerpo para dormir.",
+   "nota_seguridad": "NUNCA para bebés; solo a partir de 3 años. Regla del ~10% del peso corporal; el niño debe poder quitársela solo. Consultar al terapeuta ante dudas.",
+   "edad_recomendada": "a partir de 3 años; elegir el peso ~10% del peso del niño",
+   "rating": 4.6,
+   "num_resenas": 785,
+   "precio_aprox": "79,95",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "ella-manta-con-peso-infantil-3-2"
+  },
+  {
+   "asin": "B0CK9814RH",
+   "titulo": "Sensory Owl — Cojín Sensorial de Regazo con Peso (30×40 cm, 4 kg)",
+   "url": "https://www.amazon.es/dp/B0CK9814RH",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "tipo": "calma-peso",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Su peso sobre las piernas da presión calmante para concentrarse y regularse.",
+   "nota_seguridad": "No es para bebés (mín. 36 meses). Usar sobre el regazo, nunca sobre pecho o cabeza. Peso ~10% del corporal; consultar al terapeuta. No es un dispositivo médico.",
+   "edad_recomendada": "a partir de 3 años (niños en edad escolar)",
+   "rating": 4.6,
+   "num_resenas": 128,
+   "precio_aprox": "50,32",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "sensory-owl-cojin-sensorial-de-regazo-con"
+  },
+  {
+   "asin": "B000SK7DF2",
+   "titulo": "Melissa & Doug — Puzzle de Madera con Clavijas: Números (10 piezas)",
+   "url": "https://www.amazon.es/dp/B000SK7DF2",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "tipo": "puzzles-encajes",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Coger cada pieza por su clavija grande. Compensa la pinza débil y cuenta números.",
+   "nota_seguridad": "Tablero de madera resistente. Las clavijas grandes facilitan el agarre; vigila la fase oral.",
+   "edad_recomendada": "2 años o más (ficha: 2-4 años)",
+   "rating": 4.6,
+   "num_resenas": 3963,
+   "precio_aprox": "18,98",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "melissa-doug-puzzle-de-madera-con-clavijas"
+  },
+  {
+   "asin": "B0006NM95A",
+   "titulo": "Ravensburger — Mi Primer Puzzle: Dinosaurios (4 puzzles progresivos de 2-3-4-5 piezas)",
+   "url": "https://www.amazon.es/dp/B0006NM95A",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "puzzles-encajes",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Cuatro puzzles que crecen de 2 a 5 piezas. Avanza sin frustrarse.",
+   "nota_seguridad": "Piezas gruesas de cartón resistente, sin partes pequeñas. Encaje Soft-Click a prueba de errores.",
+   "edad_recomendada": "a partir de 18 meses (ficha)",
+   "rating": 4.7,
+   "num_resenas": 1297,
+   "precio_aprox": "10,45",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "ravensburger-mi-primer-puzzle-dinosaurios-4-puzzles"
+  },
+  {
+   "asin": "B00ARSE1A0",
+   "titulo": "Ravensburger — Mi Primer Puzzle: Animales del Prado (9 puzzles de 2 piezas)",
+   "url": "https://www.amazon.es/dp/B00ARSE1A0",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "puzzles-encajes",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Unir dos piezas para formar un animal. Primer puzzle por la vista.",
+   "nota_seguridad": "Nueve puzzles de 2 piezas de cartón grueso. Sin piezas pequeñas.",
+   "edad_recomendada": "a partir de 2 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 175,
+   "precio_aprox": "10,45",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "ravensburger-mi-primer-puzzle-animales-del-prado"
+  },
+  {
+   "asin": "B0050OUOR0",
+   "titulo": "Goula — Puzzle de Encaje por Siluetas: La Granja (madera, 15 piezas)",
+   "url": "https://www.amazon.es/dp/B0050OUOR0",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "tipo": "puzzles-encajes",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Encajar cada figura por su silueta. Entrena la vista y la mano.",
+   "nota_seguridad": "Madera resistente. Los pivotes son pequeños: reto de pinza, supervisa la fase oral.",
+   "edad_recomendada": "a partir de 2 años (ficha)",
+   "rating": 4.7,
+   "num_resenas": 952,
+   "precio_aprox": "10,47",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "goula-puzzle-de-encaje-por-siluetas-la"
+  },
+  {
+   "asin": "B004MMFBZG",
+   "titulo": "Janod — Chunky Puzzle: Animales del Bosque (madera, 7 piezas que se sostienen de pie)",
+   "url": "https://www.amazon.es/dp/B004MMFBZG",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "tipo": "puzzles-encajes",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Encajar animales gruesos que también se sostienen de pie para jugar.",
+   "nota_seguridad": "Piezas gruesas de madera, fáciles de agarrar. Se usan como figuras: juego simbólico.",
+   "edad_recomendada": "18 meses a 3 años (ficha)",
+   "rating": 4.1,
+   "num_resenas": 1233,
+   "precio_aprox": "19,99",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "janod-chunky-puzzle-animales-del-bosque-madera"
+  },
+  {
+   "asin": "B00KL4VSU6",
+   "titulo": "Djeco — Little Cooperation (juego cooperativo de mesa)",
+   "url": "https://www.amazon.es/dp/B00KL4VSU6",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "tipo": "juegos-mesa",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Ayudar juntos a los animales a llegar al iglú. Cooperar, no competir.",
+   "nota_seguridad": "Piezas de madera. Juego cooperativo: todos ganan o pierden juntos, sin frustración.",
+   "edad_recomendada": "2 años y medio a 5 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 553,
+   "precio_aprox": "22,19",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "djeco-little-cooperation-juego-cooperativo-de-mesa"
+  },
+  {
+   "asin": "B00BHAHATG",
+   "titulo": "Educa — Mi Primer Lince: 36 Imágenes (juego de observación con piezas grandes)",
+   "url": "https://www.amazon.es/dp/B00BHAHATG",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "juegos-mesa",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Encontrar la imagen en el tablero. Piezas grandes y partidas cortas.",
+   "nota_seguridad": "Piezas grandes y gruesas, fáciles de manipular. Empezar con pocas fichas.",
+   "edad_recomendada": "a partir de 2 años (ficha: 2-4 años)",
+   "rating": 4.6,
+   "num_resenas": 889,
+   "precio_aprox": "16,10",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "educa-mi-primer-lince-36-imagenes-juego"
+  },
+  {
+   "asin": "B077Y833RX",
+   "titulo": "Ravensburger — Colorama (juego de colores y formas)",
+   "url": "https://www.amazon.es/dp/B077Y833RX",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "juegos-mesa",
+   "etapas": [
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Colocar cada ficha por color y forma. Aprende colores y figuras jugando.",
+   "nota_seguridad": "Fichas pequeñas: supervisar la fase oral. Instrucciones en alemán; el juego se entiende solo.",
+   "edad_recomendada": "3 a 6 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 2200,
+   "precio_aprox": "26,80",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "ravensburger-colorama-juego-de-colores-y-formas"
+  },
+  {
+   "asin": "B00IJBM79O",
+   "titulo": "Educa — Dominó Mickey & Friends (madera, 28 fichas grandes)",
+   "url": "https://www.amazon.es/dp/B00IJBM79O",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "juegos-mesa",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Unir dibujos iguales con fichas de madera grandes. Emparejar mirando.",
+   "nota_seguridad": "Fichas de madera grandes, fáciles de manipular. Personajes conocidos que motivan.",
+   "edad_recomendada": "a partir de 3 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 805,
+   "precio_aprox": "8,70",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "educa-domino-mickey-friends-madera-28-fichas"
+  },
+  {
+   "asin": "B0716KVMX8",
+   "titulo": "Educa — Lince: 70 Imágenes (juego de observación)",
+   "url": "https://www.amazon.es/dp/B0716KVMX8",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "tipo": "juegos-mesa",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Ser el primero en encontrar la imagen. Entrena vista y atención.",
+   "nota_seguridad": "Tablero plegable de 9 piezas y 82 fichas. Para jugar en familia.",
+   "edad_recomendada": "a partir de 4 años (ficha: 4-7 años)",
+   "rating": 4.6,
+   "num_resenas": 1821,
+   "precio_aprox": "17,49",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "educa-lince-70-imagenes-juego-de-observacion"
+  },
+  {
+   "asin": "B01MZ1DQV4",
+   "titulo": "Bontempi — Armónica Metálica de 10 Notas",
+   "url": "https://www.amazon.es/dp/B01MZ1DQV4",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "tipo": "soplo-habla",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Soplar y aspirar por la armónica ejercita labios y respiración para hablar.",
+   "nota_seguridad": "Metal con lengüetas y bordes lisos. Limpiar la boquilla tras cada uso. Con un adulto.",
+   "edad_recomendada": "Sin edad mínima explícita en ficha; armónica sencilla de 10 cm. A partir de 3 años (habitual de Bontempi).",
+   "rating": 4.4,
+   "num_resenas": 208,
+   "precio_aprox": "6,50",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "bontempi-armonica-metalica-de-10-notas"
+  },
+  {
+   "asin": "B01MT0OLUU",
+   "titulo": "Bontempi — Trompeta Cromada de 4 Notas (ChromeEcho)",
+   "url": "https://www.amazon.es/dp/B01MT0OLUU",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "tipo": "soplo-habla",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Soplar sostenido mientras pulsa las teclas. Fortalece el aire y coordina los dedos.",
+   "nota_seguridad": "Pide un soplo algo más firme: mejor cuando ya sopla suave con soltura. Con un adulto.",
+   "edad_recomendada": "A partir de 3 años (fabricante Bontempi); trompeta de 4 notas.",
+   "rating": 4.5,
+   "num_resenas": 1836,
+   "precio_aprox": "13,90",
+   "precio_estable": true,
+   "reserva": false,
+   "slug": "bontempi-trompeta-cromada-de-4-notas-chromeecho"
+  },
+  {
+   "asin": "B00FA68XEE",
+   "titulo": "Elagon — Silbato de Tren de Madera (4 tonos)",
+   "url": "https://www.amazon.es/dp/B00FA68XEE",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "tipo": "soplo-habla",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Un soplo corto hace sonar el tren. Practica soplo controlado y por turnos.",
+   "nota_seguridad": "Madera natural bien lijada, sin astillas. Limpiar la boquilla si la chupa. Con un adulto.",
+   "edad_recomendada": "En ficha (bebés y primera infancia); silbato de 19 cm, usar con un adulto.",
+   "rating": 4.6,
+   "num_resenas": 207,
+   "precio_aprox": "9,95",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "elagon-silbato-de-tren-de-madera-4"
+  },
+  {
+   "asin": "B07KWZKHFQ",
+   "titulo": "Silbato de Tren de Madera 4 Tonos (pack de 2)",
+   "url": "https://www.amazon.es/dp/B07KWZKHFQ",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "tipo": "soplo-habla",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Soplar el silbato de 4 tonos. Dos unidades para imitar y jugar por turnos.",
+   "nota_seguridad": "Madera lisa. Limpiar la boquilla tras cada uso. Con un adulto.",
+   "edad_recomendada": "3-15 años (ficha).",
+   "rating": 4.5,
+   "num_resenas": 257,
+   "precio_aprox": "22,77",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "silbato-de-tren-de-madera-4-tonos"
+  },
+  {
+   "asin": "B07RRWCBV4",
+   "titulo": "Joyibay — Set de 15 Varitas para Pompas de Jabón (burbujas gigantes)",
+   "url": "https://www.amazon.es/dp/B07RRWCBV4",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "tipo": "soplo-habla",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Soplar suave por la varita para crear pompas. Prepara labios y respiración.",
+   "nota_seguridad": "La solución no se bebe (no incluida). Varitas para soplar; siempre con un adulto.",
+   "edad_recomendada": "Todas las edades con supervisión (ficha); soplado manual, no es una máquina.",
+   "rating": 4.3,
+   "num_resenas": 1093,
+   "precio_aprox": "19,98",
+   "precio_estable": false,
+   "reserva": false,
+   "slug": "joyibay-set-de-15-varitas-para-pompas"
   }
  ]
 }

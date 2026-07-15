@@ -1,0 +1,29 @@
+{
+ "descripcion": [
+  "Una luz nocturna recargable de luz cálida, que se enciende y se regula con un toque. No tiene pantalla ni números que cuenten atrás: solo una luz suave que acompaña. Puede quedarse fija en un color o ir cambiando entre ocho tonos si se prefiere.",
+  "Se usa para acompañar el momento de dormir y las tomas o cambios de la noche: se deja una luz tenue en la mesilla, se ajusta el brillo con el dedo y, si se quiere, se pone un temporizador de 30 o 60 minutos para que se apague sola. La idea es dar una señal tranquila de que es hora de descansar.",
+  "Para un niño con síndrome de Down, una luz cálida y previsible ayuda a calmar el miedo a la oscuridad y a marcar la rutina de sueño. No cura ni soluciona los problemas de sueño por sí sola: es un apoyo para crear un ambiente sereno a la hora de acostarse."
+ ],
+ "caracteristicas": [
+  "Luz nocturna LED de tono cálido, anti-azul, que no parpadea.",
+  "Control táctil: brillo regulable del 20 al 100 %.",
+  "8 colores RGB opcionales; se puede fijar un color o dejarlo cambiando.",
+  "Temporizador opcional de 30 o 60 minutos.",
+  "Recargable por USB; sin pantalla. Carcasa de plástico ABS con funda de silicona.",
+  "La carga la hace un adulto."
+ ],
+ "faq": [
+  {
+   "q": "¿La luz es molesta o muy intensa?",
+   "a": "Es una luz cálida y suave, regulable desde muy tenue, pensada para no molestar la vista ni parpadear durante la noche."
+  },
+  {
+   "q": "¿Se puede dejar encendida toda la noche?",
+   "a": "Sí, pero también trae un temporizador de 30 o 60 minutos por si prefieres que se apague sola una vez el niño se ha dormido."
+  },
+  {
+   "q": "¿Ayuda a dormir a un niño que le cuesta?",
+   "a": "Puede ayudar a crear un ambiente tranquilo y a calmar el miedo a la oscuridad como parte de la rutina, pero no es un remedio: acompaña, no sustituye a los hábitos de sueño ni al consejo del profesional."
+  }
+ ]
+}
