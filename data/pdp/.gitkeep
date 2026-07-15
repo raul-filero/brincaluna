@@ -1,0 +1,4 @@
+# Contenido extendido opcional de fichas de producto (PDP).
+# Un fichero por producto: <asin>.json
+# Schema: { "descripcion": string[], "caracteristicas": string[], "faq": [{"q","a"}] }
+# Si no existe el fichero de un producto, su ficha se renderiza sin esas secciones.

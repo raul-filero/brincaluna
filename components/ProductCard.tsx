@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Producto } from "@/lib/data";
 import { CATEGORIAS, ETAPAS } from "@/lib/data";
 import AmazonButton from "./AmazonButton";
@@ -37,7 +38,9 @@ export default function ProductCard({ p }: { p: Producto }) {
           <span aria-hidden="true">{etapa.emoji}</span> {etapa.etiqueta}
         </span>
       ) : null}
-      <h3 style={{ fontSize: 20, margin: 0 }}>{p.titulo}</h3>
+      <h3 style={{ fontSize: 20, margin: 0 }}>
+        <Link href={`/juguete/${p.slug}/`} className="card-titulo-link">{p.titulo}</Link>
+      </h3>
       {p.habilidad_frase ? <p className="producto-trabaja"><span aria-hidden="true">{cat?.emoji}</span> Trabaja: {p.habilidad_frase}</p> : null}
       <p style={{ margin: 0, fontSize: 15, color: "var(--color-text-soft)" }}>
         <span className="sr-only">Valoración: </span>
@@ -47,8 +50,14 @@ export default function ProductCard({ p }: { p: Producto }) {
       {p.nota_seguridad ? (
         <p style={{ margin: 0, fontSize: 15, color: "var(--color-primary-ink)" }}><span aria-hidden="true">⚠️</span> {p.nota_seguridad}</p>
       ) : null}
-      <div style={{ marginTop: "auto" }}>
+      <div style={{ marginTop: "auto", display: "flex", flexDirection: "column", gap: 6 }}>
         <AmazonButton url={p.url} asin={p.asin} />
+        <Link
+          href={`/juguete/${p.slug}/`}
+          style={{ display: "inline-flex", alignItems: "center", minHeight: "var(--tap)", fontSize: 15, fontWeight: 800 }}
+        >
+          Ver ficha completa →
+        </Link>
       </div>
     </article>
   );

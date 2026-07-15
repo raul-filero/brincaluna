@@ -25,7 +25,9 @@
    ],
    "habilidad_frase": "Agarrar, apilar y encajar. Fortalece la mano y la coordinación de la mirada.",
    "nota_seguridad": "Sin BPA, atóxico. Piezas grandes, seguras para las manitas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "mushie-torre-de-vasos-apilables-8-tazas",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B00005RF5G",
@@ -44,7 +46,9 @@
    ],
    "habilidad_frase": "Meter cada forma por su hueco. Practica la pinza y distinguir formas.",
    "nota_seguridad": "Madera maciza, sin bordes afilados. Piezas grandes; supervisa la fase oral.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-cubo-de-madera-para-clasificar",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B00HWHNNRG",
@@ -63,7 +67,9 @@
    ],
    "habilidad_frase": "Coger cada pieza por su pomo grande. La clavija compensa la pinza débil.",
    "nota_seguridad": "Tablero robusto. El pomo grande hace fácil el agarre; vigila la boca.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-puzzle-de-madera-safari-con",
+   "tipo": "puzzles-encajes"
   },
   {
    "asin": "B0083F2XDQ",
@@ -82,7 +88,9 @@
    ],
    "habilidad_frase": "Presionar y unir bloques grandes. Da fuerza a la mano sin frustrar.",
    "nota_seguridad": "Bloques grandes pensados para manos pequeñas. Sin piezas sueltas diminutas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "mega-bloks-big-building-bag-60-bloques",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B07WLMV14S",
@@ -101,7 +109,9 @@
    ],
    "habilidad_frase": "Encajar ladrillos grandes y jugar a inventar. Une manos, dedos e imaginación.",
    "nota_seguridad": "Piezas DUPLO grandes y seguras. Ideal antes de pasar al LEGO pequeño.",
-   "reserva": false
+   "reserva": false,
+   "slug": "lego-duplo-caja-de-ladrillos-deluxe-10914",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B00DEBB3N0",
@@ -119,7 +129,9 @@
    ],
    "habilidad_frase": "Tirar de la ventosa para despegarla: da fuerza a los dedos con un \"pop\".",
    "nota_seguridad": "Silicona sin BPA. Recomendado por terapeutas para la fuerza de mano.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fat-brain-toys-squigz-starter-22-ventosas",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B00H4IQ3P2",
@@ -138,7 +150,9 @@
    ],
    "habilidad_frase": "Agarrar y pegar ventosas blandas. Primera fuerza de mano para los más pequeños.",
    "nota_seguridad": "Silicona atóxica sin BPA. Blando y seguro para la etapa de exploración.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fat-brain-toys-pip-squigz-3-ventosas",
+   "tipo": "construccion-apilables"
   },
   {
    "asin": "B0797GCR6W",
@@ -157,7 +171,9 @@
    ],
    "habilidad_frase": "Amasar, apretar y hacer bolitas. Fortalece toda la mano y cada dedo.",
    "nota_seguridad": "No tóxica. Juego siempre con un adulto; vigila que no se la lleve a la boca.",
-   "reserva": false
+   "reserva": false,
+   "slug": "play-doh-pack-de-24-botes-de",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B000NMAJVK",
@@ -176,7 +192,9 @@
    ],
    "habilidad_frase": "Modelar masa blanda con las manos. Reto suave para la fuerza de la mano.",
    "nota_seguridad": "Base vegetal, sin gluten, no tóxica. Fabricada en España. Supervisa la fase oral.",
-   "reserva": false
+   "reserva": false,
+   "slug": "jovi-plastilina-de-base-vegetal-10-pastillas",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B0C1B6Z8SG",
@@ -194,7 +212,9 @@
    ],
    "habilidad_frase": "Abrochar, cerrar cremalleras y girar. Ensaya gestos del día a día con las manos.",
    "nota_seguridad": "Fieltro suave y piezas bien fijadas. Ligero para llevar de viaje.",
-   "reserva": false
+   "reserva": false,
+   "slug": "hahaland-busy-board-montessori-26-actividades",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B00272N8L2",
@@ -212,7 +232,9 @@
    ],
    "habilidad_frase": "Enhebrar cuentas grandes en la cuerda. Usa las dos manos a la vez con precisión.",
    "nota_seguridad": "Cuentas grandes y fáciles de agarrar. Con cuerda: juego siempre supervisado.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-cuentas-primarias-para-atar-30",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B0026ZPSJ0",
@@ -231,7 +253,9 @@
    ],
    "habilidad_frase": "Deslizar cuentas por los alambres. Guía la mano y la mirada juntas.",
    "nota_seguridad": "Cuentas fijas al alambre (no se sueltan). La base con ventosas lo sujeta a la mesa o trona.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-primer-laberinto-de-cuentas-con",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B0DN5NBJJK",
@@ -250,7 +274,9 @@
    ],
    "habilidad_frase": "Soplar pompas ejercita labios y respiración. Prepara la boca para hablar.",
    "nota_seguridad": "El líquido no se bebe. La ficha avisa de piezas pequeñas. Siempre con un adulto.",
-   "reserva": false
+   "reserva": false,
+   "slug": "joyin-12-botellas-de-burbujas-con-tapa",
+   "tipo": "soplo-habla"
   },
   {
    "asin": "B0CNPK5P1Y",
@@ -269,7 +295,9 @@
    ],
    "habilidad_frase": "El niño se escucha a sí mismo al hablar. Ayuda a pronunciar mejor.",
    "nota_seguridad": "Limpiar tras cada uso si lo chupa.",
-   "reserva": false
+   "reserva": false,
+   "slug": "novelty-place-pack-de-4-telefonos-susurradores",
+   "tipo": "soplo-habla"
   },
   {
    "asin": "B0CCNQZHTW",
@@ -288,7 +316,9 @@
    ],
    "habilidad_frase": "Une la imagen con la palabra dicha en voz alta. Aprovecha su memoria visual.",
    "nota_seguridad": "Lleva batería; que el adulto cargue el aparato. Comprobar idioma de la versión al comprar.",
-   "reserva": false
+   "reserva": false,
+   "slug": "homestec-tarjetas-flash-parlantes-112-tarjetas-224",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B09HHGVDS8",
@@ -307,7 +337,9 @@
    ],
    "habilidad_frase": "Nombrar animales con fotos reales. Fija vocabulario por la vista, su canal fuerte.",
    "nota_seguridad": "Cartón grueso, sin piezas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "mis-primeras-palabras-animales-50-tarjetas-montessori",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B001J99FGG",
@@ -326,7 +358,9 @@
    ],
    "habilidad_frase": "Buscar la imagen igual y decir su nombre. Vocabulario y esperar el turno.",
    "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
-   "reserva": false
+   "reserva": false,
+   "slug": "ravensburger-loto-mascotas-mi-primer-loto",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B0CTKKG12H",
@@ -345,7 +379,9 @@
    ],
    "habilidad_frase": "Nombrar objetos de la casa jugando por turnos. Palabras del día a día.",
    "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
-   "reserva": false
+   "reserva": false,
+   "slug": "janod-loteria-en-casa-4-laminas-24",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B00U3GA97K",
@@ -364,7 +400,9 @@
    ],
    "habilidad_frase": "La marioneta invita a hablar por turnos. Usa su punto fuerte: la imitación.",
    "nota_seguridad": "Tela suave, sin piezas sueltas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-marionetas-de-mano-amigos-del",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B00TO6FJYS",
@@ -383,7 +421,9 @@
    ],
    "habilidad_frase": "Hacer hablar a los animales provoca \"conversaciones\". Turnos e imitación jugando.",
    "nota_seguridad": "Tela suave, sin piezas sueltas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-4-titeres-de-mano-animales",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B0DB5C918Z",
@@ -402,7 +442,9 @@
    ],
    "habilidad_frase": "Cantar anima a usar la voz sin miedo. La música empuja el habla.",
    "nota_seguridad": "Empezar con volumen bajo. Muchos niños oyen o toleran peor los sonidos fuertes.",
-   "reserva": false
+   "reserva": false,
+   "slug": "dislocati-karaoke-infantil-con-2-microfonos-inalambricos",
+   "tipo": "musicales"
   },
   {
    "asin": "B0F2GCP7ZJ",
@@ -421,7 +463,9 @@
    ],
    "habilidad_frase": "Marcar el ritmo con las manos. El ritmo prepara el ritmo del habla.",
    "nota_seguridad": "Contiene piezas pequeñas. Si aún se lleva cosas a la boca, jugar siempre con un adulto, también pasados los 3 años.",
-   "reserva": false
+   "reserva": false,
+   "slug": "stoie-s-set-de-34-instrumentos-musicales",
+   "tipo": "musicales"
   },
   {
    "asin": "B0D2MF53TH",
@@ -440,7 +484,9 @@
    ],
    "habilidad_frase": "Golpear al ritmo de canciones. Música, gesto y palabra van juntos.",
    "nota_seguridad": "Piezas pequeñas: supervisar si hay exploración oral, también después de los 3 años.",
-   "reserva": false
+   "reserva": false,
+   "slug": "vanplay-tambor-infantil-9-en-1-con",
+   "tipo": "musicales"
   },
   {
    "asin": "8448823249",
@@ -459,7 +505,9 @@
    ],
    "habilidad_frase": "Señalar y nombrar imágenes juntos. Diez minutos de lectura al día dan vocabulario.",
    "nota_seguridad": "Páginas de cartón grueso: aguantan manos y mordidas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "mis-primeras-100-palabras-coleccion-pequenas-manitas",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B00ZRD99C0",
@@ -478,7 +526,9 @@
    ],
    "habilidad_frase": "Es fácil de agarrar aunque la mano tenga poca fuerza.",
    "nota_seguridad": "libre de BPA. Sus 32 agujeros permiten el agarre con hipotonía.",
-   "reserva": false
+   "reserva": false,
+   "slug": "bright-starts-pelota-clasica-oball-de-facil",
+   "tipo": "pelotas-sensoriales"
   },
   {
    "asin": "B0CGV738D5",
@@ -497,7 +547,9 @@
    ],
    "habilidad_frase": "Cada textura da al tacto una sensación nueva y segura.",
    "nota_seguridad": "material no tóxico, sin BPA, fácil de desinfectar. Aguanta la exploración con la boca.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fancy-baby-set-de-6-pelotas-sensoriales",
+   "tipo": "pelotas-sensoriales"
   },
   {
    "asin": "B0CYP7CTB5",
@@ -515,7 +567,9 @@
    ],
    "habilidad_frase": "Tocar cada página despierta el tacto y la atención.",
    "nota_seguridad": "tela suave sin BPA, pintura al agua. Sin piezas sueltas: seguro para morder.",
-   "reserva": false
+   "reserva": false,
+   "slug": "hahaland-libro-de-tela-sensorial-de-animales",
+   "tipo": "sonajeros-mordedores"
   },
   {
    "asin": "B0D2PBRXRG",
@@ -534,7 +588,9 @@
    ],
    "habilidad_frase": "Agitar y oír el sonido enseña causa y efecto.",
    "nota_seguridad": "madera de haya sin barniz. Material natural ideal como pieza del cesto de tesoros.",
-   "reserva": false
+   "reserva": false,
+   "slug": "towo-sonajeros-maracas-de-madera-natural-set",
+   "tipo": "sonajeros-mordedores"
   },
   {
    "asin": "B0CJLWD1VM",
@@ -553,7 +609,9 @@
    ],
    "habilidad_frase": "Sacar pañuelos una y otra vez calma y entrena las manos.",
    "nota_seguridad": "telas lavables con texturas y sonidos suaves. Jugar con supervisión.",
-   "reserva": false
+   "reserva": false,
+   "slug": "hahaland-caja-de-panuelos-montessori-sensorial",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B0D1FSJDD6",
@@ -572,7 +630,9 @@
    ],
    "habilidad_frase": "Aprieta un botón y suena música: causa y efecto muy claros.",
    "nota_seguridad": "volumen regulable, clave si hay problemas de oído o molestia con ruidos. Bordes redondeados.",
-   "reserva": false
+   "reserva": false,
+   "slug": "orzbow-mando-de-juguete-musical-con-volumen",
+   "tipo": "musicales"
   },
   {
    "asin": "B0FHWL5Y2K",
@@ -591,7 +651,9 @@
    ],
    "habilidad_frase": "Repite su voz y le anima a hablar y a moverse.",
    "nota_seguridad": "volumen ajustable. Las canciones vienen en inglés. Peluche de superficie lavable.",
-   "reserva": false
+   "reserva": false,
+   "slug": "seosto-jirafa-bailarina-que-repite-tu-voz",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B07BRFF8CL",
@@ -610,7 +672,9 @@
    ],
    "habilidad_frase": "Morder de forma segura calma la necesidad oral.",
    "nota_seguridad": "silicona alimentaria sin BPA ni ftalatos. Cierre que se abre solo ante tirones (antiasfixia). Supervisar siempre el uso de collares.",
-   "reserva": false
+   "reserva": false,
+   "slug": "tilcare-chew-chew-colgante-masticable-de-silicona",
+   "tipo": "sonajeros-mordedores"
   },
   {
    "asin": "B0C4FRFZW1",
@@ -629,7 +693,9 @@
    ],
    "habilidad_frase": "Su peso suave sobre las piernas ayuda a calmarse.",
    "nota_seguridad": "no es para bebés. Usarlo sobre el regazo, nunca sobre pecho o cabeza.",
-   "reserva": false
+   "reserva": false,
+   "slug": "odoxia-cojin-de-regazo-con-lastre-perro",
+   "tipo": "calma-peso"
   },
   {
    "asin": "B09HXQM331",
@@ -648,7 +714,9 @@
    ],
    "habilidad_frase": "El peso repartido relaja el cuerpo para dormir.",
    "nota_seguridad": "NUNCA con bebés. Regla del ~10 % del peso corporal. El niño debe poder quitársela solo. Consultar al terapeuta si hay dudas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "dailydream-manta-con-peso-para-ninos-2",
+   "tipo": "calma-peso"
   },
   {
    "asin": "B08DLR33HG",
@@ -666,7 +734,9 @@
    ],
    "habilidad_frase": "El blanco y negro capta su mirada desde el primer día.",
    "nota_seguridad": "tarjetas grandes de superficie mate, sin piezas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "beiens-tarjetas-flashcards-de-alto-contraste-blanco",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B0CFZX62BY",
@@ -684,7 +754,9 @@
    ],
    "habilidad_frase": "Las imágenes de mucho contraste entrenan la vista del bebé.",
    "nota_seguridad": "tela hipoalergénica certificada EN71/ASTM F963. Espejo seguro para bebés. Ideal para el tummy time.",
-   "reserva": false
+   "reserva": false,
+   "slug": "urmywo-libro-de-tela-de-contraste-blanco",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B0DMR1LB4F",
@@ -702,7 +774,9 @@
    ],
    "habilidad_frase": "El tiempo boca abajo fortalece cuello y tronco: la base de toda la motricidad.",
    "nota_seguridad": "Usar siempre con un adulto delante. Los juguetes colgantes motivan a levantar la cabeza.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fortella-gimnasio-para-bebe-manta-de-actividades",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B00KTYXK7W",
@@ -720,7 +794,9 @@
    ],
    "habilidad_frase": "Se mira en el espejo y aguanta más tiempo boca abajo: entrena cuello y espalda.",
    "nota_seguridad": "Espejo infantil irrompible. Colocar a la altura de los ojos del bebé.",
-   "reserva": false
+   "reserva": false,
+   "slug": "bright-starts-sit-and-see-safari-espejo",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B0G5Q1TSN4",
@@ -739,7 +815,9 @@
    ],
    "habilidad_frase": "Alcanzar y rodar pelotas variadas invita a moverse y a estirarse un poco más.",
    "nota_seguridad": "Sin BPA. Tamaños grandes, sin piezas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "infantino-set-de-6-bolas-sensoriales-texturizadas",
+   "tipo": "pelotas-sensoriales"
   },
   {
    "asin": "B09G187FS4",
@@ -757,7 +835,9 @@
    ],
    "habilidad_frase": "Da apoyo firme para practicar los primeros pasos. Las ruedas frenadas evitan que se escape.",
    "nota_seguridad": "Ajustar el regulador de velocidad de las ruedas antes de usarlo. Es clave con tobillos laxos.",
-   "reserva": false
+   "reserva": false,
+   "slug": "correpasillos-con-ruedas-de-velocidad-regulable",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B0DSVR2HZS",
@@ -775,7 +855,9 @@
    ],
    "habilidad_frase": "Empujar un carro ancho y estable da confianza para andar. Asa ajustable en altura.",
    "nota_seguridad": "Madera de abedul robusta. Es un correpasillos de empuje, no un tacatá fijo.",
-   "reserva": false
+   "reserva": false,
+   "slug": "vitonis-andador-de-madera-con-actividades",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B00005BAHT",
@@ -793,7 +875,9 @@
    ],
    "habilidad_frase": "Botar sentado fortalece piernas y tronco. El cuerpo aprende dónde está y cómo equilibrarse.",
    "nota_seguridad": "Siempre con un adulto cerca. Con inestabilidad atlantoaxial diagnosticada, consultar antes al médico. Sin látex, ftalatos ni BPA.",
-   "reserva": false
+   "reserva": false,
+   "slug": "gymnic-rody-rojo-caballito-hinchable",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B0CLQLPHG2",
@@ -812,7 +896,9 @@
    ],
    "habilidad_frase": "Sentarse o pisar el cojín activa el tronco y entrena el equilibrio con reto suave.",
    "nota_seguridad": "Usar sobre suelo no deslizante y con un adulto al lado. Incluye bombín para regular el aire.",
-   "reserva": false
+   "reserva": false,
+   "slug": "unycos-cojin-de-equilibrio-hinchable-33-cm",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B0F4KF2WGW",
@@ -831,7 +917,9 @@
    ],
    "habilidad_frase": "Convierte el gateo en un juego que apetece repetir. Gatear fortalece brazos, tronco y coordinación.",
    "nota_seguridad": "Usar en interior o suelo blando y con un adulto mirando. Montaje pop-up sin piezas sueltas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "latern-tienda-de-campana-con-tunel-de",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B0C2D6LRMM",
@@ -850,7 +938,9 @@
    ],
    "habilidad_frase": "Pedalear enseña a mover las piernas de forma alterna. El adulto guía con la barra.",
    "nota_seguridad": "Lleva arnés, barrera de seguridad y rueda libre. El adulto controla la dirección al principio.",
-   "reserva": false
+   "reserva": false,
+   "slug": "kinderkraft-aston-triciclo-evolutivo",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B0897R35PN",
@@ -869,7 +959,9 @@
    ],
    "habilidad_frase": "Un muñeco que se parece a él. Refuerza identidad y juego simbólico.",
    "nota_seguridad": "cuerpo entero de vinilo, sin piezas sueltas. Apto para exploración oral.",
-   "reserva": false
+   "reserva": false,
+   "slug": "miniland-muneco-bebe-europeo-con-sindrome-de",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B089XL2HDC",
@@ -888,7 +980,9 @@
    ],
    "habilidad_frase": "Verse representado en su juguete. Invita a cuidar, vestir y hablar.",
    "nota_seguridad": "vinilo suave articulado, sin piezas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "miniland-31170-muneco-bebe-caucasico-con-sindrome",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B0C81P6C84",
@@ -907,7 +1001,9 @@
    ],
    "habilidad_frase": "Bañar y dar de comer al bebé. Ensaya el autocuidado jugando.",
    "nota_seguridad": "sumergible (bebe y hace pipí). Marca española de gran distribución.",
-   "reserva": false
+   "reserva": false,
+   "slug": "nenuco-con-sindrome-de-down-linea-diversidad",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B0CPL7VPN4",
@@ -926,7 +1022,9 @@
    ],
    "habilidad_frase": "Representación positiva para niñas mayores. Juego simbólico con dignidad, sin estética bebé.",
    "nota_seguridad": "accesorios pequeños. No apta si hay exploración oral prolongada.",
-   "reserva": false
+   "reserva": false,
+   "slug": "barbie-fashionista-muneca-con-sindrome-de-down",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B00D6JM5EQ",
@@ -945,7 +1043,9 @@
    ],
    "habilidad_frase": "Todos ganan juntos al cuervo. Turnos y colores sin frustración.",
    "nota_seguridad": "frutas grandes de madera de haya. La ficha mantiene aviso genérico de piezas: supervisar si hay exploración oral.",
-   "reserva": false
+   "reserva": false,
+   "slug": "haba-4997-mis-primeros-juegos-primer-frutal",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B0CJ9S3XB5",
@@ -964,7 +1064,9 @@
    ],
    "habilidad_frase": "Jugar CON los demás, no contra. Aprende colores, números y formas.",
    "nota_seguridad": "piezas grandes pensadas para manos pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "nene-toys-el-frutal-cooperativo-2",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B07B37TT7F",
@@ -983,7 +1085,9 @@
    ],
    "habilidad_frase": "Ayudar juntos a los cerditos. Cuento conocido: apoya la comprensión con imágenes.",
    "nota_seguridad": "piezas de madera de calidad; marca española (Goula/Diset).",
-   "reserva": false
+   "reserva": false,
+   "slug": "goula-los-3-cerditos-modo-cooperativo",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B006S9MUPU",
@@ -1001,7 +1105,9 @@
    ],
    "habilidad_frase": "El equipo gana al ogro. Planificar juntos y respetar turnos.",
    "nota_seguridad": "contiene partes pequeñas. No apto para menores de 36 meses ni exploración oral.",
-   "reserva": false
+   "reserva": false,
+   "slug": "peaceable-kingdom-race-to-the-treasure-cooperativo",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B01B7PEA2A",
@@ -1020,7 +1126,9 @@
    ],
    "habilidad_frase": "Empujar y caminar con apoyo. Fortalece piernas a su ritmo.",
    "nota_seguridad": "correpasillos de EMPUJE con base ancha (no tacatá: los tacatás se desaconsejan con hipotonía). Tiene sonidos: probar el volumen antes de regalar.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fisher-price-cebra-parlanchina-primeros-pasos-andador",
+   "tipo": "movimiento-aire-libre"
   },
   {
    "asin": "B07MPCCDM7",
@@ -1038,7 +1146,9 @@
    ],
    "habilidad_frase": "Alarga el tiempo boca abajo. Es la base de toda la motricidad.",
    "nota_seguridad": "incluye almohada de apoyo para el juego boca abajo. Música electrónica: vigilar el volumen (los problemas de oído son frecuentes).",
-   "reserva": false
+   "reserva": false,
+   "slug": "baby-einstein-kickin-tunes-gimnasio-de-actividades",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B07QVLTW4X",
@@ -1056,7 +1166,9 @@
    ],
    "habilidad_frase": "Sus agujeros hacen fácil el agarre. No exige fuerza en la mano.",
    "nota_seguridad": "Sin BPA. Pieza única flexible: no suelta partes pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "bright-starts-oball-sonajero-de-facil-agarre",
+   "tipo": "sonajeros-mordedores"
   },
   {
    "asin": "B088KS6L86",
@@ -1074,7 +1186,9 @@
    ],
    "habilidad_frase": "Aprieta y suena. Su acción provoca el sonido: causa y efecto.",
    "nota_seguridad": "Textil suave, apto para morder. Dos sonidos suaves, no estridentes.",
-   "reserva": false
+   "reserva": false,
+   "slug": "sophie-la-girafe-sonajero-de-peluche-con",
+   "tipo": "sonajeros-mordedores"
   },
   {
    "asin": "B07J5NPX12",
@@ -1092,7 +1206,9 @@
    ],
    "habilidad_frase": "Invita al tiempo boca abajo: fortalece cuello y tronco. El alto contraste engancha la mirada.",
    "nota_seguridad": "Arcos ajustables. Usar siempre con supervisión. No es para dormir.",
-   "reserva": false
+   "reserva": false,
+   "slug": "tiny-love-black-white-gymini-gimnasio-evolutivo",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B09NPB46FY",
@@ -1110,7 +1226,9 @@
    ],
    "habilidad_frase": "Crece con el niño: tumbado, sentado y de pie. Incluye espejo de autorreconocimiento.",
    "nota_seguridad": "Regadera electrónica con música: prueba el volumen antes. Alfombra lavable.",
-   "reserva": false
+   "reserva": false,
+   "slug": "fisher-price-gimnasio-casita-de-campo-2",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B0C39PCFLT",
@@ -1128,7 +1246,9 @@
    ],
    "habilidad_frase": "Une espejo y alto contraste. Dos imanes de mirada en uno.",
    "nota_seguridad": "Tela y espejo sin cristal. Plegable, sin bordes duros.",
-   "reserva": false
+   "reserva": false,
+   "slug": "hahaland-espejo-bebe-libro-sensorial-plegable-tummy",
+   "tipo": "gimnasios-mantas"
   },
   {
    "asin": "B000YDDF6O",
@@ -1146,7 +1266,9 @@
    ],
    "habilidad_frase": "Botón grande: él aprieta y suena la música. Él manda, no el juguete.",
    "nota_seguridad": "Tiene dos niveles de volumen (confirmado en reseñas). Usa el bajo: los problemas de oído son frecuentes.",
-   "reserva": false
+   "reserva": false,
+   "slug": "baby-einstein-take-along-tunes-juguete-musical",
+   "tipo": "musicales"
   },
   {
    "asin": "B08X126LFP",
@@ -1164,7 +1286,9 @@
    ],
    "habilidad_frase": "Golpea una tecla y pasa algo: luz y sonido. Refuerzo inmediato sin frustración.",
    "nota_seguridad": "Comprueba el volumen al recibirlo. Mejor siempre la opción baja.",
-   "reserva": false
+   "reserva": false,
+   "slug": "hahaland-piano-bebe-piano-de-actividades-con",
+   "tipo": "musicales"
   },
   {
    "asin": "B01EWU4BIU",
@@ -1182,7 +1306,9 @@
    ],
    "habilidad_frase": "Texturas variadas para tocar sin miedo. Blandas: se agarran con poca fuerza.",
    "nota_seguridad": "Sin BPA, aptas para dentición. No usar en el baño (ficha).",
-   "reserva": false
+   "reserva": false,
+   "slug": "infantino-textured-multi-ball-set-de-pelotas",
+   "tipo": "pelotas-sensoriales"
   },
   {
    "asin": "B0979KLK4K",
@@ -1200,7 +1326,9 @@
    ],
    "habilidad_frase": "Cada pelota suena y tiene otra textura. Tacto y oído a la vez.",
    "nota_seguridad": "Suaves y lavables. Tamaño de pelota: sin riesgo de piezas pequeñas.",
-   "reserva": false
+   "reserva": false,
+   "slug": "little-big-friends-set-de-4-pelotas",
+   "tipo": "pelotas-sensoriales"
   },
   {
    "asin": "B07W4KVGJM",
@@ -1216,7 +1344,9 @@
    "etapas": [],
    "habilidad_frase": null,
    "nota_seguridad": null,
-   "reserva": true
+   "reserva": true,
+   "slug": "lego-duplo-caja-de-ladrillos-10913",
+   "tipo": null
   },
   {
    "asin": "B0006IRTU0",
@@ -1232,7 +1362,9 @@
    "etapas": [],
    "habilidad_frase": null,
    "nota_seguridad": null,
-   "reserva": true
+   "reserva": true,
+   "slug": "melissa-doug-apilar-figuras-geometricas",
+   "tipo": null
   },
   {
    "asin": "B0CQ2XBTSB",
@@ -1248,7 +1380,9 @@
    "etapas": [],
    "habilidad_frase": null,
    "nota_seguridad": null,
-   "reserva": true
+   "reserva": true,
+   "slug": "bonnyco-busy-board-de-fieltro",
+   "tipo": null
   },
   {
    "asin": "B000FS70QE",
@@ -1264,7 +1398,9 @@
    "etapas": [],
    "habilidad_frase": null,
    "nota_seguridad": null,
-   "reserva": true
+   "reserva": true,
+   "slug": "melissa-doug-puzzle-granja-con-clavijas-1",
+   "tipo": null
   },
   {
    "asin": "B08P5KKWBQ",
@@ -1280,7 +1416,9 @@
    "etapas": [],
    "habilidad_frase": null,
    "nota_seguridad": null,
-   "reserva": true
+   "reserva": true,
+   "slug": "amazon-basics-set-de-madera-clasificador-de",
+   "tipo": null
   },
   {
    "asin": "B003CSADX6",
@@ -1299,7 +1437,9 @@
    "num_resenas": 480,
    "precio_aprox": "10,68",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "goula-memo-loto-animales-de-la-granja",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B09DDBWP9J",
@@ -1318,7 +1458,9 @@
    "num_resenas": 1568,
    "precio_aprox": "12,86",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "ravensburger-memory-animal-babies-version-en-espanol",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B00HWHO7M6",
@@ -1337,7 +1479,9 @@
    "num_resenas": 4666,
    "precio_aprox": "9,13",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "melissa-doug-puzzle-de-encastre-de-madera",
+   "tipo": "puzzles-encajes"
   },
   {
    "asin": "B000MM29QY",
@@ -1356,7 +1500,9 @@
    "num_resenas": 1974,
    "precio_aprox": "11,79",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "orchard-toys-match-and-count-empareja-numero",
+   "tipo": "juegos-mesa"
   },
   {
    "asin": "B09Q38957J",
@@ -1374,7 +1520,9 @@
    "num_resenas": 118,
    "precio_aprox": "22,48",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "rompecabezas-de-madera-4-en-1-montessori",
+   "tipo": "puzzles-encajes"
   },
   {
    "asin": "B000F8XF86",
@@ -1393,7 +1541,9 @@
    "num_resenas": 2155,
    "precio_aprox": "24,81",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "learning-resources-set-de-ositos-de-distintos",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B081PDQQJY",
@@ -1412,7 +1562,9 @@
    "num_resenas": 450,
    "precio_aprox": "18,44",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "learning-resources-casas-para-clasificar-y-relacionar",
+   "tipo": "manipulativos"
   },
   {
    "asin": "B07HYTVTV3",
@@ -1431,7 +1583,9 @@
    "num_resenas": 82,
    "precio_aprox": "19,99",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "headu-leo-y-escribo-81-tarjetas-autocorrectivas",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B084J34J37",
@@ -1450,7 +1604,9 @@
    "num_resenas": 684,
    "precio_aprox": "8,05",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "educa-yo-aprendo-las-primeras-palabras-forma",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B0BQCM379W",
@@ -1469,7 +1625,9 @@
    "num_resenas": 247,
    "precio_aprox": "20,20",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "janod-10-secuencias-de-4-acciones-ordenar",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B08RRYMNN8",
@@ -1488,7 +1646,9 @@
    "num_resenas": 211,
    "precio_aprox": "14,51 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "nenuco-botiquin-de-emergencias-accesorios-medicos-para",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B0D7Q4K12H",
@@ -1507,7 +1667,9 @@
    "num_resenas": 212,
    "precio_aprox": "17,99 €",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "comida-de-madera-para-cortar-con-velcro",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B0CHJQ3PY7",
@@ -1526,7 +1688,9 @@
    "num_resenas": 196,
    "precio_aprox": "20,95 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "editorial-geu-panel-de-rutinas-diarias-con",
+   "tipo": "tarjetas-libros"
   },
   {
    "asin": "B01GBY72DG",
@@ -1545,7 +1709,9 @@
    "num_resenas": 2731,
    "precio_aprox": "29,99 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "janod-maletin-de-doctor-de-madera-10",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B00IL35W2Y",
@@ -1564,7 +1730,9 @@
    "num_resenas": 6529,
    "precio_aprox": "31,95 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "theo-klein-6741-carro-de-limpieza-vileda",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B083ZRZF7Q",
@@ -1583,7 +1751,9 @@
    "num_resenas": 425,
    "precio_aprox": "32,40 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "playskool-muneco-dressy-kids-para-aprender-a",
+   "tipo": "munecos-peluches"
   },
   {
    "asin": "B09K4CMJWG",
@@ -1602,7 +1772,9 @@
    "num_resenas": 87,
    "precio_aprox": "59,90 €",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "mamabrum-supermercado-de-madera-y-teatro-de",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B00TKXC0DI",
@@ -1621,7 +1793,9 @@
    "num_resenas": 2027,
    "precio_aprox": "64,95 €",
    "precio_estable": true,
-   "reserva": false
+   "reserva": false,
+   "slug": "theo-klein-8574-banco-de-trabajo-bosch",
+   "tipo": "cocinitas-imitacion"
   },
   {
    "asin": "B003UNN7Y0",
@@ -1640,7 +1814,9 @@
    "num_resenas": 730,
    "precio_aprox": "96,99 €",
    "precio_estable": false,
-   "reserva": false
+   "reserva": false,
+   "slug": "kidkraft-cocina-de-juguete-modern-country-de",
+   "tipo": "cocinitas-imitacion"
   }
  ]
 }

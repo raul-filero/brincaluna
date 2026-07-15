@@ -1,0 +1,29 @@
+{
+ "descripcion": [
+  "Match and Count de Orchard Toys es un juego para empezar a contar del 1 al 20. Cada pieza une un número con una tarjeta que muestra esa misma cantidad de dibujos, de modo que el niño ve la cifra y, al lado, cuántos objetos representa.",
+  "Las piezas están hechas para que solo encajen las combinaciones correctas, así que el juego se corrige solo: si dos piezas casan, la respuesta es buena. Ese refuerzo inmediato ayuda a aprender a contar mirando, apoyándose en la vista, que es un canal fuerte para muchos niños con síndrome de Down.",
+  "Se puede empezar por los números más bajos e ir subiendo, jugando solo o acompañado de un adulto que ponga nombre a cada número."
+ ],
+ "caracteristicas": [
+  "Juego para aprender a contar del 1 al 20",
+  "Empareja cada número con la cantidad de dibujos correspondiente",
+  "Piezas autocorregibles: solo encajan las combinaciones correctas",
+  "Piezas de cartón resistente, ilustraciones coloridas",
+  "Instrucciones en inglés, pero los números y dibujos se entienden sin idioma",
+  "Edad recomendada por el fabricante: a partir de 3 años"
+ ],
+ "faq": [
+  {
+   "q": "¿Importa que las instrucciones estén en inglés?",
+   "a": "No para jugar. El juego son números y dibujos que se entienden solos; el adulto solo necesita mostrar cómo se emparejan."
+  },
+  {
+   "q": "¿Cómo sabe el niño si acierta?",
+   "a": "Las piezas solo encajan cuando la pareja es correcta, así que el propio juego confirma la respuesta y anima a seguir."
+  },
+  {
+   "q": "¿Se puede empezar con números bajos?",
+   "a": "Sí. Puedes usar solo del 1 al 5 al principio e ir añadiendo cifras a medida que el niño avanza."
+  }
+ ]
+}

@@ -44,6 +44,7 @@ export default function Footer() {
       <div className="container" style={{ borderTop: "1px solid rgba(255,249,240,.2)", padding: "20px 24px", display: "flex", flexWrap: "wrap", gap: 20, fontSize: 16 }}>
         <Link href="/motricidad-fina/" style={{ color: "#A7CBF2", display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Por habilidad</Link>
         <Link href="/por-etapa/" style={{ color: "#A7CBF2", display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Por etapa</Link>
+        <Link href="/tipos/" style={{ color: "#A7CBF2", display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Por tipo de juguete</Link>
         <Link href="/regalos/" style={{ color: "#A7CBF2", display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Regalos</Link>
         <Link href="/guias/" style={{ color: "#A7CBF2", display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Guías</Link>
       </div>

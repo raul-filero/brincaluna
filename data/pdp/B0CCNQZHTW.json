@@ -1,0 +1,29 @@
+{
+ "descripcion": [
+  "Una máquina lectora con 112 tarjetas de doble cara. Al deslizar cada tarjeta por la ranura, el aparato dice en voz alta la palabra que muestra la imagen, y en algunas añade el sonido real del animal o el vehículo.",
+  "El niño elige una tarjeta, ve el dibujo y escucha la palabra. Así une lo que ve con lo que oye, sin pantalla y a su propio ritmo. Las 224 palabras se reparten en categorías como animales, comida, colores, ropa o profesiones.",
+  "Para un niño con síndrome de Down, apoyarse en la imagen y en el oído a la vez aprovecha su memoria visual, que suele ser un punto fuerte. Cada palabra se repite tantas veces como quiera, sin prisa ni corrección."
+ ],
+ "caracteristicas": [
+  "112 tarjetas de doble cara con 224 palabras en total.",
+  "Lector electrónico que pronuncia la palabra al insertar la tarjeta.",
+  "Algunas tarjetas incluyen sonidos reales de animales y vehículos.",
+  "Batería de litio recargable de 300 mAh con cable USB incluido.",
+  "Diseño sin pantalla.",
+  "Edad indicada en ficha: de 12 meses a 6 años."
+ ],
+ "faq": [
+  {
+   "q": "¿Habla en español?",
+   "a": "La versión que enlazamos indica 224 palabras en español. Aun así, conviene confirmar el idioma en la ficha antes de comprar, porque existen ediciones en otros idiomas."
+  },
+  {
+   "q": "¿Necesita pilas?",
+   "a": "No lleva pilas de usar y tirar. Tiene una batería recargable que se carga con el cable USB incluido; que la cargue siempre un adulto."
+  },
+  {
+   "q": "¿Tiene pantalla?",
+   "a": "No. Es un lector de tarjetas sin pantalla, pensado para escuchar la palabra y mirar el dibujo."
+  }
+ ]
+}

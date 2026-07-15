@@ -21,6 +21,10 @@ export type Producto = {
   habilidad_frase: string | null;
   nota_seguridad: string | null;
   reserva: boolean;
+  /** Tipo de juguete (eje C: peluche, puzzle, cocinita...). Slug de TIPOS. */
+  tipo?: string | null;
+  /** Slug propio del producto para su ficha /juguete/<slug>/. */
+  slug: string;
 };
 
 /** Solo los productos activos: las reservas anti-stock no se publican. */
@@ -151,10 +155,132 @@ export const ETAPAS: Etapa[] = [
   },
 ];
 
+/** Tipos de juguete (eje C). Por forma del juguete, no por habilidad ni etapa. */
+export type Tipo = {
+  slug: string;
+  etiqueta: string;   // nombre easy-read del tipo
+  emoji: string;
+  title: string;      // <title> SEO ≤60 chars
+  intro: string;      // 1 frase easy-read: qué es y para qué sirve
+};
+
+export const TIPOS: Tipo[] = [
+  {
+    slug: "munecos-peluches",
+    etiqueta: "Muñecos y peluches",
+    emoji: "🧸",
+    title: "Muñecos y peluches para niños con síndrome de Down",
+    intro: "Muñecos y peluches para abrazar, cuidar e imitar la vida. Dan compañía y calma.",
+  },
+  {
+    slug: "construccion-apilables",
+    etiqueta: "Construcción y apilables",
+    emoji: "🧱",
+    title: "Juguetes de construcción · síndrome de Down",
+    intro: "Piezas para apilar, encajar y construir. Trabajan las manos y la paciencia.",
+  },
+  {
+    slug: "puzzles-encajes",
+    etiqueta: "Puzzles y encajes",
+    emoji: "🧩",
+    title: "Puzzles y encajes para síndrome de Down",
+    intro: "Piezas que buscan su hueco. Aprovechan su gran memoria visual.",
+  },
+  {
+    slug: "manipulativos",
+    etiqueta: "Manipulativos y plastilina",
+    emoji: "✋",
+    title: "Manipulativos y plastilina · síndrome de Down",
+    intro: "Amasar, ensartar y pellizcar. Manos fuertes y dedos precisos, sin frustración.",
+  },
+  {
+    slug: "juegos-mesa",
+    etiqueta: "Juegos de mesa",
+    emoji: "🎲",
+    title: "Juegos de mesa para niños con síndrome de Down",
+    intro: "Jugar por turnos con los demás. Enseñan a esperar, ganar y perder juntos.",
+  },
+  {
+    slug: "musicales",
+    etiqueta: "Musicales",
+    emoji: "🎵",
+    title: "Juguetes musicales para síndrome de Down",
+    intro: "Sonidos, ritmo y canciones. La música despierta el habla y las ganas de moverse.",
+  },
+  {
+    slug: "tarjetas-libros",
+    etiqueta: "Tarjetas y libros",
+    emoji: "📚",
+    title: "Tarjetas y libros para síndrome de Down",
+    intro: "Imágenes claras para nombrar el mundo. Empujan el lenguaje y el vocabulario.",
+  },
+  {
+    slug: "pelotas-sensoriales",
+    etiqueta: "Pelotas sensoriales",
+    emoji: "🏐",
+    title: "Pelotas sensoriales · síndrome de Down",
+    intro: "Pelotas con texturas y colores. Invitan a tocar, rodar y moverse.",
+  },
+  {
+    slug: "sonajeros-mordedores",
+    etiqueta: "Sonajeros y mordedores",
+    emoji: "🔔",
+    title: "Sonajeros y mordedores · síndrome de Down",
+    intro: "Para los más pequeños: agarrar, sonar y morder. Primeros juegos de manos y boca.",
+  },
+  {
+    slug: "calma-peso",
+    etiqueta: "Calma y peso",
+    emoji: "🌙",
+    title: "Juguetes de calma y peso · síndrome de Down",
+    intro: "Peso suave y presión que abraza. Ayudan a relajarse y a encontrar la calma.",
+  },
+  {
+    slug: "gimnasios-mantas",
+    etiqueta: "Gimnasios y mantas de actividades",
+    emoji: "🤸",
+    title: "Gimnasios y mantas de actividades · Down",
+    intro: "Un espacio blando para jugar boca abajo. La estimulación temprana empieza en el suelo.",
+  },
+  {
+    slug: "movimiento-aire-libre",
+    etiqueta: "Movimiento y aire libre",
+    emoji: "🏃",
+    title: "Movimiento y aire libre · síndrome de Down",
+    intro: "Correr, empujar y trepar. El cuerpo gana fuerza y equilibrio jugando.",
+  },
+  {
+    slug: "cocinitas-imitacion",
+    etiqueta: "Cocinitas e imitación",
+    emoji: "🍳",
+    title: "Cocinitas e imitación · síndrome de Down",
+    intro: "Cocinar, cuidar e imitar a los mayores. Jugar a la vida real gana autonomía.",
+  },
+  {
+    slug: "soplo-habla",
+    etiqueta: "Soplo y habla",
+    emoji: "💨",
+    title: "Juguetes de soplo y habla · síndrome de Down",
+    intro: "Soplar, hacer pompas y jugar con la boca. Preparan los músculos del habla.",
+  },
+];
+
 // ---------- helpers ----------
 
 export function categoriaPorSlug(slug: string): Categoria | undefined {
   return CATEGORIAS.find((c) => c.slug === slug);
+}
+
+export function tipoPorSlug(slug: string): Tipo | undefined {
+  return TIPOS.find((t) => t.slug === slug);
+}
+
+export function productosDeTipo(slug: string): Producto[] {
+  return PRODUCTOS.filter((p) => p.tipo === slug);
+}
+
+export function productoPorSlug(slug: string): Producto | undefined {
+  return PRODUCTOS.find((p) => p.slug === slug);
 }
 
 export function etapaPorSlug(slug: string): Etapa | undefined {

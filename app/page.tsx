@@ -6,7 +6,7 @@ import EtapasList from "@/components/EtapasList";
 import TrustBand from "@/components/TrustBand";
 import ProductCard from "@/components/ProductCard";
 import JsonLd from "@/components/JsonLd";
-import { destacadosHome } from "@/lib/data";
+import { destacadosHome, TIPOS, productosDeTipo } from "@/lib/data";
 import { SITE_NAME, SITE_URL, PARTNER_ORBITOYS } from "@/lib/site";
 
 /** Home: hero de álbum ilustrado + doble entrada (habilidad / etapa) + confianza. */
@@ -20,6 +20,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const destacados = destacadosHome(4);
+  // 8 tipos con más juguetes: entrada rápida por forma del juguete (eje C).
+  const tiposPopulares = [...TIPOS]
+    .sort((a, b) => productosDeTipo(b.slug).length - productosDeTipo(a.slug).length)
+    .slice(0, 8);
   return (
     <>
       <JsonLd
@@ -65,6 +69,28 @@ export default function Home() {
             Por desarrollo, no por edad. Cada peque lleva su ritmo.
           </p>
           <EtapasList />
+        </div>
+      </section>
+
+      {/* DESCUBRIMIENTO POR TIPO */}
+      <section className="container" style={{ marginTop: 24 }}>
+        <div className="card" style={{ padding: "24px 28px", display: "flex", flexDirection: "column", gap: 14 }}>
+          <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
+            <h2 style={{ fontSize: 24, margin: 0 }}>¿Buscas un tipo de juguete?</h2>
+            <Link href="/tipos/" style={{ fontWeight: 800, fontSize: 16, display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>Todos los tipos →</Link>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
+            {tiposPopulares.map((t) => (
+              <Link
+                key={t.slug}
+                href={`/tipo/${t.slug}/`}
+                className="chip-habilidad"
+                style={{ ["--chip-color" as string]: "var(--color-accent-lilac)", ["--chip-soft" as string]: "var(--wash-lilac)" }}
+              >
+                <span aria-hidden="true">{t.emoji}</span> {t.etiqueta}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
