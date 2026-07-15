@@ -17,6 +17,12 @@ export default function AvisoLegalPage() {
       <div className="prosa" style={{ margin: "0 auto", display: "flex", flexDirection: "column", gap: 8 }}>
         <h1 style={{ fontSize: "clamp(28px, 4vw, 40px)" }}>Aviso legal y transparencia</h1>
 
+        <h2>Quién está detrás</h2>
+        <p>
+          Titular del sitio: <strong>Raúl Javier Jiménez Solaz</strong> · NIF 06012386W ·
+          Contacto: <a href="mailto:hola@brincaluna.com">hola@brincaluna.com</a>.
+        </p>
+
         <h2>Enlaces de afiliado</h2>
         <p>
           Brincaluna participa en el Programa de Afiliados de Amazon EU (Amazon Associates).
