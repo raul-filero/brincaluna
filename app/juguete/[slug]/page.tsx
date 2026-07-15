@@ -9,7 +9,7 @@ import JsonLd, { breadcrumbLd } from "@/components/JsonLd";
 import MedicalNote from "@/components/MedicalNote";
 import AffiliateNote from "@/components/AffiliateNote";
 import { contenidoExtra, inferirMarca, recortar } from "@/lib/pdp";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, withTag } from "@/lib/site";
 import imagenes from "@/data/images.json";
 
 /** Ficha de producto (/juguete/<slug>/). Solo productos activos (no reserva). */
@@ -126,6 +126,17 @@ export default function JuguetePage({ params }: { params: { slug: string } }) {
           <p style={{ margin: 0, fontSize: 16, color: "var(--color-text-soft)" }}>
             <span className="sr-only">Valoración: </span>
             <span aria-hidden="true">⭐</span> {p.rating.toLocaleString("es-ES")} de 5 · {p.num_resenas.toLocaleString("es-ES")} reseñas
+            {" · "}
+            {/* Las reseñas se leen en Amazon: copiarlas aquí viola el Operating
+                Agreement de Associates (y su copyright es de quien las escribió). */}
+            <a
+              href={`${withTag(p.url)}#customerReviews`}
+              target="_blank"
+              rel="sponsored nofollow noopener noreferrer"
+              style={{ fontWeight: 700, display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}
+            >
+              Léelas en Amazon →<span className="sr-only"> (se abre en una pestaña nueva)</span>
+            </a>
           </p>
 
           {/* chips: categoría, tipo, etapas, edad */}
