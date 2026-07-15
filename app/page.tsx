@@ -84,7 +84,7 @@ export default function Home() {
       <section className="container" style={{ marginTop: 48, display: "flex", flexDirection: "column", gap: 24 }}>
         <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
           <h2 style={{ fontSize: 32, margin: 0 }}>Los más útiles</h2>
-          <Link href="/motricidad-fina/" style={{ fontWeight: 800, fontSize: 17 }}>Ver todos →</Link>
+          <Link href="/motricidad-fina/" style={{ fontWeight: 800, fontSize: 17 }}>Ver más juguetes →</Link>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 24 }}>
           {destacados.map((p) => <ProductCard key={p.asin} p={p} />)}

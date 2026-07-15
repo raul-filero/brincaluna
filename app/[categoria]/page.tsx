@@ -28,6 +28,8 @@ export function generateMetadata({ params }: { params: { categoria: string } }):
 }
 
 export default function CategoriaPage({ params }: { params: { categoria: string } }) {
+  // El "!" es seguro: dynamicParams=false garantiza que solo se generan
+  // los 6 slugs de generateStaticParams — nunca llega un slug desconocido.
   const cat = categoriaPorSlug(params.categoria)!;
   const productos = productosDeCategoria(cat.slug);
   return (
