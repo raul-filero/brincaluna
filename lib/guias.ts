@@ -28,6 +28,10 @@ const SEO_TITLES: Record<string, string> = {
   "que-regalar-nino-sindrome-down": "Qué regalar a un niño con síndrome de Down",
   "como-elegir-juguete-criterios-down-espana": "Cómo elegir juguete: criterios de Down España",
   "edad-desarrollo-vs-edad-cronologica": "Edad de desarrollo vs edad cronológica en juguetes",
+  "juguetes-hipotonia-bebe": "Juguetes para bebé con hipotonía",
+  "estimular-habla-jugando-soplo-musica": "Estimular el habla jugando: soplo y música",
+  "leer-para-hablar-metodo-visual": "Enseñar a leer para enseñar a hablar",
+  "juguetes-sensoriales-seguros": "Juguetes sensoriales seguros: cómo elegir",
 };
 
 // Caché de módulo: el build llama a todasLasGuias() desde varias páginas;

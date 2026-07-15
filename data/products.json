@@ -1,1286 +1,1646 @@
 {
-  "meta": {
-    "fecha": "2026-07-14",
-    "total": 69,
-    "unicos_no_reserva": 64,
-    "reservas": 5,
-    "duplicados_fusionados": 6,
-    "fuente": "catalogo/*.md"
+ "meta": {
+  "fecha": "2026-07-15",
+  "total": 88,
+  "unicos_no_reserva": 83,
+  "reservas": 5,
+  "duplicados_fusionados": 6,
+  "fuente": "catalogo/*.md"
+ },
+ "products": [
+  {
+   "asin": "B08LT71FY2",
+   "titulo": "mushie — Torre de Vasos Apilables (8 tazas)",
+   "url": "https://www.amazon.es/dp/B08LT71FY2",
+   "precio_aprox": "14,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 13024,
+   "edad_recomendada": "0-3 años (fabricante)",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Agarrar, apilar y encajar. Fortalece la mano y la coordinación de la mirada.",
+   "nota_seguridad": "Sin BPA, atóxico. Piezas grandes, seguras para las manitas pequeñas.",
+   "reserva": false
   },
-  "products": [
-    {
-      "asin": "B08LT71FY2",
-      "titulo": "mushie — Torre de Vasos Apilables (8 tazas)",
-      "url": "https://www.amazon.es/dp/B08LT71FY2",
-      "precio_aprox": "14,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 13024,
-      "edad_recomendada": "0-3 años (fabricante)",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Agarrar, apilar y encajar. Fortalece la mano y la coordinación de la mirada.",
-      "nota_seguridad": "Sin BPA, atóxico. Piezas grandes, seguras para las manitas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B00005RF5G",
-      "titulo": "Melissa & Doug — Cubo de Madera para Clasificar Formas (12 piezas)",
-      "url": "https://www.amazon.es/dp/B00005RF5G",
-      "precio_aprox": "16,32",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 26343,
-      "edad_recomendada": "2 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Meter cada forma por su hueco. Practica la pinza y distinguir formas.",
-      "nota_seguridad": "Madera maciza, sin bordes afilados. Piezas grandes; supervisa la fase oral.",
-      "reserva": false
-    },
-    {
-      "asin": "B00HWHNNRG",
-      "titulo": "Melissa & Doug — Puzzle de Madera Safari con Clavijas",
-      "url": "https://www.amazon.es/dp/B00HWHNNRG",
-      "precio_aprox": "7,99",
-      "precio_estable": true,
-      "rating": 4.9,
-      "num_resenas": 24045,
-      "edad_recomendada": "2 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Coger cada pieza por su pomo grande. La clavija compensa la pinza débil.",
-      "nota_seguridad": "Tablero robusto. El pomo grande hace fácil el agarre; vigila la boca.",
-      "reserva": false
-    },
-    {
-      "asin": "B0083F2XDQ",
-      "titulo": "MEGA BLOKS — Big Building Bag (60 bloques grandes)",
-      "url": "https://www.amazon.es/dp/B0083F2XDQ",
-      "precio_aprox": "18",
-      "precio_estable": false,
-      "rating": 4.9,
-      "num_resenas": 24064,
-      "edad_recomendada": "1 año o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Presionar y unir bloques grandes. Da fuerza a la mano sin frustrar.",
-      "nota_seguridad": "Bloques grandes pensados para manos pequeñas. Sin piezas sueltas diminutas.",
-      "reserva": false
-    },
-    {
-      "asin": "B07WLMV14S",
-      "titulo": "LEGO DUPLO — Caja de Ladrillos Deluxe 10914",
-      "url": "https://www.amazon.es/dp/B07WLMV14S",
-      "precio_aprox": "45,24",
-      "precio_estable": true,
-      "rating": 4.8,
-      "num_resenas": 8200,
-      "edad_recomendada": "1,5 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Encajar ladrillos grandes y jugar a inventar. Une manos, dedos e imaginación.",
-      "nota_seguridad": "Piezas DUPLO grandes y seguras. Ideal antes de pasar al LEGO pequeño.",
-      "reserva": false
-    },
-    {
-      "asin": "B00DEBB3N0",
-      "titulo": "Fat Brain Toys — Squigz Starter (22 ventosas)",
-      "url": "https://www.amazon.es/dp/B00DEBB3N0",
-      "precio_aprox": "30",
-      "precio_estable": false,
-      "rating": 4.8,
-      "num_resenas": 11469,
-      "edad_recomendada": "3 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Tirar de la ventosa para despegarla: da fuerza a los dedos con un \"pop\".",
-      "nota_seguridad": "Silicona sin BPA. Recomendado por terapeutas para la fuerza de mano.",
-      "reserva": false
-    },
-    {
-      "asin": "B00H4IQ3P2",
-      "titulo": "Fat Brain Toys — Pip Squigz (3 ventosas con sonajero)",
-      "url": "https://www.amazon.es/dp/B00H4IQ3P2",
-      "precio_aprox": "22,95",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 3165,
-      "edad_recomendada": "6 meses o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Agarrar y pegar ventosas blandas. Primera fuerza de mano para los más pequeños.",
-      "nota_seguridad": "Silicona atóxica sin BPA. Blando y seguro para la etapa de exploración.",
-      "reserva": false
-    },
-    {
-      "asin": "B0797GCR6W",
-      "titulo": "Play-Doh — Pack de 24 Botes de Plastilina",
-      "url": "https://www.amazon.es/dp/B0797GCR6W",
-      "precio_aprox": "16,07",
-      "precio_estable": true,
-      "rating": 4.5,
-      "num_resenas": 43049,
-      "edad_recomendada": "2 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Amasar, apretar y hacer bolitas. Fortalece toda la mano y cada dedo.",
-      "nota_seguridad": "No tóxica. Juego siempre con un adulto; vigila que no se la lleve a la boca.",
-      "reserva": false
-    },
-    {
-      "asin": "B000NMAJVK",
-      "titulo": "Jovi — Plastilina de Base Vegetal (10 pastillas)",
-      "url": "https://www.amazon.es/dp/B000NMAJVK",
-      "precio_aprox": "4,95",
-      "precio_estable": true,
-      "rating": 4.3,
-      "num_resenas": 7402,
-      "edad_recomendada": "2 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Modelar masa blanda con las manos. Reto suave para la fuerza de la mano.",
-      "nota_seguridad": "Base vegetal, sin gluten, no tóxica. Fabricada en España. Supervisa la fase oral.",
-      "reserva": false
-    },
-    {
-      "asin": "B0C1B6Z8SG",
-      "titulo": "hahaland — Busy Board Montessori (26 actividades)",
-      "url": "https://www.amazon.es/dp/B0C1B6Z8SG",
-      "precio_aprox": "18,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 2056,
-      "edad_recomendada": "1-3 años",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Abrochar, cerrar cremalleras y girar. Ensaya gestos del día a día con las manos.",
-      "nota_seguridad": "Fieltro suave y piezas bien fijadas. Ligero para llevar de viaje.",
-      "reserva": false
-    },
-    {
-      "asin": "B00272N8L2",
-      "titulo": "Melissa & Doug — Cuentas Primarias para Atar (30 cuentas + cuerdas)",
-      "url": "https://www.amazon.es/dp/B00272N8L2",
-      "precio_aprox": "13",
-      "precio_estable": false,
-      "rating": 4.7,
-      "num_resenas": 20736,
-      "edad_recomendada": "3 años o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Enhebrar cuentas grandes en la cuerda. Usa las dos manos a la vez con precisión.",
-      "nota_seguridad": "Cuentas grandes y fáciles de agarrar. Con cuerda: juego siempre supervisado.",
-      "reserva": false
-    },
-    {
-      "asin": "B0026ZPSJ0",
-      "titulo": "Melissa & Doug — Primer Laberinto de Cuentas con Base de Ventosas",
-      "url": "https://www.amazon.es/dp/B0026ZPSJ0",
-      "precio_aprox": "14,99",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 25285,
-      "edad_recomendada": "1 año o más",
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Deslizar cuentas por los alambres. Guía la mano y la mirada juntas.",
-      "nota_seguridad": "Cuentas fijas al alambre (no se sueltan). La base con ventosas lo sujeta a la mesa o trona.",
-      "reserva": false
-    },
-    {
-      "asin": "B0DN5NBJJK",
-      "titulo": "JOYIN — 12 Botellas de Burbujas con tapa puzzle (60 ml)",
-      "url": "https://www.amazon.es/dp/B0DN5NBJJK",
-      "precio_aprox": "12,99",
-      "precio_estable": true,
-      "rating": 4.3,
-      "num_resenas": 121,
-      "edad_recomendada": "en ficha; usar siempre con un adulto",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": "soplo-praxias",
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Soplar pompas ejercita labios y respiración. Prepara la boca para hablar.",
-      "nota_seguridad": "El líquido no se bebe. La ficha avisa de piezas pequeñas. Siempre con un adulto.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CNPK5P1Y",
-      "titulo": "Novelty Place — Pack de 4 teléfonos susurradores (terapia del habla)",
-      "url": "https://www.amazon.es/dp/B0CNPK5P1Y",
-      "precio_aprox": "9,95",
-      "precio_estable": true,
-      "rating": 4.4,
-      "num_resenas": 78,
-      "edad_recomendada": "3 meses - 10 años (ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": "soplo-praxias",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "El niño se escucha a sí mismo al hablar. Ayuda a pronunciar mejor.",
-      "nota_seguridad": "Limpiar tras cada uso si lo chupa.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CCNQZHTW",
-      "titulo": "HOMESTEC — Tarjetas Flash Parlantes (112 tarjetas, 224 palabras)",
-      "url": "https://www.amazon.es/dp/B0CCNQZHTW",
-      "precio_aprox": "17,99",
-      "precio_estable": true,
-      "rating": 4.4,
-      "num_resenas": 351,
-      "edad_recomendada": "12 meses - 6 años (ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Une la imagen con la palabra dicha en voz alta. Aprovecha su memoria visual.",
-      "nota_seguridad": "Lleva batería; que el adulto cargue el aparato. Comprobar idioma de la versión al comprar.",
-      "reserva": false
-    },
-    {
-      "asin": "B09HHGVDS8",
-      "titulo": "Mis Primeras Palabras Animales — 50 tarjetas Montessori (fotos reales)",
-      "url": "https://www.amazon.es/dp/B09HHGVDS8",
-      "precio_aprox": "19,50",
-      "precio_estable": true,
-      "rating": 4.5,
-      "num_resenas": 390,
-      "edad_recomendada": "36 meses - 5 años (ficha); con un adulto puede usarse antes",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Nombrar animales con fotos reales. Fija vocabulario por la vista, su canal fuerte.",
-      "nota_seguridad": "Cartón grueso, sin piezas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B001J99FGG",
-      "titulo": "Ravensburger — Loto Mascotas (mi primer loto)",
-      "url": "https://www.amazon.es/dp/B001J99FGG",
-      "precio_aprox": "7,90",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 454,
-      "edad_recomendada": "a partir de 2 años (visible en ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Buscar la imagen igual y decir su nombre. Vocabulario y esperar el turno.",
-      "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
-      "reserva": false
-    },
-    {
-      "asin": "B0CTKKG12H",
-      "titulo": "Janod — Lotería en Casa (4 láminas + 24 fichas de cartón)",
-      "url": "https://www.amazon.es/dp/B0CTKKG12H",
-      "precio_aprox": "12,99",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 52,
-      "edad_recomendada": "24 meses - 4 años (ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Nombrar objetos de la casa jugando por turnos. Palabras del día a día.",
-      "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
-      "reserva": false
-    },
-    {
-      "asin": "B00U3GA97K",
-      "titulo": "Melissa & Doug — Marionetas de mano Amigos del Zoo (4 peluches)",
-      "url": "https://www.amazon.es/dp/B00U3GA97K",
-      "precio_aprox": "24,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 9715,
-      "edad_recomendada": "24 meses - 5 años (ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "La marioneta invita a hablar por turnos. Usa su punto fuerte: la imitación.",
-      "nota_seguridad": "Tela suave, sin piezas sueltas.",
-      "reserva": false
-    },
-    {
-      "asin": "B00TO6FJYS",
-      "titulo": "Melissa & Doug — 4 Títeres de mano Animales de la Granja",
-      "url": "https://www.amazon.es/dp/B00TO6FJYS",
-      "precio_aprox": "22,30",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 9715,
-      "edad_recomendada": "24 meses - 5 años (ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Hacer hablar a los animales provoca \"conversaciones\". Turnos e imitación jugando.",
-      "nota_seguridad": "Tela suave, sin piezas sueltas.",
-      "reserva": false
-    },
-    {
-      "asin": "B0DB5C918Z",
-      "titulo": "Dislocati — Karaoke infantil con 2 micrófonos inalámbricos",
-      "url": "https://www.amazon.es/dp/B0DB5C918Z",
-      "precio_aprox": "22,99",
-      "precio_estable": true,
-      "rating": 4.4,
-      "num_resenas": 2903,
-      "edad_recomendada": "3-12 años (visible en título y ficha)",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": "musica",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Cantar anima a usar la voz sin miedo. La música empuja el habla.",
-      "nota_seguridad": "Empezar con volumen bajo. Muchos niños oyen o toleran peor los sonidos fuertes.",
-      "reserva": false
-    },
-    {
-      "asin": "B0F2GCP7ZJ",
-      "titulo": "Stoie's — Set de 34 instrumentos musicales de madera",
-      "url": "https://www.amazon.es/dp/B0F2GCP7ZJ",
-      "precio_aprox": "37,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 3403,
-      "edad_recomendada": "ficha: \"no apto para menores de 3 años\" (piezas pequeñas), aunque el título diga 1-3",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": "musica",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Marcar el ritmo con las manos. El ritmo prepara el ritmo del habla.",
-      "nota_seguridad": "Contiene piezas pequeñas. Si aún se lleva cosas a la boca, jugar siempre con un adulto, también pasados los 3 años.",
-      "reserva": false
-    },
-    {
-      "asin": "B0D2MF53TH",
-      "titulo": "Vanplay — Tambor infantil 9 en 1 con instrumentos de madera",
-      "url": "https://www.amazon.es/dp/B0D2MF53TH",
-      "precio_aprox": "41,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 1367,
-      "edad_recomendada": "36 meses - 8 años (ficha); aviso \"no apto para menores de 3 años\"",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": "musica",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Golpear al ritmo de canciones. Música, gesto y palabra van juntos.",
-      "nota_seguridad": "Piezas pequeñas: supervisar si hay exploración oral, también después de los 3 años.",
-      "reserva": false
-    },
-    {
-      "asin": "8448823249",
-      "titulo": "Mis primeras 100 palabras (colección Pequeñas manitas)",
-      "url": "https://www.amazon.es/dp/8448823249",
-      "precio_aprox": "13,25",
-      "precio_estable": true,
-      "rating": 4.8,
-      "num_resenas": 192,
-      "edad_recomendada": "1-2 años (edad sugerida visible en ficha); libro de cartón",
-      "categoria": "lenguaje-comunicacion",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Señalar y nombrar imágenes juntos. Diez minutos de lectura al día dan vocabulario.",
-      "nota_seguridad": "Páginas de cartón grueso: aguantan manos y mordidas.",
-      "reserva": false
-    },
-    {
-      "asin": "B00ZRD99C0",
-      "titulo": "Bright Starts — Pelota Clásica Oball de Fácil Agarre",
-      "url": "https://www.amazon.es/dp/B00ZRD99C0",
-      "precio_aprox": "5,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 43911,
-      "edad_recomendada": "desde recién nacido",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Es fácil de agarrar aunque la mano tenga poca fuerza.",
-      "nota_seguridad": "libre de BPA. Sus 32 agujeros permiten el agarre con hipotonía.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CGV738D5",
-      "titulo": "FANCY Baby — Set de 6 Pelotas Sensoriales Texturizadas",
-      "url": "https://www.amazon.es/dp/B0CGV738D5",
-      "precio_aprox": "9,89",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 2776,
-      "edad_recomendada": "a partir de 3 meses",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Cada textura da al tacto una sensación nueva y segura.",
-      "nota_seguridad": "material no tóxico, sin BPA, fácil de desinfectar. Aguanta la exploración con la boca.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CYP7CTB5",
-      "titulo": "hahaland — Libro de Tela Sensorial de Animales con Texturas",
-      "url": "https://www.amazon.es/dp/B0CYP7CTB5",
-      "precio_aprox": "11,39",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 2029,
-      "edad_recomendada": "0-6 meses en adelante",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Tocar cada página despierta el tacto y la atención.",
-      "nota_seguridad": "tela suave sin BPA, pintura al agua. Sin piezas sueltas: seguro para morder.",
-      "reserva": false
-    },
-    {
-      "asin": "B0D2PBRXRG",
-      "titulo": "TOWO — Sonajeros Maracas de Madera Natural (set con bolsa)",
-      "url": "https://www.amazon.es/dp/B0D2PBRXRG",
-      "precio_aprox": "21,53",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 116,
-      "edad_recomendada": "a partir de 6 meses",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Agitar y oír el sonido enseña causa y efecto.",
-      "nota_seguridad": "madera de haya sin barniz. Material natural ideal como pieza del cesto de tesoros.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CJLWD1VM",
-      "titulo": "hahaland — Caja de Pañuelos Montessori Sensorial",
-      "url": "https://www.amazon.es/dp/B0CJLWD1VM",
-      "precio_aprox": "18,49",
-      "precio_estable": true,
-      "rating": 4.5,
-      "num_resenas": 4946,
-      "edad_recomendada": "6-12 meses en adelante",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Sacar pañuelos una y otra vez calma y entrena las manos.",
-      "nota_seguridad": "telas lavables con texturas y sonidos suaves. Jugar con supervisión.",
-      "reserva": false
-    },
-    {
-      "asin": "B0D1FSJDD6",
-      "titulo": "Orzbow — Mando de Juguete Musical con Volumen Ajustable",
-      "url": "https://www.amazon.es/dp/B0D1FSJDD6",
-      "precio_aprox": "13,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 528,
-      "edad_recomendada": "a partir de 6 meses",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Aprieta un botón y suena música: causa y efecto muy claros.",
-      "nota_seguridad": "volumen regulable, clave si hay problemas de oído o molestia con ruidos. Bordes redondeados.",
-      "reserva": false
-    },
-    {
-      "asin": "B0FHWL5Y2K",
-      "titulo": "seOSTO — Jirafa Bailarina que Repite tu Voz (volumen ajustable)",
-      "url": "https://www.amazon.es/dp/B0FHWL5Y2K",
-      "precio_aprox": "32,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 513,
-      "edad_recomendada": "bebés y niños pequeños (necesita 3 pilas AA, no incluidas)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Repite su voz y le anima a hablar y a moverse.",
-      "nota_seguridad": "volumen ajustable. Las canciones vienen en inglés. Peluche de superficie lavable.",
-      "reserva": false
-    },
-    {
-      "asin": "B07BRFF8CL",
-      "titulo": "Tilcare — Chew Chew Colgante Masticable de Silicona",
-      "url": "https://www.amazon.es/dp/B07BRFF8CL",
-      "precio_aprox": "7,99",
-      "precio_estable": true,
-      "rating": 4.3,
-      "num_resenas": 11859,
-      "edad_recomendada": "niños que ya no se llevan el cordón entero a la boca; usar con supervisión",
-      "categoria": "sensoriales",
-      "subcategoria": "oral-motor",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Morder de forma segura calma la necesidad oral.",
-      "nota_seguridad": "silicona alimentaria sin BPA ni ftalatos. Cierre que se abre solo ante tirones (antiasfixia). Supervisar siempre el uso de collares.",
-      "reserva": false
-    },
-    {
-      "asin": "B0C4FRFZW1",
-      "titulo": "ODOXIA — Cojín de Regazo con Lastre (perro sensorial)",
-      "url": "https://www.amazon.es/dp/B0C4FRFZW1",
-      "precio_aprox": "39,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 344,
-      "edad_recomendada": "niños en edad escolar; el fabricante lo indica recomendado por terapeutas ocupacionales",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Su peso suave sobre las piernas ayuda a calmarse.",
-      "nota_seguridad": "no es para bebés. Usarlo sobre el regazo, nunca sobre pecho o cabeza.",
-      "reserva": false
-    },
-    {
-      "asin": "B09HXQM331",
-      "titulo": "Dailydream — Manta con Peso para Niños (2,3 kg · 90×120 cm)",
-      "url": "https://www.amazon.es/dp/B09HXQM331",
-      "precio_aprox": "44,95",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 111,
-      "edad_recomendada": "niños a partir de unos 3-4 años y ~20-25 kg de peso",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "El peso repartido relaja el cuerpo para dormir.",
-      "nota_seguridad": "NUNCA con bebés. Regla del ~10 % del peso corporal. El niño debe poder quitársela solo. Consultar al terapeuta si hay dudas.",
-      "reserva": false
-    },
-    {
-      "asin": "B08DLR33HG",
-      "titulo": "Beiens — Tarjetas Flashcards de Alto Contraste (blanco y negro)",
-      "url": "https://www.amazon.es/dp/B08DLR33HG",
-      "precio_aprox": "8,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 14149,
-      "edad_recomendada": "0-36 meses (por bloques de edad)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "El blanco y negro capta su mirada desde el primer día.",
-      "nota_seguridad": "tarjetas grandes de superficie mate, sin piezas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CFZX62BY",
-      "titulo": "URMYWO — Libro de Tela de Contraste Blanco y Negro con Espejo",
-      "url": "https://www.amazon.es/dp/B0CFZX62BY",
-      "precio_aprox": "9,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 9196,
-      "edad_recomendada": "0-12 meses",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Las imágenes de mucho contraste entrenan la vista del bebé.",
-      "nota_seguridad": "tela hipoalergénica certificada EN71/ASTM F963. Espejo seguro para bebés. Ideal para el tummy time.",
-      "reserva": false
-    },
-    {
-      "asin": "B0DMR1LB4F",
-      "titulo": "Fortella Gimnasio para Bebé (manta de actividades con arco)",
-      "url": "https://www.amazon.es/dp/B0DMR1LB4F",
-      "precio_aprox": "53,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 806,
-      "edad_recomendada": "0-18 meses (fabricante)",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "El tiempo boca abajo fortalece cuello y tronco: la base de toda la motricidad.",
-      "nota_seguridad": "Usar siempre con un adulto delante. Los juguetes colgantes motivan a levantar la cabeza.",
-      "reserva": false
-    },
-    {
-      "asin": "B00KTYXK7W",
-      "titulo": "Bright Starts Sit and See Safari (espejo de suelo)",
-      "url": "https://www.amazon.es/dp/B00KTYXK7W",
-      "precio_aprox": "12,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 12044,
-      "edad_recomendada": "desde recién nacido",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Se mira en el espejo y aguanta más tiempo boca abajo: entrena cuello y espalda.",
-      "nota_seguridad": "Espejo infantil irrompible. Colocar a la altura de los ojos del bebé.",
-      "reserva": false
-    },
-    {
-      "asin": "B0G5Q1TSN4",
-      "titulo": "Infantino Set de 6 Bolas Sensoriales Texturizadas",
-      "url": "https://www.amazon.es/dp/B0G5Q1TSN4",
-      "precio_aprox": "10,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 1468,
-      "edad_recomendada": "a partir de 6 meses",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Alcanzar y rodar pelotas variadas invita a moverse y a estirarse un poco más.",
-      "nota_seguridad": "Sin BPA. Tamaños grandes, sin piezas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B09G187FS4",
-      "titulo": "Correpasillos con ruedas de velocidad regulable",
-      "url": "https://www.amazon.es/dp/B09G187FS4",
-      "precio_aprox": "29,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 674,
-      "edad_recomendada": "a partir de 12 meses",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Da apoyo firme para practicar los primeros pasos. Las ruedas frenadas evitan que se escape.",
-      "nota_seguridad": "Ajustar el regulador de velocidad de las ruedas antes de usarlo. Es clave con tobillos laxos.",
-      "reserva": false
-    },
-    {
-      "asin": "B0DSVR2HZS",
-      "titulo": "VITONIS Andador de Madera con actividades",
-      "url": "https://www.amazon.es/dp/B0DSVR2HZS",
-      "precio_aprox": "69,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 105,
-      "edad_recomendada": "a partir de 1 año",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Empujar un carro ancho y estable da confianza para andar. Asa ajustable en altura.",
-      "nota_seguridad": "Madera de abedul robusta. Es un correpasillos de empuje, no un tacatá fijo.",
-      "reserva": false
-    },
-    {
-      "asin": "B00005BAHT",
-      "titulo": "Gymnic Rody Rojo (caballito hinchable)",
-      "url": "https://www.amazon.es/dp/B00005BAHT",
-      "precio_aprox": "39,80",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 6845,
-      "edad_recomendada": "a partir de 3 años, con supervisión de un adulto",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Botar sentado fortalece piernas y tronco. El cuerpo aprende dónde está y cómo equilibrarse.",
-      "nota_seguridad": "Siempre con un adulto cerca. Con inestabilidad atlantoaxial diagnosticada, consultar antes al médico. Sin látex, ftalatos ni BPA.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CLQLPHG2",
-      "titulo": "unycos Cojín de Equilibrio hinchable (Ø33 cm)",
-      "url": "https://www.amazon.es/dp/B0CLQLPHG2",
-      "precio_aprox": "13,70",
-      "precio_estable": true,
-      "rating": 4.5,
-      "num_resenas": 433,
-      "edad_recomendada": "niños y adultos (uso guiado por adulto; material de rehabilitación)",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Sentarse o pisar el cojín activa el tronco y entrena el equilibrio con reto suave.",
-      "nota_seguridad": "Usar sobre suelo no deslizante y con un adulto al lado. Incluye bombín para regular el aire.",
-      "reserva": false
-    },
-    {
-      "asin": "B0F4KF2WGW",
-      "titulo": "LATERN Tienda de Campaña con Túnel de gateo (180 cm)",
-      "url": "https://www.amazon.es/dp/B0F4KF2WGW",
-      "precio_aprox": "19,99",
-      "precio_estable": true,
-      "rating": 4.5,
-      "num_resenas": 100,
-      "edad_recomendada": "fabricante indica 3+; el gateo por túnel se disfruta antes con supervisión",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Convierte el gateo en un juego que apetece repetir. Gatear fortalece brazos, tronco y coordinación.",
-      "nota_seguridad": "Usar en interior o suelo blando y con un adulto mirando. Montaje pop-up sin piezas sueltas.",
-      "reserva": false
-    },
-    {
-      "asin": "B0C2D6LRMM",
-      "titulo": "Kinderkraft Aston Triciclo Evolutivo",
-      "url": "https://www.amazon.es/dp/B0C2D6LRMM",
-      "precio_aprox": "97,86",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 2277,
-      "edad_recomendada": "de 9 meses a unos 5 años (evolutivo)",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Pedalear enseña a mover las piernas de forma alterna. El adulto guía con la barra.",
-      "nota_seguridad": "Lleva arnés, barrera de seguridad y rueda libre. El adulto controla la dirección al principio.",
-      "reserva": false
-    },
-    {
-      "asin": "B0897R35PN",
-      "titulo": "Miniland — Muñeco bebé Europeo Niño Down (vinilo suave, 38 cm)",
-      "url": "https://www.amazon.es/dp/B0897R35PN",
-      "precio_aprox": "24,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 215,
-      "edad_recomendada": "a partir de 10 meses (ficha: 10 m - 3 años)",
-      "categoria": "regalos",
-      "subcategoria": "munecos-con-rasgos",
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Un muñeco que se parece a él. Refuerza identidad y juego simbólico.",
-      "nota_seguridad": "cuerpo entero de vinilo, sin piezas sueltas. Apto para exploración oral.",
-      "reserva": false
-    },
-    {
-      "asin": "B089XL2HDC",
-      "titulo": "Miniland 31170 — Muñeco bebé Caucásico Niño Down (38 cm, con caja regalo)",
-      "url": "https://www.amazon.es/dp/B089XL2HDC",
-      "precio_aprox": "33,90",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 123,
-      "edad_recomendada": "a partir de 10 meses (ficha: 10 m - 6 años)",
-      "categoria": "regalos",
-      "subcategoria": "munecos-con-rasgos",
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Verse representado en su juguete. Invita a cuidar, vestir y hablar.",
-      "nota_seguridad": "vinilo suave articulado, sin piezas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B0C81P6C84",
-      "titulo": "Nenuco — Con Síndrome de Down (línea Diversidad, 35 cm, Famosa)",
-      "url": "https://www.amazon.es/dp/B0C81P6C84",
-      "precio_aprox": "15,59",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 79,
-      "edad_recomendada": "a partir de 12 meses (ficha: 12 m+)",
-      "categoria": "regalos",
-      "subcategoria": "munecos-con-rasgos",
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Bañar y dar de comer al bebé. Ensaya el autocuidado jugando.",
-      "nota_seguridad": "sumergible (bebe y hace pipí). Marca española de gran distribución.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CPL7VPN4",
-      "titulo": "Barbie Fashionista — Muñeca con síndrome de Down",
-      "url": "https://www.amazon.es/dp/B0CPL7VPN4",
-      "precio_aprox": "11,00",
-      "precio_estable": true,
-      "rating": 4.4,
-      "num_resenas": 2694,
-      "edad_recomendada": "3 años en adelante (ficha: 36 m - 18 años)",
-      "categoria": "regalos",
-      "subcategoria": "munecos-con-rasgos",
-      "etapas": [
-        "pequeno-explorador",
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "Representación positiva para niñas mayores. Juego simbólico con dignidad, sin estética bebé.",
-      "nota_seguridad": "accesorios pequeños. No apta si hay exploración oral prolongada.",
-      "reserva": false
-    },
-    {
-      "asin": "B00D6JM5EQ",
-      "titulo": "HABA 4997 — Mis Primeros Juegos: Primer Frutal",
-      "url": "https://www.amazon.es/dp/B00D6JM5EQ",
-      "precio_aprox": "24,89",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 694,
-      "edad_recomendada": "a partir de 2 años",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Todos ganan juntos al cuervo. Turnos y colores sin frustración.",
-      "nota_seguridad": "frutas grandes de madera de haya. La ficha mantiene aviso genérico de piezas: supervisar si hay exploración oral.",
-      "reserva": false
-    },
-    {
-      "asin": "B0CJ9S3XB5",
-      "titulo": "Nene Toys — El Frutal (cooperativo 2+)",
-      "url": "https://www.amazon.es/dp/B0CJ9S3XB5",
-      "precio_aprox": "16,99",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 374,
-      "edad_recomendada": "a partir de 2 años (ficha: 24 m - 3 años)",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Jugar CON los demás, no contra. Aprende colores, números y formas.",
-      "nota_seguridad": "piezas grandes pensadas para manos pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B07B37TT7F",
-      "titulo": "Goula — Los 3 Cerditos (modo cooperativo)",
-      "url": "https://www.amazon.es/dp/B07B37TT7F",
-      "precio_aprox": "17,55",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 2547,
-      "edad_recomendada": "a partir de 2 años",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-pasos",
-        "pequeno-explorador"
-      ],
-      "habilidad_frase": "Ayudar juntos a los cerditos. Cuento conocido: apoya la comprensión con imágenes.",
-      "nota_seguridad": "piezas de madera de calidad; marca española (Goula/Diset).",
-      "reserva": false
-    },
-    {
-      "asin": "B006S9MUPU",
-      "titulo": "Peaceable Kingdom — Race to the Treasure! (cooperativo premiado)",
-      "url": "https://www.amazon.es/dp/B006S9MUPU",
-      "precio_aprox": "34,73",
-      "precio_estable": true,
-      "rating": 4.8,
-      "num_resenas": 2911,
-      "edad_recomendada": "a partir de 5 años (edad mínima del fabricante: 5 años)",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "ya-juega-con-otros"
-      ],
-      "habilidad_frase": "El equipo gana al ogro. Planificar juntos y respetar turnos.",
-      "nota_seguridad": "contiene partes pequeñas. No apto para menores de 36 meses ni exploración oral.",
-      "reserva": false
-    },
-    {
-      "asin": "B01B7PEA2A",
-      "titulo": "Fisher-Price — Cebra Parlanchina Primeros Pasos (andador correpasillos)",
-      "url": "https://www.amazon.es/dp/B01B7PEA2A",
-      "precio_aprox": "33,48",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 24133,
-      "edad_recomendada": "a partir de 6 meses (ficha: 6 m - 3 años)",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses",
-        "primeros-pasos"
-      ],
-      "habilidad_frase": "Empujar y caminar con apoyo. Fortalece piernas a su ritmo.",
-      "nota_seguridad": "correpasillos de EMPUJE con base ancha (no tacatá: los tacatás se desaconsejan con hipotonía). Tiene sonidos: probar el volumen antes de regalar.",
-      "reserva": false
-    },
-    {
-      "asin": "B07MPCCDM7",
-      "titulo": "Baby Einstein — Kickin' Tunes, gimnasio de actividades musical 4 en 1",
-      "url": "https://www.amazon.es/dp/B07MPCCDM7",
-      "precio_aprox": "53,95",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 27518,
-      "edad_recomendada": "desde el nacimiento (ficha: rango de edad 0+ meses)",
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Alarga el tiempo boca abajo. Es la base de toda la motricidad.",
-      "nota_seguridad": "incluye almohada de apoyo para el juego boca abajo. Música electrónica: vigilar el volumen (los problemas de oído son frecuentes).",
-      "reserva": false
-    },
-    {
-      "asin": "B07QVLTW4X",
-      "titulo": "Bright Starts Oball Sonajero de fácil agarre (sin BPA, 10 cm)",
-      "url": "https://www.amazon.es/dp/B07QVLTW4X",
-      "precio_aprox": "7,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 3464,
-      "edad_recomendada": "desde recién nacido (0 meses, en ficha)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Sus agujeros hacen fácil el agarre. No exige fuerza en la mano.",
-      "nota_seguridad": "Sin BPA. Pieza única flexible: no suelta partes pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B088KS6L86",
-      "titulo": "Sophie la girafe — Sonajero de peluche con cascabeles",
-      "url": "https://www.amazon.es/dp/B088KS6L86",
-      "precio_aprox": "9,95",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 1001,
-      "edad_recomendada": "desde 7 meses (fabricante, visible en ficha)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Aprieta y suena. Su acción provoca el sonido: causa y efecto.",
-      "nota_seguridad": "Textil suave, apto para morder. Dos sonidos suaves, no estridentes.",
-      "reserva": false
-    },
-    {
-      "asin": "B07J5NPX12",
-      "titulo": "Tiny Love Black & White Gymini — Gimnasio evolutivo musical 2 en 1",
-      "url": "https://www.amazon.es/dp/B07J5NPX12",
-      "precio_aprox": "69,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 3604,
-      "edad_recomendada": "desde el nacimiento (0 meses, en ficha)",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Invita al tiempo boca abajo: fortalece cuello y tronco. El alto contraste engancha la mirada.",
-      "nota_seguridad": "Arcos ajustables. Usar siempre con supervisión. No es para dormir.",
-      "reserva": false
-    },
-    {
-      "asin": "B09NPB46FY",
-      "titulo": "Fisher-Price Gimnasio Casita de Campo 2 en 1 (alfombra + cabaña, luces y música)",
-      "url": "https://www.amazon.es/dp/B09NPB46FY",
-      "precio_aprox": "39,95",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 488,
-      "edad_recomendada": "bebés (rango de edad en ficha); 3 modos que crecen con él",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Crece con el niño: tumbado, sentado y de pie. Incluye espejo de autorreconocimiento.",
-      "nota_seguridad": "Regadera electrónica con música: prueba el volumen antes. Alfombra lavable.",
-      "reserva": false
-    },
-    {
-      "asin": "B0C39PCFLT",
-      "titulo": "hahaland Espejo bebé + libro sensorial plegable (tummy time, blanco y negro)",
-      "url": "https://www.amazon.es/dp/B0C39PCFLT",
-      "precio_aprox": "16,79",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 716,
-      "edad_recomendada": "0-6 meses (en ficha)",
-      "categoria": "motricidad-gruesa",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Une espejo y alto contraste. Dos imanes de mirada en uno.",
-      "nota_seguridad": "Tela y espejo sin cristal. Plegable, sin bordes duros.",
-      "reserva": false
-    },
-    {
-      "asin": "B000YDDF6O",
-      "titulo": "Baby Einstein Take Along Tunes — Juguete musical portátil (30704)",
-      "url": "https://www.amazon.es/dp/B000YDDF6O",
-      "precio_aprox": "9,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 67782,
-      "edad_recomendada": "bebés (rango de edad en ficha; las reseñas lo usan desde ~6 meses)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Botón grande: él aprieta y suena la música. Él manda, no el juguete.",
-      "nota_seguridad": "Tiene dos niveles de volumen (confirmado en reseñas). Usa el bajo: los problemas de oído son frecuentes.",
-      "reserva": false
-    },
-    {
-      "asin": "B08X126LFP",
-      "titulo": "hahaland Piano Bebé — Piano de actividades con luces y sonidos (7 en 1)",
-      "url": "https://www.amazon.es/dp/B08X126LFP",
-      "precio_aprox": "21,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 2856,
-      "edad_recomendada": "3-12 meses y más (en título de ficha)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Golpea una tecla y pasa algo: luz y sonido. Refuerzo inmediato sin frustración.",
-      "nota_seguridad": "Comprueba el volumen al recibirlo. Mejor siempre la opción baja.",
-      "reserva": false
-    },
-    {
-      "asin": "B01EWU4BIU",
-      "titulo": "Infantino Textured Multi Ball — Set de pelotas con texturas (sin BPA)",
-      "url": "https://www.amazon.es/dp/B01EWU4BIU",
-      "precio_aprox": "9,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 1468,
-      "edad_recomendada": "a partir de 6 meses (en ficha)",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Texturas variadas para tocar sin miedo. Blandas: se agarran con poca fuerza.",
-      "nota_seguridad": "Sin BPA, aptas para dentición. No usar en el baño (ficha).",
-      "reserva": false
-    },
-    {
-      "asin": "B0979KLK4K",
-      "titulo": "Little Big Friends — Set de 4 pelotas sensoriales con sonajero",
-      "url": "https://www.amazon.es/dp/B0979KLK4K",
-      "precio_aprox": "15,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 137,
-      "edad_recomendada": "desde 0 (ficha: \"Edad recomendada por el fabricante: 0 -\"; rango \"bebé\")",
-      "categoria": "sensoriales",
-      "subcategoria": null,
-      "etapas": [
-        "primeros-meses"
-      ],
-      "habilidad_frase": "Cada pelota suena y tiene otra textura. Tacto y oído a la vez.",
-      "nota_seguridad": "Suaves y lavables. Tamaño de pelota: sin riesgo de piezas pequeñas.",
-      "reserva": false
-    },
-    {
-      "asin": "B07W4KVGJM",
-      "titulo": "LEGO DUPLO — Caja de Ladrillos 10913",
-      "url": "https://www.amazon.es/dp/B07W4KVGJM",
-      "precio_aprox": "27,99",
-      "precio_estable": true,
-      "rating": 4.8,
-      "num_resenas": 10536,
-      "edad_recomendada": null,
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [],
-      "habilidad_frase": null,
-      "nota_seguridad": null,
-      "reserva": true
-    },
-    {
-      "asin": "B0006IRTU0",
-      "titulo": "Melissa & Doug — Apilar Figuras Geométricas",
-      "url": "https://www.amazon.es/dp/B0006IRTU0",
-      "precio_aprox": "15,66",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 14365,
-      "edad_recomendada": null,
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [],
-      "habilidad_frase": null,
-      "nota_seguridad": null,
-      "reserva": true
-    },
-    {
-      "asin": "B0CQ2XBTSB",
-      "titulo": "BONNYCO — Busy Board de fieltro",
-      "url": "https://www.amazon.es/dp/B0CQ2XBTSB",
-      "precio_aprox": "22,99",
-      "precio_estable": true,
-      "rating": 4.6,
-      "num_resenas": 3981,
-      "edad_recomendada": null,
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [],
-      "habilidad_frase": null,
-      "nota_seguridad": null,
-      "reserva": true
-    },
-    {
-      "asin": "B000FS70QE",
-      "titulo": "Melissa & Doug — Puzzle Granja con clavijas (1 año)",
-      "url": "https://www.amazon.es/dp/B000FS70QE",
-      "precio_aprox": "17,99",
-      "precio_estable": true,
-      "rating": 4.7,
-      "num_resenas": 20625,
-      "edad_recomendada": null,
-      "categoria": "motricidad-fina",
-      "subcategoria": null,
-      "etapas": [],
-      "habilidad_frase": null,
-      "nota_seguridad": null,
-      "reserva": true
-    },
-    {
-      "asin": "B08P5KKWBQ",
-      "titulo": "Amazon Basics — Set de madera clasificador de formas + arcoíris",
-      "url": "https://www.amazon.es/dp/B08P5KKWBQ",
-      "precio_aprox": null,
-      "precio_estable": false,
-      "rating": 4.7,
-      "num_resenas": 2024,
-      "edad_recomendada": null,
-      "categoria": "regalos",
-      "subcategoria": null,
-      "etapas": [],
-      "habilidad_frase": null,
-      "nota_seguridad": null,
-      "reserva": true
-    }
-  ]
+  {
+   "asin": "B00005RF5G",
+   "titulo": "Melissa & Doug — Cubo de Madera para Clasificar Formas (12 piezas)",
+   "url": "https://www.amazon.es/dp/B00005RF5G",
+   "precio_aprox": "16,32",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 26343,
+   "edad_recomendada": "2 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Meter cada forma por su hueco. Practica la pinza y distinguir formas.",
+   "nota_seguridad": "Madera maciza, sin bordes afilados. Piezas grandes; supervisa la fase oral.",
+   "reserva": false
+  },
+  {
+   "asin": "B00HWHNNRG",
+   "titulo": "Melissa & Doug — Puzzle de Madera Safari con Clavijas",
+   "url": "https://www.amazon.es/dp/B00HWHNNRG",
+   "precio_aprox": "7,99",
+   "precio_estable": true,
+   "rating": 4.9,
+   "num_resenas": 24045,
+   "edad_recomendada": "2 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Coger cada pieza por su pomo grande. La clavija compensa la pinza débil.",
+   "nota_seguridad": "Tablero robusto. El pomo grande hace fácil el agarre; vigila la boca.",
+   "reserva": false
+  },
+  {
+   "asin": "B0083F2XDQ",
+   "titulo": "MEGA BLOKS — Big Building Bag (60 bloques grandes)",
+   "url": "https://www.amazon.es/dp/B0083F2XDQ",
+   "precio_aprox": "18",
+   "precio_estable": false,
+   "rating": 4.9,
+   "num_resenas": 24064,
+   "edad_recomendada": "1 año o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Presionar y unir bloques grandes. Da fuerza a la mano sin frustrar.",
+   "nota_seguridad": "Bloques grandes pensados para manos pequeñas. Sin piezas sueltas diminutas.",
+   "reserva": false
+  },
+  {
+   "asin": "B07WLMV14S",
+   "titulo": "LEGO DUPLO — Caja de Ladrillos Deluxe 10914",
+   "url": "https://www.amazon.es/dp/B07WLMV14S",
+   "precio_aprox": "45,24",
+   "precio_estable": true,
+   "rating": 4.8,
+   "num_resenas": 8200,
+   "edad_recomendada": "1,5 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Encajar ladrillos grandes y jugar a inventar. Une manos, dedos e imaginación.",
+   "nota_seguridad": "Piezas DUPLO grandes y seguras. Ideal antes de pasar al LEGO pequeño.",
+   "reserva": false
+  },
+  {
+   "asin": "B00DEBB3N0",
+   "titulo": "Fat Brain Toys — Squigz Starter (22 ventosas)",
+   "url": "https://www.amazon.es/dp/B00DEBB3N0",
+   "precio_aprox": "30",
+   "precio_estable": false,
+   "rating": 4.8,
+   "num_resenas": 11469,
+   "edad_recomendada": "3 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Tirar de la ventosa para despegarla: da fuerza a los dedos con un \"pop\".",
+   "nota_seguridad": "Silicona sin BPA. Recomendado por terapeutas para la fuerza de mano.",
+   "reserva": false
+  },
+  {
+   "asin": "B00H4IQ3P2",
+   "titulo": "Fat Brain Toys — Pip Squigz (3 ventosas con sonajero)",
+   "url": "https://www.amazon.es/dp/B00H4IQ3P2",
+   "precio_aprox": "22,95",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 3165,
+   "edad_recomendada": "6 meses o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Agarrar y pegar ventosas blandas. Primera fuerza de mano para los más pequeños.",
+   "nota_seguridad": "Silicona atóxica sin BPA. Blando y seguro para la etapa de exploración.",
+   "reserva": false
+  },
+  {
+   "asin": "B0797GCR6W",
+   "titulo": "Play-Doh — Pack de 24 Botes de Plastilina",
+   "url": "https://www.amazon.es/dp/B0797GCR6W",
+   "precio_aprox": "16,07",
+   "precio_estable": true,
+   "rating": 4.5,
+   "num_resenas": 43049,
+   "edad_recomendada": "2 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Amasar, apretar y hacer bolitas. Fortalece toda la mano y cada dedo.",
+   "nota_seguridad": "No tóxica. Juego siempre con un adulto; vigila que no se la lleve a la boca.",
+   "reserva": false
+  },
+  {
+   "asin": "B000NMAJVK",
+   "titulo": "Jovi — Plastilina de Base Vegetal (10 pastillas)",
+   "url": "https://www.amazon.es/dp/B000NMAJVK",
+   "precio_aprox": "4,95",
+   "precio_estable": true,
+   "rating": 4.3,
+   "num_resenas": 7402,
+   "edad_recomendada": "2 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Modelar masa blanda con las manos. Reto suave para la fuerza de la mano.",
+   "nota_seguridad": "Base vegetal, sin gluten, no tóxica. Fabricada en España. Supervisa la fase oral.",
+   "reserva": false
+  },
+  {
+   "asin": "B0C1B6Z8SG",
+   "titulo": "hahaland — Busy Board Montessori (26 actividades)",
+   "url": "https://www.amazon.es/dp/B0C1B6Z8SG",
+   "precio_aprox": "18,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 2056,
+   "edad_recomendada": "1-3 años",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Abrochar, cerrar cremalleras y girar. Ensaya gestos del día a día con las manos.",
+   "nota_seguridad": "Fieltro suave y piezas bien fijadas. Ligero para llevar de viaje.",
+   "reserva": false
+  },
+  {
+   "asin": "B00272N8L2",
+   "titulo": "Melissa & Doug — Cuentas Primarias para Atar (30 cuentas + cuerdas)",
+   "url": "https://www.amazon.es/dp/B00272N8L2",
+   "precio_aprox": "13",
+   "precio_estable": false,
+   "rating": 4.7,
+   "num_resenas": 20736,
+   "edad_recomendada": "3 años o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Enhebrar cuentas grandes en la cuerda. Usa las dos manos a la vez con precisión.",
+   "nota_seguridad": "Cuentas grandes y fáciles de agarrar. Con cuerda: juego siempre supervisado.",
+   "reserva": false
+  },
+  {
+   "asin": "B0026ZPSJ0",
+   "titulo": "Melissa & Doug — Primer Laberinto de Cuentas con Base de Ventosas",
+   "url": "https://www.amazon.es/dp/B0026ZPSJ0",
+   "precio_aprox": "14,99",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 25285,
+   "edad_recomendada": "1 año o más",
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Deslizar cuentas por los alambres. Guía la mano y la mirada juntas.",
+   "nota_seguridad": "Cuentas fijas al alambre (no se sueltan). La base con ventosas lo sujeta a la mesa o trona.",
+   "reserva": false
+  },
+  {
+   "asin": "B0DN5NBJJK",
+   "titulo": "JOYIN — 12 Botellas de Burbujas con tapa puzzle (60 ml)",
+   "url": "https://www.amazon.es/dp/B0DN5NBJJK",
+   "precio_aprox": "12,99",
+   "precio_estable": true,
+   "rating": 4.3,
+   "num_resenas": 121,
+   "edad_recomendada": "en ficha; usar siempre con un adulto",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": "soplo-praxias",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Soplar pompas ejercita labios y respiración. Prepara la boca para hablar.",
+   "nota_seguridad": "El líquido no se bebe. La ficha avisa de piezas pequeñas. Siempre con un adulto.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CNPK5P1Y",
+   "titulo": "Novelty Place — Pack de 4 teléfonos susurradores (terapia del habla)",
+   "url": "https://www.amazon.es/dp/B0CNPK5P1Y",
+   "precio_aprox": "9,95",
+   "precio_estable": true,
+   "rating": 4.4,
+   "num_resenas": 78,
+   "edad_recomendada": "3 meses - 10 años (ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": "soplo-praxias",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "El niño se escucha a sí mismo al hablar. Ayuda a pronunciar mejor.",
+   "nota_seguridad": "Limpiar tras cada uso si lo chupa.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CCNQZHTW",
+   "titulo": "HOMESTEC — Tarjetas Flash Parlantes (112 tarjetas, 224 palabras)",
+   "url": "https://www.amazon.es/dp/B0CCNQZHTW",
+   "precio_aprox": "17,99",
+   "precio_estable": true,
+   "rating": 4.4,
+   "num_resenas": 351,
+   "edad_recomendada": "12 meses - 6 años (ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Une la imagen con la palabra dicha en voz alta. Aprovecha su memoria visual.",
+   "nota_seguridad": "Lleva batería; que el adulto cargue el aparato. Comprobar idioma de la versión al comprar.",
+   "reserva": false
+  },
+  {
+   "asin": "B09HHGVDS8",
+   "titulo": "Mis Primeras Palabras Animales — 50 tarjetas Montessori (fotos reales)",
+   "url": "https://www.amazon.es/dp/B09HHGVDS8",
+   "precio_aprox": "19,50",
+   "precio_estable": true,
+   "rating": 4.5,
+   "num_resenas": 390,
+   "edad_recomendada": "36 meses - 5 años (ficha); con un adulto puede usarse antes",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Nombrar animales con fotos reales. Fija vocabulario por la vista, su canal fuerte.",
+   "nota_seguridad": "Cartón grueso, sin piezas pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B001J99FGG",
+   "titulo": "Ravensburger — Loto Mascotas (mi primer loto)",
+   "url": "https://www.amazon.es/dp/B001J99FGG",
+   "precio_aprox": "7,90",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 454,
+   "edad_recomendada": "a partir de 2 años (visible en ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Buscar la imagen igual y decir su nombre. Vocabulario y esperar el turno.",
+   "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
+   "reserva": false
+  },
+  {
+   "asin": "B0CTKKG12H",
+   "titulo": "Janod — Lotería en Casa (4 láminas + 24 fichas de cartón)",
+   "url": "https://www.amazon.es/dp/B0CTKKG12H",
+   "precio_aprox": "12,99",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 52,
+   "edad_recomendada": "24 meses - 4 años (ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Nombrar objetos de la casa jugando por turnos. Palabras del día a día.",
+   "nota_seguridad": "fichas pequeñas: supervisar si aún explora con la boca",
+   "reserva": false
+  },
+  {
+   "asin": "B00U3GA97K",
+   "titulo": "Melissa & Doug — Marionetas de mano Amigos del Zoo (4 peluches)",
+   "url": "https://www.amazon.es/dp/B00U3GA97K",
+   "precio_aprox": "24,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 9715,
+   "edad_recomendada": "24 meses - 5 años (ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "La marioneta invita a hablar por turnos. Usa su punto fuerte: la imitación.",
+   "nota_seguridad": "Tela suave, sin piezas sueltas.",
+   "reserva": false
+  },
+  {
+   "asin": "B00TO6FJYS",
+   "titulo": "Melissa & Doug — 4 Títeres de mano Animales de la Granja",
+   "url": "https://www.amazon.es/dp/B00TO6FJYS",
+   "precio_aprox": "22,30",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 9715,
+   "edad_recomendada": "24 meses - 5 años (ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Hacer hablar a los animales provoca \"conversaciones\". Turnos e imitación jugando.",
+   "nota_seguridad": "Tela suave, sin piezas sueltas.",
+   "reserva": false
+  },
+  {
+   "asin": "B0DB5C918Z",
+   "titulo": "Dislocati — Karaoke infantil con 2 micrófonos inalámbricos",
+   "url": "https://www.amazon.es/dp/B0DB5C918Z",
+   "precio_aprox": "22,99",
+   "precio_estable": true,
+   "rating": 4.4,
+   "num_resenas": 2903,
+   "edad_recomendada": "3-12 años (visible en título y ficha)",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": "musica",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Cantar anima a usar la voz sin miedo. La música empuja el habla.",
+   "nota_seguridad": "Empezar con volumen bajo. Muchos niños oyen o toleran peor los sonidos fuertes.",
+   "reserva": false
+  },
+  {
+   "asin": "B0F2GCP7ZJ",
+   "titulo": "Stoie's — Set de 34 instrumentos musicales de madera",
+   "url": "https://www.amazon.es/dp/B0F2GCP7ZJ",
+   "precio_aprox": "37,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 3403,
+   "edad_recomendada": "ficha: \"no apto para menores de 3 años\" (piezas pequeñas), aunque el título diga 1-3",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": "musica",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Marcar el ritmo con las manos. El ritmo prepara el ritmo del habla.",
+   "nota_seguridad": "Contiene piezas pequeñas. Si aún se lleva cosas a la boca, jugar siempre con un adulto, también pasados los 3 años.",
+   "reserva": false
+  },
+  {
+   "asin": "B0D2MF53TH",
+   "titulo": "Vanplay — Tambor infantil 9 en 1 con instrumentos de madera",
+   "url": "https://www.amazon.es/dp/B0D2MF53TH",
+   "precio_aprox": "41,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 1367,
+   "edad_recomendada": "36 meses - 8 años (ficha); aviso \"no apto para menores de 3 años\"",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": "musica",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Golpear al ritmo de canciones. Música, gesto y palabra van juntos.",
+   "nota_seguridad": "Piezas pequeñas: supervisar si hay exploración oral, también después de los 3 años.",
+   "reserva": false
+  },
+  {
+   "asin": "8448823249",
+   "titulo": "Mis primeras 100 palabras (colección Pequeñas manitas)",
+   "url": "https://www.amazon.es/dp/8448823249",
+   "precio_aprox": "13,25",
+   "precio_estable": true,
+   "rating": 4.8,
+   "num_resenas": 192,
+   "edad_recomendada": "1-2 años (edad sugerida visible en ficha); libro de cartón",
+   "categoria": "lenguaje-comunicacion",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Señalar y nombrar imágenes juntos. Diez minutos de lectura al día dan vocabulario.",
+   "nota_seguridad": "Páginas de cartón grueso: aguantan manos y mordidas.",
+   "reserva": false
+  },
+  {
+   "asin": "B00ZRD99C0",
+   "titulo": "Bright Starts — Pelota Clásica Oball de Fácil Agarre",
+   "url": "https://www.amazon.es/dp/B00ZRD99C0",
+   "precio_aprox": "5,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 43911,
+   "edad_recomendada": "desde recién nacido",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Es fácil de agarrar aunque la mano tenga poca fuerza.",
+   "nota_seguridad": "libre de BPA. Sus 32 agujeros permiten el agarre con hipotonía.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CGV738D5",
+   "titulo": "FANCY Baby — Set de 6 Pelotas Sensoriales Texturizadas",
+   "url": "https://www.amazon.es/dp/B0CGV738D5",
+   "precio_aprox": "9,89",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 2776,
+   "edad_recomendada": "a partir de 3 meses",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Cada textura da al tacto una sensación nueva y segura.",
+   "nota_seguridad": "material no tóxico, sin BPA, fácil de desinfectar. Aguanta la exploración con la boca.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CYP7CTB5",
+   "titulo": "hahaland — Libro de Tela Sensorial de Animales con Texturas",
+   "url": "https://www.amazon.es/dp/B0CYP7CTB5",
+   "precio_aprox": "11,39",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 2029,
+   "edad_recomendada": "0-6 meses en adelante",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Tocar cada página despierta el tacto y la atención.",
+   "nota_seguridad": "tela suave sin BPA, pintura al agua. Sin piezas sueltas: seguro para morder.",
+   "reserva": false
+  },
+  {
+   "asin": "B0D2PBRXRG",
+   "titulo": "TOWO — Sonajeros Maracas de Madera Natural (set con bolsa)",
+   "url": "https://www.amazon.es/dp/B0D2PBRXRG",
+   "precio_aprox": "21,53",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 116,
+   "edad_recomendada": "a partir de 6 meses",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Agitar y oír el sonido enseña causa y efecto.",
+   "nota_seguridad": "madera de haya sin barniz. Material natural ideal como pieza del cesto de tesoros.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CJLWD1VM",
+   "titulo": "hahaland — Caja de Pañuelos Montessori Sensorial",
+   "url": "https://www.amazon.es/dp/B0CJLWD1VM",
+   "precio_aprox": "18,49",
+   "precio_estable": true,
+   "rating": 4.5,
+   "num_resenas": 4946,
+   "edad_recomendada": "6-12 meses en adelante",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Sacar pañuelos una y otra vez calma y entrena las manos.",
+   "nota_seguridad": "telas lavables con texturas y sonidos suaves. Jugar con supervisión.",
+   "reserva": false
+  },
+  {
+   "asin": "B0D1FSJDD6",
+   "titulo": "Orzbow — Mando de Juguete Musical con Volumen Ajustable",
+   "url": "https://www.amazon.es/dp/B0D1FSJDD6",
+   "precio_aprox": "13,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 528,
+   "edad_recomendada": "a partir de 6 meses",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Aprieta un botón y suena música: causa y efecto muy claros.",
+   "nota_seguridad": "volumen regulable, clave si hay problemas de oído o molestia con ruidos. Bordes redondeados.",
+   "reserva": false
+  },
+  {
+   "asin": "B0FHWL5Y2K",
+   "titulo": "seOSTO — Jirafa Bailarina que Repite tu Voz (volumen ajustable)",
+   "url": "https://www.amazon.es/dp/B0FHWL5Y2K",
+   "precio_aprox": "32,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 513,
+   "edad_recomendada": "bebés y niños pequeños (necesita 3 pilas AA, no incluidas)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Repite su voz y le anima a hablar y a moverse.",
+   "nota_seguridad": "volumen ajustable. Las canciones vienen en inglés. Peluche de superficie lavable.",
+   "reserva": false
+  },
+  {
+   "asin": "B07BRFF8CL",
+   "titulo": "Tilcare — Chew Chew Colgante Masticable de Silicona",
+   "url": "https://www.amazon.es/dp/B07BRFF8CL",
+   "precio_aprox": "7,99",
+   "precio_estable": true,
+   "rating": 4.3,
+   "num_resenas": 11859,
+   "edad_recomendada": "niños que ya no se llevan el cordón entero a la boca; usar con supervisión",
+   "categoria": "sensoriales",
+   "subcategoria": "oral-motor",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Morder de forma segura calma la necesidad oral.",
+   "nota_seguridad": "silicona alimentaria sin BPA ni ftalatos. Cierre que se abre solo ante tirones (antiasfixia). Supervisar siempre el uso de collares.",
+   "reserva": false
+  },
+  {
+   "asin": "B0C4FRFZW1",
+   "titulo": "ODOXIA — Cojín de Regazo con Lastre (perro sensorial)",
+   "url": "https://www.amazon.es/dp/B0C4FRFZW1",
+   "precio_aprox": "39,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 344,
+   "edad_recomendada": "niños en edad escolar; el fabricante lo indica recomendado por terapeutas ocupacionales",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Su peso suave sobre las piernas ayuda a calmarse.",
+   "nota_seguridad": "no es para bebés. Usarlo sobre el regazo, nunca sobre pecho o cabeza.",
+   "reserva": false
+  },
+  {
+   "asin": "B09HXQM331",
+   "titulo": "Dailydream — Manta con Peso para Niños (2,3 kg · 90×120 cm)",
+   "url": "https://www.amazon.es/dp/B09HXQM331",
+   "precio_aprox": "44,95",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 111,
+   "edad_recomendada": "niños a partir de unos 3-4 años y ~20-25 kg de peso",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "El peso repartido relaja el cuerpo para dormir.",
+   "nota_seguridad": "NUNCA con bebés. Regla del ~10 % del peso corporal. El niño debe poder quitársela solo. Consultar al terapeuta si hay dudas.",
+   "reserva": false
+  },
+  {
+   "asin": "B08DLR33HG",
+   "titulo": "Beiens — Tarjetas Flashcards de Alto Contraste (blanco y negro)",
+   "url": "https://www.amazon.es/dp/B08DLR33HG",
+   "precio_aprox": "8,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 14149,
+   "edad_recomendada": "0-36 meses (por bloques de edad)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "El blanco y negro capta su mirada desde el primer día.",
+   "nota_seguridad": "tarjetas grandes de superficie mate, sin piezas pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CFZX62BY",
+   "titulo": "URMYWO — Libro de Tela de Contraste Blanco y Negro con Espejo",
+   "url": "https://www.amazon.es/dp/B0CFZX62BY",
+   "precio_aprox": "9,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 9196,
+   "edad_recomendada": "0-12 meses",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Las imágenes de mucho contraste entrenan la vista del bebé.",
+   "nota_seguridad": "tela hipoalergénica certificada EN71/ASTM F963. Espejo seguro para bebés. Ideal para el tummy time.",
+   "reserva": false
+  },
+  {
+   "asin": "B0DMR1LB4F",
+   "titulo": "Fortella Gimnasio para Bebé (manta de actividades con arco)",
+   "url": "https://www.amazon.es/dp/B0DMR1LB4F",
+   "precio_aprox": "53,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 806,
+   "edad_recomendada": "0-18 meses (fabricante)",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "El tiempo boca abajo fortalece cuello y tronco: la base de toda la motricidad.",
+   "nota_seguridad": "Usar siempre con un adulto delante. Los juguetes colgantes motivan a levantar la cabeza.",
+   "reserva": false
+  },
+  {
+   "asin": "B00KTYXK7W",
+   "titulo": "Bright Starts Sit and See Safari (espejo de suelo)",
+   "url": "https://www.amazon.es/dp/B00KTYXK7W",
+   "precio_aprox": "12,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 12044,
+   "edad_recomendada": "desde recién nacido",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Se mira en el espejo y aguanta más tiempo boca abajo: entrena cuello y espalda.",
+   "nota_seguridad": "Espejo infantil irrompible. Colocar a la altura de los ojos del bebé.",
+   "reserva": false
+  },
+  {
+   "asin": "B0G5Q1TSN4",
+   "titulo": "Infantino Set de 6 Bolas Sensoriales Texturizadas",
+   "url": "https://www.amazon.es/dp/B0G5Q1TSN4",
+   "precio_aprox": "10,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 1468,
+   "edad_recomendada": "a partir de 6 meses",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Alcanzar y rodar pelotas variadas invita a moverse y a estirarse un poco más.",
+   "nota_seguridad": "Sin BPA. Tamaños grandes, sin piezas pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B09G187FS4",
+   "titulo": "Correpasillos con ruedas de velocidad regulable",
+   "url": "https://www.amazon.es/dp/B09G187FS4",
+   "precio_aprox": "29,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 674,
+   "edad_recomendada": "a partir de 12 meses",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Da apoyo firme para practicar los primeros pasos. Las ruedas frenadas evitan que se escape.",
+   "nota_seguridad": "Ajustar el regulador de velocidad de las ruedas antes de usarlo. Es clave con tobillos laxos.",
+   "reserva": false
+  },
+  {
+   "asin": "B0DSVR2HZS",
+   "titulo": "VITONIS Andador de Madera con actividades",
+   "url": "https://www.amazon.es/dp/B0DSVR2HZS",
+   "precio_aprox": "69,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 105,
+   "edad_recomendada": "a partir de 1 año",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Empujar un carro ancho y estable da confianza para andar. Asa ajustable en altura.",
+   "nota_seguridad": "Madera de abedul robusta. Es un correpasillos de empuje, no un tacatá fijo.",
+   "reserva": false
+  },
+  {
+   "asin": "B00005BAHT",
+   "titulo": "Gymnic Rody Rojo (caballito hinchable)",
+   "url": "https://www.amazon.es/dp/B00005BAHT",
+   "precio_aprox": "39,80",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 6845,
+   "edad_recomendada": "a partir de 3 años, con supervisión de un adulto",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Botar sentado fortalece piernas y tronco. El cuerpo aprende dónde está y cómo equilibrarse.",
+   "nota_seguridad": "Siempre con un adulto cerca. Con inestabilidad atlantoaxial diagnosticada, consultar antes al médico. Sin látex, ftalatos ni BPA.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CLQLPHG2",
+   "titulo": "unycos Cojín de Equilibrio hinchable (Ø33 cm)",
+   "url": "https://www.amazon.es/dp/B0CLQLPHG2",
+   "precio_aprox": "13,70",
+   "precio_estable": true,
+   "rating": 4.5,
+   "num_resenas": 433,
+   "edad_recomendada": "niños y adultos (uso guiado por adulto; material de rehabilitación)",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Sentarse o pisar el cojín activa el tronco y entrena el equilibrio con reto suave.",
+   "nota_seguridad": "Usar sobre suelo no deslizante y con un adulto al lado. Incluye bombín para regular el aire.",
+   "reserva": false
+  },
+  {
+   "asin": "B0F4KF2WGW",
+   "titulo": "LATERN Tienda de Campaña con Túnel de gateo (180 cm)",
+   "url": "https://www.amazon.es/dp/B0F4KF2WGW",
+   "precio_aprox": "19,99",
+   "precio_estable": true,
+   "rating": 4.5,
+   "num_resenas": 100,
+   "edad_recomendada": "fabricante indica 3+; el gateo por túnel se disfruta antes con supervisión",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Convierte el gateo en un juego que apetece repetir. Gatear fortalece brazos, tronco y coordinación.",
+   "nota_seguridad": "Usar en interior o suelo blando y con un adulto mirando. Montaje pop-up sin piezas sueltas.",
+   "reserva": false
+  },
+  {
+   "asin": "B0C2D6LRMM",
+   "titulo": "Kinderkraft Aston Triciclo Evolutivo",
+   "url": "https://www.amazon.es/dp/B0C2D6LRMM",
+   "precio_aprox": "97,86",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 2277,
+   "edad_recomendada": "de 9 meses a unos 5 años (evolutivo)",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Pedalear enseña a mover las piernas de forma alterna. El adulto guía con la barra.",
+   "nota_seguridad": "Lleva arnés, barrera de seguridad y rueda libre. El adulto controla la dirección al principio.",
+   "reserva": false
+  },
+  {
+   "asin": "B0897R35PN",
+   "titulo": "Miniland — Muñeco bebé Europeo Niño Down (vinilo suave, 38 cm)",
+   "url": "https://www.amazon.es/dp/B0897R35PN",
+   "precio_aprox": "24,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 215,
+   "edad_recomendada": "a partir de 10 meses (ficha: 10 m - 3 años)",
+   "categoria": "regalos",
+   "subcategoria": "munecos-con-rasgos",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Un muñeco que se parece a él. Refuerza identidad y juego simbólico.",
+   "nota_seguridad": "cuerpo entero de vinilo, sin piezas sueltas. Apto para exploración oral.",
+   "reserva": false
+  },
+  {
+   "asin": "B089XL2HDC",
+   "titulo": "Miniland 31170 — Muñeco bebé Caucásico Niño Down (38 cm, con caja regalo)",
+   "url": "https://www.amazon.es/dp/B089XL2HDC",
+   "precio_aprox": "33,90",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 123,
+   "edad_recomendada": "a partir de 10 meses (ficha: 10 m - 6 años)",
+   "categoria": "regalos",
+   "subcategoria": "munecos-con-rasgos",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Verse representado en su juguete. Invita a cuidar, vestir y hablar.",
+   "nota_seguridad": "vinilo suave articulado, sin piezas pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B0C81P6C84",
+   "titulo": "Nenuco — Con Síndrome de Down (línea Diversidad, 35 cm, Famosa)",
+   "url": "https://www.amazon.es/dp/B0C81P6C84",
+   "precio_aprox": "15,59",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 79,
+   "edad_recomendada": "a partir de 12 meses (ficha: 12 m+)",
+   "categoria": "regalos",
+   "subcategoria": "munecos-con-rasgos",
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Bañar y dar de comer al bebé. Ensaya el autocuidado jugando.",
+   "nota_seguridad": "sumergible (bebe y hace pipí). Marca española de gran distribución.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CPL7VPN4",
+   "titulo": "Barbie Fashionista — Muñeca con síndrome de Down",
+   "url": "https://www.amazon.es/dp/B0CPL7VPN4",
+   "precio_aprox": "11,00",
+   "precio_estable": true,
+   "rating": 4.4,
+   "num_resenas": 2694,
+   "edad_recomendada": "3 años en adelante (ficha: 36 m - 18 años)",
+   "categoria": "regalos",
+   "subcategoria": "munecos-con-rasgos",
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Representación positiva para niñas mayores. Juego simbólico con dignidad, sin estética bebé.",
+   "nota_seguridad": "accesorios pequeños. No apta si hay exploración oral prolongada.",
+   "reserva": false
+  },
+  {
+   "asin": "B00D6JM5EQ",
+   "titulo": "HABA 4997 — Mis Primeros Juegos: Primer Frutal",
+   "url": "https://www.amazon.es/dp/B00D6JM5EQ",
+   "precio_aprox": "24,89",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 694,
+   "edad_recomendada": "a partir de 2 años",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Todos ganan juntos al cuervo. Turnos y colores sin frustración.",
+   "nota_seguridad": "frutas grandes de madera de haya. La ficha mantiene aviso genérico de piezas: supervisar si hay exploración oral.",
+   "reserva": false
+  },
+  {
+   "asin": "B0CJ9S3XB5",
+   "titulo": "Nene Toys — El Frutal (cooperativo 2+)",
+   "url": "https://www.amazon.es/dp/B0CJ9S3XB5",
+   "precio_aprox": "16,99",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 374,
+   "edad_recomendada": "a partir de 2 años (ficha: 24 m - 3 años)",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Jugar CON los demás, no contra. Aprende colores, números y formas.",
+   "nota_seguridad": "piezas grandes pensadas para manos pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B07B37TT7F",
+   "titulo": "Goula — Los 3 Cerditos (modo cooperativo)",
+   "url": "https://www.amazon.es/dp/B07B37TT7F",
+   "precio_aprox": "17,55",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 2547,
+   "edad_recomendada": "a partir de 2 años",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Ayudar juntos a los cerditos. Cuento conocido: apoya la comprensión con imágenes.",
+   "nota_seguridad": "piezas de madera de calidad; marca española (Goula/Diset).",
+   "reserva": false
+  },
+  {
+   "asin": "B006S9MUPU",
+   "titulo": "Peaceable Kingdom — Race to the Treasure! (cooperativo premiado)",
+   "url": "https://www.amazon.es/dp/B006S9MUPU",
+   "precio_aprox": "34,73",
+   "precio_estable": true,
+   "rating": 4.8,
+   "num_resenas": 2911,
+   "edad_recomendada": "a partir de 5 años (edad mínima del fabricante: 5 años)",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "El equipo gana al ogro. Planificar juntos y respetar turnos.",
+   "nota_seguridad": "contiene partes pequeñas. No apto para menores de 36 meses ni exploración oral.",
+   "reserva": false
+  },
+  {
+   "asin": "B01B7PEA2A",
+   "titulo": "Fisher-Price — Cebra Parlanchina Primeros Pasos (andador correpasillos)",
+   "url": "https://www.amazon.es/dp/B01B7PEA2A",
+   "precio_aprox": "33,48",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 24133,
+   "edad_recomendada": "a partir de 6 meses (ficha: 6 m - 3 años)",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses",
+    "primeros-pasos"
+   ],
+   "habilidad_frase": "Empujar y caminar con apoyo. Fortalece piernas a su ritmo.",
+   "nota_seguridad": "correpasillos de EMPUJE con base ancha (no tacatá: los tacatás se desaconsejan con hipotonía). Tiene sonidos: probar el volumen antes de regalar.",
+   "reserva": false
+  },
+  {
+   "asin": "B07MPCCDM7",
+   "titulo": "Baby Einstein — Kickin' Tunes, gimnasio de actividades musical 4 en 1",
+   "url": "https://www.amazon.es/dp/B07MPCCDM7",
+   "precio_aprox": "53,95",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 27518,
+   "edad_recomendada": "desde el nacimiento (ficha: rango de edad 0+ meses)",
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Alarga el tiempo boca abajo. Es la base de toda la motricidad.",
+   "nota_seguridad": "incluye almohada de apoyo para el juego boca abajo. Música electrónica: vigilar el volumen (los problemas de oído son frecuentes).",
+   "reserva": false
+  },
+  {
+   "asin": "B07QVLTW4X",
+   "titulo": "Bright Starts Oball Sonajero de fácil agarre (sin BPA, 10 cm)",
+   "url": "https://www.amazon.es/dp/B07QVLTW4X",
+   "precio_aprox": "7,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 3464,
+   "edad_recomendada": "desde recién nacido (0 meses, en ficha)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Sus agujeros hacen fácil el agarre. No exige fuerza en la mano.",
+   "nota_seguridad": "Sin BPA. Pieza única flexible: no suelta partes pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B088KS6L86",
+   "titulo": "Sophie la girafe — Sonajero de peluche con cascabeles",
+   "url": "https://www.amazon.es/dp/B088KS6L86",
+   "precio_aprox": "9,95",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 1001,
+   "edad_recomendada": "desde 7 meses (fabricante, visible en ficha)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Aprieta y suena. Su acción provoca el sonido: causa y efecto.",
+   "nota_seguridad": "Textil suave, apto para morder. Dos sonidos suaves, no estridentes.",
+   "reserva": false
+  },
+  {
+   "asin": "B07J5NPX12",
+   "titulo": "Tiny Love Black & White Gymini — Gimnasio evolutivo musical 2 en 1",
+   "url": "https://www.amazon.es/dp/B07J5NPX12",
+   "precio_aprox": "69,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 3604,
+   "edad_recomendada": "desde el nacimiento (0 meses, en ficha)",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Invita al tiempo boca abajo: fortalece cuello y tronco. El alto contraste engancha la mirada.",
+   "nota_seguridad": "Arcos ajustables. Usar siempre con supervisión. No es para dormir.",
+   "reserva": false
+  },
+  {
+   "asin": "B09NPB46FY",
+   "titulo": "Fisher-Price Gimnasio Casita de Campo 2 en 1 (alfombra + cabaña, luces y música)",
+   "url": "https://www.amazon.es/dp/B09NPB46FY",
+   "precio_aprox": "39,95",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 488,
+   "edad_recomendada": "bebés (rango de edad en ficha); 3 modos que crecen con él",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Crece con el niño: tumbado, sentado y de pie. Incluye espejo de autorreconocimiento.",
+   "nota_seguridad": "Regadera electrónica con música: prueba el volumen antes. Alfombra lavable.",
+   "reserva": false
+  },
+  {
+   "asin": "B0C39PCFLT",
+   "titulo": "hahaland Espejo bebé + libro sensorial plegable (tummy time, blanco y negro)",
+   "url": "https://www.amazon.es/dp/B0C39PCFLT",
+   "precio_aprox": "16,79",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 716,
+   "edad_recomendada": "0-6 meses (en ficha)",
+   "categoria": "motricidad-gruesa",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Une espejo y alto contraste. Dos imanes de mirada en uno.",
+   "nota_seguridad": "Tela y espejo sin cristal. Plegable, sin bordes duros.",
+   "reserva": false
+  },
+  {
+   "asin": "B000YDDF6O",
+   "titulo": "Baby Einstein Take Along Tunes — Juguete musical portátil (30704)",
+   "url": "https://www.amazon.es/dp/B000YDDF6O",
+   "precio_aprox": "9,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 67782,
+   "edad_recomendada": "bebés (rango de edad en ficha; las reseñas lo usan desde ~6 meses)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Botón grande: él aprieta y suena la música. Él manda, no el juguete.",
+   "nota_seguridad": "Tiene dos niveles de volumen (confirmado en reseñas). Usa el bajo: los problemas de oído son frecuentes.",
+   "reserva": false
+  },
+  {
+   "asin": "B08X126LFP",
+   "titulo": "hahaland Piano Bebé — Piano de actividades con luces y sonidos (7 en 1)",
+   "url": "https://www.amazon.es/dp/B08X126LFP",
+   "precio_aprox": "21,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 2856,
+   "edad_recomendada": "3-12 meses y más (en título de ficha)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Golpea una tecla y pasa algo: luz y sonido. Refuerzo inmediato sin frustración.",
+   "nota_seguridad": "Comprueba el volumen al recibirlo. Mejor siempre la opción baja.",
+   "reserva": false
+  },
+  {
+   "asin": "B01EWU4BIU",
+   "titulo": "Infantino Textured Multi Ball — Set de pelotas con texturas (sin BPA)",
+   "url": "https://www.amazon.es/dp/B01EWU4BIU",
+   "precio_aprox": "9,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 1468,
+   "edad_recomendada": "a partir de 6 meses (en ficha)",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Texturas variadas para tocar sin miedo. Blandas: se agarran con poca fuerza.",
+   "nota_seguridad": "Sin BPA, aptas para dentición. No usar en el baño (ficha).",
+   "reserva": false
+  },
+  {
+   "asin": "B0979KLK4K",
+   "titulo": "Little Big Friends — Set de 4 pelotas sensoriales con sonajero",
+   "url": "https://www.amazon.es/dp/B0979KLK4K",
+   "precio_aprox": "15,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 137,
+   "edad_recomendada": "desde 0 (ficha: \"Edad recomendada por el fabricante: 0 -\"; rango \"bebé\")",
+   "categoria": "sensoriales",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-meses"
+   ],
+   "habilidad_frase": "Cada pelota suena y tiene otra textura. Tacto y oído a la vez.",
+   "nota_seguridad": "Suaves y lavables. Tamaño de pelota: sin riesgo de piezas pequeñas.",
+   "reserva": false
+  },
+  {
+   "asin": "B07W4KVGJM",
+   "titulo": "LEGO DUPLO — Caja de Ladrillos 10913",
+   "url": "https://www.amazon.es/dp/B07W4KVGJM",
+   "precio_aprox": "27,99",
+   "precio_estable": true,
+   "rating": 4.8,
+   "num_resenas": 10536,
+   "edad_recomendada": null,
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [],
+   "habilidad_frase": null,
+   "nota_seguridad": null,
+   "reserva": true
+  },
+  {
+   "asin": "B0006IRTU0",
+   "titulo": "Melissa & Doug — Apilar Figuras Geométricas",
+   "url": "https://www.amazon.es/dp/B0006IRTU0",
+   "precio_aprox": "15,66",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 14365,
+   "edad_recomendada": null,
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [],
+   "habilidad_frase": null,
+   "nota_seguridad": null,
+   "reserva": true
+  },
+  {
+   "asin": "B0CQ2XBTSB",
+   "titulo": "BONNYCO — Busy Board de fieltro",
+   "url": "https://www.amazon.es/dp/B0CQ2XBTSB",
+   "precio_aprox": "22,99",
+   "precio_estable": true,
+   "rating": 4.6,
+   "num_resenas": 3981,
+   "edad_recomendada": null,
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [],
+   "habilidad_frase": null,
+   "nota_seguridad": null,
+   "reserva": true
+  },
+  {
+   "asin": "B000FS70QE",
+   "titulo": "Melissa & Doug — Puzzle Granja con clavijas (1 año)",
+   "url": "https://www.amazon.es/dp/B000FS70QE",
+   "precio_aprox": "17,99",
+   "precio_estable": true,
+   "rating": 4.7,
+   "num_resenas": 20625,
+   "edad_recomendada": null,
+   "categoria": "motricidad-fina",
+   "subcategoria": null,
+   "etapas": [],
+   "habilidad_frase": null,
+   "nota_seguridad": null,
+   "reserva": true
+  },
+  {
+   "asin": "B08P5KKWBQ",
+   "titulo": "Amazon Basics — Set de madera clasificador de formas + arcoíris",
+   "url": "https://www.amazon.es/dp/B08P5KKWBQ",
+   "precio_aprox": null,
+   "precio_estable": false,
+   "rating": 4.7,
+   "num_resenas": 2024,
+   "edad_recomendada": null,
+   "categoria": "regalos",
+   "subcategoria": null,
+   "etapas": [],
+   "habilidad_frase": null,
+   "nota_seguridad": null,
+   "reserva": true
+  },
+  {
+   "asin": "B003CSADX6",
+   "titulo": "Goula — Memo: Loto Animales de la Granja (juego de memoria de madera)",
+   "url": "https://www.amazon.es/dp/B003CSADX6",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Buscar la ficha igual entre las fotos. Usa su memoria visual, su punto fuerte.",
+   "nota_seguridad": "Fichas de madera. Empezar con pocas parejas y sumar más poco a poco. Supervisar si aún se lleva cosas a la boca.",
+   "edad_recomendada": "a partir de 3 años (visible en ficha)",
+   "rating": 4.8,
+   "num_resenas": 480,
+   "precio_aprox": "10,68",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B09DDBWP9J",
+   "titulo": "Ravensburger — Memory Animal Babies (versión en español, 24 parejas)",
+   "url": "https://www.amazon.es/dp/B09DDBWP9J",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Levantar dos cartas y recordar dónde está su pareja. Entrena memoria y atención.",
+   "nota_seguridad": "Empezar con 4-6 parejas, no con las 24. Cartas de cartón: sin piezas pequeñas.",
+   "edad_recomendada": "a partir de 4 años (ficha, versión en español)",
+   "rating": 4.7,
+   "num_resenas": 1568,
+   "precio_aprox": "12,86",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B00HWHO7M6",
+   "titulo": "Melissa & Doug — Puzzle de encastre de madera, Animales de la Granja",
+   "url": "https://www.amazon.es/dp/B00HWHO7M6",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Encajar cada animal en su hueco por la forma. Asocia figura, silueta y foto.",
+   "nota_seguridad": "Piezas grandes con agarre fácil y dibujo-guía debajo de cada hueco. Vigilar la fase oral.",
+   "edad_recomendada": "2 a 4 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 4666,
+   "precio_aprox": "9,13",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B000MM29QY",
+   "titulo": "Orchard Toys — Match and Count (empareja número y dibujos, 1-20)",
+   "url": "https://www.amazon.es/dp/B000MM29QY",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Unir el número con su cantidad de dibujos. Aprende a contar mirando.",
+   "nota_seguridad": "Piezas de cartón resistente. Instrucciones en inglés, pero los números y dibujos se entienden solos.",
+   "edad_recomendada": "a partir de 3 años (ficha; producto importado)",
+   "rating": 4.4,
+   "num_resenas": 1974,
+   "precio_aprox": "11,79",
+   "precio_estable": false,
+   "reserva": false
+  },
+  {
+   "asin": "B09Q38957J",
+   "titulo": "Rompecabezas de madera 4 en 1 Montessori — Números, Formas y Reloj",
+   "url": "https://www.amazon.es/dp/B09Q38957J",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Ordenar números, formas y colores con anillos de madera. Cuatro juegos en uno.",
+   "nota_seguridad": "Madera con bordes lisos y pintura al agua. Anillos pequeños: supervisar la fase oral.",
+   "edad_recomendada": "a partir de 3 años (ficha)",
+   "rating": 4.6,
+   "num_resenas": 118,
+   "precio_aprox": "22,48",
+   "precio_estable": false,
+   "reserva": false
+  },
+  {
+   "asin": "B000F8XF86",
+   "titulo": "Learning Resources — Set de Ositos de Distintos Tamaños y Pesos (69 piezas)",
+   "url": "https://www.amazon.es/dp/B000F8XF86",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Clasificar ositos por color, tamaño y peso. Contar y ordenar tocando.",
+   "nota_seguridad": "Ositos pequeños de plástico, riesgo de atragantamiento. Jugar siempre con un adulto, también pasados los 3 años.",
+   "edad_recomendada": "a partir de 3 años (piezas pequeñas)",
+   "rating": 4.7,
+   "num_resenas": 2155,
+   "precio_aprox": "24,81",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B081PDQQJY",
+   "titulo": "Learning Resources — Casas para Clasificar y Relacionar (All About Me)",
+   "url": "https://www.amazon.es/dp/B081PDQQJY",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Meter cada personaje en su casa del color. Clasificar y relacionar jugando.",
+   "nota_seguridad": "Piezas grandes y apilables, con marionetas de dedo blandas. Para 18 meses en adelante.",
+   "edad_recomendada": "a partir de 18 meses (ficha)",
+   "rating": 4.8,
+   "num_resenas": 450,
+   "precio_aprox": "18,44",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B07HYTVTV3",
+   "titulo": "Headu — Leo y Escribo (81 tarjetas autocorrectivas, en español)",
+   "url": "https://www.amazon.es/dp/B07HYTVTV3",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Relacionar la letra con su dibujo. Las tarjetas se corrigen solas y animan a seguir.",
+   "nota_seguridad": "81 tarjetas de cartón autocorrectivas, sin piezas pequeñas. En español.",
+   "edad_recomendada": "a partir de 3 años (ficha)",
+   "rating": 4.4,
+   "num_resenas": 82,
+   "precio_aprox": "19,99",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B084J34J37",
+   "titulo": "Educa — Yo Aprendo las Primeras Palabras (forma palabras uniendo letras)",
+   "url": "https://www.amazon.es/dp/B084J34J37",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Formar palabras uniendo letras junto a su imagen. Lee mirando la foto.",
+   "nota_seguridad": "Piezas de cartón autocorrectivas, marca española. Sin piezas pequeñas peligrosas.",
+   "edad_recomendada": "a partir de 5 años (ficha)",
+   "rating": 4.4,
+   "num_resenas": 684,
+   "precio_aprox": "8,05",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B0BQCM379W",
+   "titulo": "Janod — 10 Secuencias de 4 Acciones (ordenar una historia)",
+   "url": "https://www.amazon.es/dp/B0BQCM379W",
+   "categoria": "aprender-jugando",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Ordenar 4 escenas de una historia: qué pasa antes y qué después.",
+   "nota_seguridad": "Cartas grandes de cartón, sin piezas pequeñas. Para 3 años en adelante.",
+   "edad_recomendada": "a partir de 3 años (ficha)",
+   "rating": 4.4,
+   "num_resenas": 247,
+   "precio_aprox": "20,20",
+   "precio_estable": false,
+   "reserva": false
+  },
+  {
+   "asin": "B08RRYMNN8",
+   "titulo": "Nenuco — Botiquín de Emergencias (accesorios médicos para muñecos)",
+   "url": "https://www.amazon.es/dp/B08RRYMNN8",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Cuidar y curar al muñeco. Ensaya la empatía jugando a médicos.",
+   "nota_seguridad": "Marca española. El maletín trae piezas pequeñas: supervisar si aún se lleva cosas a la boca.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.5,
+   "num_resenas": 211,
+   "precio_aprox": "14,51 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B0D7Q4K12H",
+   "titulo": "Comida de Madera para Cortar con velcro (frutas, verduras y bolsa)",
+   "url": "https://www.amazon.es/dp/B0D7Q4K12H",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Cortar frutas y verduras de mentira. Imita cocinar y trabaja las manos.",
+   "nota_seguridad": "Madera con pintura al agua y bordes lisos. Cuchillo de juguete sin filo. Supervisar exploración oral.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.8,
+   "num_resenas": 212,
+   "precio_aprox": "17,99 €",
+   "precio_estable": false,
+   "reserva": false
+  },
+  {
+   "asin": "B0CHJQ3PY7",
+   "titulo": "Editorial GEU — Panel de Rutinas Diarias con Pictogramas",
+   "url": "https://www.amazon.es/dp/B0CHJQ3PY7",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Ver el día en dibujos. Da orden y calma a la rutina.",
+   "nota_seguridad": "Panel y pictogramas plastificados. Piezas pequeñas: uso guiado por un adulto.",
+   "edad_recomendada": "3 años en adelante (uso guiado)",
+   "rating": 4.5,
+   "num_resenas": 196,
+   "precio_aprox": "20,95 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B01GBY72DG",
+   "titulo": "Janod — Maletín de Doctor de madera (10 accesorios)",
+   "url": "https://www.amazon.es/dp/B01GBY72DG",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Jugar a médicos con instrumentos de madera. Nombra el cuerpo y cuida.",
+   "nota_seguridad": "Madera maciza no tóxica. Contiene piezas pequeñas: no apto para exploración oral prolongada.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.6,
+   "num_resenas": 2731,
+   "precio_aprox": "29,99 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B00IL35W2Y",
+   "titulo": "Theo Klein 6741 — Carro de Limpieza Vileda (fregona, cubo, escoba)",
+   "url": "https://www.amazon.es/dp/B00IL35W2Y",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Barrer y fregar como en casa. Imita las tareas del hogar.",
+   "nota_seguridad": "Plástico resistente. Mango largo: supervisar el uso de pie.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.5,
+   "num_resenas": 6529,
+   "precio_aprox": "31,95 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B083ZRZF7Q",
+   "titulo": "Playskool — Muñeco Dressy Kids para aprender a vestirse (5 cierres)",
+   "url": "https://www.amazon.es/dp/B083ZRZF7Q",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "primeros-pasos",
+    "pequeno-explorador"
+   ],
+   "habilidad_frase": "Subir cremalleras y abrochar botones. Aprende a vestirse solo, paso a paso.",
+   "nota_seguridad": "Muñeco de tela blando, sin piezas sueltas. Cordón largo: no dejar sin supervisión.",
+   "edad_recomendada": "a partir de 2 años (fabricante)",
+   "rating": 4.4,
+   "num_resenas": 425,
+   "precio_aprox": "32,40 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B09K4CMJWG",
+   "titulo": "mamabrum — Supermercado de Madera y Teatro de Marionetas 2 en 1",
+   "url": "https://www.amazon.es/dp/B09K4CMJWG",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Comprar y vender en la tienda. Juega a los oficios con otros.",
+   "nota_seguridad": "Madera. Incluye monedas y alimentos pequeños: supervisar si hay exploración oral.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.5,
+   "num_resenas": 87,
+   "precio_aprox": "59,90 €",
+   "precio_estable": false,
+   "reserva": false
+  },
+  {
+   "asin": "B00TKXC0DI",
+   "titulo": "Theo Klein 8574 — Banco de Trabajo Bosch (77 piezas)",
+   "url": "https://www.amazon.es/dp/B00TKXC0DI",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Atornillar y montar en el taller. Imita arreglar cosas como los mayores.",
+   "nota_seguridad": "Plástico resistente. Tornillos y clavos de juguete pequeños: no apto para menores de 3 años.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.5,
+   "num_resenas": 2027,
+   "precio_aprox": "64,95 €",
+   "precio_estable": true,
+   "reserva": false
+  },
+  {
+   "asin": "B003UNN7Y0",
+   "titulo": "KidKraft — Cocina de Juguete Modern Country de madera",
+   "url": "https://www.amazon.es/dp/B003UNN7Y0",
+   "categoria": "autonomia-juego-simbolico",
+   "subcategoria": null,
+   "etapas": [
+    "pequeno-explorador",
+    "ya-juega-con-otros"
+   ],
+   "habilidad_frase": "Cocinar de mentira en su cocina. El juego simbólico del día a día.",
+   "nota_seguridad": "Madera robusta, requiere montaje. Accesorios pequeños: supervisar exploración oral.",
+   "edad_recomendada": "a partir de 3 años (fabricante)",
+   "rating": 4.5,
+   "num_resenas": 730,
+   "precio_aprox": "96,99 €",
+   "precio_estable": false,
+   "reserva": false
+  }
+ ]
 }
