@@ -8,12 +8,16 @@ import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
 
+export type Faq = { pregunta: string; respuesta: string };
+
 export type Guia = {
   slug: string;        // sin prefijo /guias/
   title: string;       // titular largo (H1 y og:title)
   seoTitle: string;    // <title> corto ≤60 chars (fallback al largo)
   description: string;
   keyword: string;
+  actualizado: string; // fecha ISO del frontmatter (""=sin declarar)
+  faqs: Faq[];         // derivadas del propio markdown, ver extraerFaqs()
   html: string;        // cuerpo ya renderizado
 };
 
@@ -43,6 +47,60 @@ function sinH1(md: string): string {
   return md.replace(/^\s*# .+\n/, "");
 }
 
+/** Pasa el markdown en línea (negritas, enlaces, código) a texto plano. */
+function aTextoPlano(md: string): string {
+  return md
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")  // [texto](url) -> texto
+    .replace(/\*\*([^*]+)\*\*/g, "$1")        // **negrita**  -> negrita
+    .replace(/[*_`]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Saca los pares pregunta/respuesta del PROPIO markdown: cada H2 que termine en
+ * "?" y el primer párrafo que le sigue.
+ *
+ * Por qué así y no con un .jsonld.json aparte (que es como se hizo en la web
+ * hermana): un FAQPage que no coincide con lo que el usuario ve es motivo de
+ * penalización de Google, y mantener a mano dos copias del mismo texto acaba
+ * SIEMPRE en desincronización — allí ya pasó. Derivándolo del markdown, el
+ * schema no puede mentir: si cambia el texto visible, cambia el schema.
+ *
+ * Se descartan las respuestas de menos de 40 caracteres: una respuesta que no
+ * se sostiene sola no sirve para que un buscador o un LLM la cite.
+ */
+export function extraerFaqs(md: string): Faq[] {
+  const faqs: Faq[] = [];
+  const lineas = md.split("\n");
+
+  for (let i = 0; i < lineas.length; i++) {
+    const h2 = lineas[i].match(/^##\s+(.*\?)\s*$/);
+    if (!h2) continue;
+
+    const parrafo: string[] = [];
+    for (let j = i + 1; j < lineas.length; j++) {
+      const l = lineas[j].trim();
+      if (!l) {
+        if (parrafo.length) break;   // fin del primer párrafo
+        continue;                    // aún no ha empezado
+      }
+      if (l.startsWith("#")) break;  // otro encabezado antes del texto
+      if (/^([-*>|]|\d+\.)/.test(l)) {
+        if (parrafo.length) break;   // lista o cita tras el párrafo
+        continue;                    // arranca en lista: no sirve de respuesta
+      }
+      parrafo.push(l);
+    }
+
+    const respuesta = aTextoPlano(parrafo.join(" "));
+    if (respuesta.length >= 40) {
+      faqs.push({ pregunta: aTextoPlano(h2[1]), respuesta });
+    }
+  }
+  return faqs;
+}
+
 export function todasLasGuias(): Guia[] {
   if (cache) return cache;
   cache = fs
@@ -58,6 +116,10 @@ export function todasLasGuias(): Guia[] {
         seoTitle: SEO_TITLES[slug] || title,
         description: String(data.description || ""),
         keyword: String(data.keyword || ""),
+        actualizado: String(data.actualizado || data.date || ""),
+        // Las FAQ se leen del markdown ORIGINAL (con su H1), no del recortado:
+        // así el orden de las secciones no depende de cómo se limpie el cuerpo.
+        faqs: extraerFaqs(content),
         // marked.parse devuelve string | Promise<string>; sin extensiones async
         // (nuestro caso) es siempre síncrono, por eso el cast es seguro.
         html: marked.parse(sinH1(content)) as string,

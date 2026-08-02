@@ -30,6 +30,13 @@ import os
 import re
 import sys
 
+# La consola de Windows va en cp1252 y revienta con «⇄», «·» o las comillas
+# angulares: corriendo dentro de `npm run build` no hay forma de exigir
+# PYTHONUTF8, así que lo forzamos aquí. Sin esto el gate muere por un carácter
+# de adorno y tumba el build entero sin haber encontrado ningún cruce.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Proyecto hermano. Se puede sobreescribir por --otro o por env BRINCALUNA_OTRO.

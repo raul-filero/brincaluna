@@ -23,8 +23,23 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
+const MESES = [
+  "enero", "febrero", "marzo", "abril", "mayo", "junio",
+  "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+];
+
+/** "2026-08-02" -> "2 de agosto de 2026". Devuelve "" si la fecha no es válida. */
+function fechaLarga(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  if (!m) return "";
+  const mes = MESES[Number(m[2]) - 1];
+  if (!mes) return "";
+  return `${Number(m[3])} de ${mes} de ${m[1]}`;
+}
+
 export default function GuiaPage({ params }: { params: { slug: string } }) {
   const g = guiaPorSlug(params.slug)!;
+  const actualizado = fechaLarga(g.actualizado);
   return (
     <>
       <JsonLd
@@ -35,9 +50,28 @@ export default function GuiaPage({ params }: { params: { slug: string } }) {
           description: g.description,
           inLanguage: "es",
           url: `${SITE_URL}/guias/${g.slug}/`,
+          ...(g.actualizado ? { dateModified: g.actualizado } : {}),
           publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
         }}
       />
+      {/* FAQPage derivado del propio texto de la guía (ver lib/guias.ts):
+          cada pregunta del schema es LITERALMENTE un H2 visible y cada respuesta
+          su primer párrafo, así que no puede desincronizarse del contenido. */}
+      {g.faqs.length >= 2 && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            inLanguage: "es",
+            url: `${SITE_URL}/guias/${g.slug}/`,
+            mainEntity: g.faqs.map((f) => ({
+              "@type": "Question",
+              name: f.pregunta,
+              acceptedAnswer: { "@type": "Answer", text: f.respuesta },
+            })),
+          }}
+        />
+      )}
       <JsonLd
         data={breadcrumbLd([
           { name: "Inicio", url: `${SITE_URL}/` },
@@ -51,6 +85,14 @@ export default function GuiaPage({ params }: { params: { slug: string } }) {
           <Link href="/guias/" style={{ fontWeight: 800, fontSize: 16, display: "inline-flex", alignItems: "center", minHeight: "var(--tap)" }}>← Todas las guías</Link>
           <h1 style={{ fontSize: "clamp(28px, 4vw, 40px)", margin: 0 }}>{g.title}</h1>
           <AvalBadge />
+          {/* Fecha visible: al lector le dice que la guía está viva, y a los
+              buscadores y modelos les da la señal de frescura que usan para
+              decidir a quién citan. */}
+          {actualizado && (
+            <p style={{ margin: 0, fontSize: 15, color: "var(--color-text-soft, #5b5470)" }}>
+              Actualizado: {actualizado}
+            </p>
+          )}
           {/* HTML generado en build desde el markdown de la guía (marked) */}
           <div dangerouslySetInnerHTML={{ __html: g.html }} />
 
