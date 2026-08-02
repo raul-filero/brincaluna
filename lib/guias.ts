@@ -36,6 +36,12 @@ const SEO_TITLES: Record<string, string> = {
   "estimular-habla-jugando-soplo-musica": "Estimular el habla jugando: soplo y música",
   "leer-para-hablar-metodo-visual": "Enseñar a leer para enseñar a hablar",
   "juguetes-sensoriales-seguros": "Juguetes sensoriales seguros: cómo elegir",
+  // Guías nuevas (huecos del corpus, 2026-08-02). Solo llevan entrada aquí las
+  // que tienen el titular largo por encima de 60 caracteres; el resto usa su
+  // propio title, que ya cabe.
+  "juguetes-a-partir-de-5-anos-y-adolescentes": "Juguetes para niños de 5+ años con síndrome de Down",
+  "munecos-con-sindrome-de-down": "Muñecos con síndrome de Down: cuál elegir",
+  "se-lo-lleva-todo-a-la-boca-y-tira-los-juguetes": "Se lo lleva todo a la boca y tira los juguetes",
 };
 
 // Caché de módulo: el build llama a todasLasGuias() desde varias páginas;

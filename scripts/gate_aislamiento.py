@@ -83,9 +83,20 @@ FICHEROS_CACHE = (
     os.path.normpath("data/images.json"),
 )
 
+# docs/ es material de INVESTIGACIÓN (corpus de preguntas, minados, notas), no
+# se publica. Y ahí el vocabulario del otro nicho aparece por fuerza: el propio
+# corpus documenta CUÁNTAS preguntas se descartaron por pertenecer a TDAH. Si
+# esto fuese rojo, el gate se pondría en rojo justo por dejar constancia de que
+# hizo bien su trabajo. Lo publicable se vigila aparte, en content/ y en out/.
+DIRS_INVESTIGACION = ("docs" + os.sep,)
+
 
 def es_cache(rel: str) -> bool:
-    return rel in FICHEROS_CACHE or "_fichas_cache" in rel
+    return (
+        rel in FICHEROS_CACHE
+        or "_fichas_cache" in rel
+        or rel.startswith(DIRS_INVESTIGACION)
+    )
 
 
 def cargar_asins(ruta_json):

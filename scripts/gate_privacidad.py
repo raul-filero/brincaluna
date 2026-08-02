@@ -52,8 +52,14 @@ MIN_TESTIMONIO = 120
 # para que una coincidencia no sea casualidad del idioma.
 VENTANA = 60
 
-# Enlaces a hilos concretos: apuntan al mensaje de una persona identificable.
-# El enlace a la sección del foro o a la home de la entidad es correcto.
+# Enlaces a hilos concretos. Ojo con el matiz, que costó una pasada entender:
+# estos hilos son el CONSULTORIO de la entidad — la pregunta la manda una
+# familia, pero la respuesta la firma un experto (Isidoro Candel, Emilio Ruiz…)
+# y la publica Down España como contenido editorial suyo. Citar eso es buena
+# práctica: da crédito a la fuente y es justo la señal de autoridad que
+# queremos. Por eso va en ÁMBAR y no en rojo: se revisa, no se bloquea.
+# Lo que sí es rojo es copiar el texto del padre, y de eso se encarga la
+# detección de testimonios de arriba.
 RE_HILO = re.compile(
     r"https?://(?:www\.)?sindromedown\.org/foros/[a-z0-9-]+/[a-z0-9-]{10,}"
     r"|https?://(?:www\.)?down21\.org/consultanos[^\s)\"']*\?\S+",
@@ -111,6 +117,7 @@ def main():
     print(f"== GATE DE PRIVACIDAD == {len(citas)} testimonios vigilados")
 
     rojo = []
+    ambar = set()
     revisados = 0
     for ruta in ficheros_publicables():
         try:
@@ -123,12 +130,22 @@ def main():
         for huella, original in huellas:
             if huella and huella in contenido:
                 rojo.append(f"TESTIMONIO PUBLICADO en {rel}: «{original[:90]}…»")
-        for url in RE_HILO.findall(contenido):
-            rojo.append(f"ENLACE A HILO PERSONAL en {rel}: {url}")
+        # Los .html de out/ son el reflejo de content/: contarlos otra vez solo
+        # duplica el aviso, así que para el ámbar basta con mirar la fuente.
+        if not rel.startswith("out" + os.sep):
+            for url in RE_HILO.findall(contenido):
+                ambar.add(url)
 
     if not revisados:
         print("[!! NO VERIFICADO] 0 ficheros publicables revisados.", file=sys.stderr)
         return 0
+
+    if ambar:
+        print(f"[ÁMBAR] {len(ambar)} enlaces a hilos de consultorio citados como fuente.")
+        print("   Correcto SI lo que se cita es la respuesta del experto (es contenido")
+        print("   editorial de la entidad). Incorrecto si se cita la duda del padre.")
+        for u in sorted(ambar)[:6]:
+            print(f"   · {u}")
 
     if rojo:
         print(f"\nGATE ROJO — {len(set(rojo))} usos de testimonio ajeno en material publicable:",
