@@ -163,7 +163,7 @@ export default function JuguetePage({ params }: { params: { slug: string } }) {
             </p>
           ) : null}
 
-          <AmazonButton url={p.url} asin={p.asin} texto="Ver precio en Amazon" />
+          <AmazonButton url={p.url} asin={p.asin} texto="Ver precio en Amazon" nota />
           <AffiliateNote />
           <AvalBadge />
         </div>
