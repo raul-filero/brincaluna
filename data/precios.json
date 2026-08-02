@@ -1,0 +1,577 @@
+{
+ "B08LT71FY2": {
+  "precio": "14,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:06"
+ },
+ "B00005RF5G": {
+  "precio": "42,42",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:12"
+ },
+ "B00HWHNNRG": {
+  "precio": "7,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:17"
+ },
+ "B0083F2XDQ": {
+  "precio": "12,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:21"
+ },
+ "B00H4IQ3P2": {
+  "precio": "22,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:38"
+ },
+ "B0797GCR6W": {
+  "precio": "16,06",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:44"
+ },
+ "B000NMAJVK": {
+  "precio": "4,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:50"
+ },
+ "B0C1B6Z8SG": {
+  "precio": "22,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:10:56"
+ },
+ "B00272N8L2": {
+  "precio": "12,00",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:00"
+ },
+ "B0026ZPSJ0": {
+  "precio": "14,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:05"
+ },
+ "B0DN5NBJJK": {
+  "precio": "12,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:08"
+ },
+ "B0CNPK5P1Y": {
+  "precio": "11,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:14"
+ },
+ "B0CCNQZHTW": {
+  "precio": "17,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:20"
+ },
+ "B09HHGVDS8": {
+  "precio": "19,50",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:24"
+ },
+ "B001J99FGG": {
+  "precio": "7,90",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:29"
+ },
+ "B0CTKKG12H": {
+  "precio": "12,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:35"
+ },
+ "B00U3GA97K": {
+  "precio": "24,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:39"
+ },
+ "B00TO6FJYS": {
+  "precio": "26,39",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:43"
+ },
+ "B0DB5C918Z": {
+  "precio": "22,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:49"
+ },
+ "B0F2GCP7ZJ": {
+  "precio": "37,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:53"
+ },
+ "B0D2MF53TH": {
+  "precio": "27,71",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:11:58"
+ },
+ "8448823249": {
+  "precio": "13,25",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:02"
+ },
+ "B00ZRD99C0": {
+  "precio": "5,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:07"
+ },
+ "B0CGV738D5": {
+  "precio": "9,89",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:12"
+ },
+ "B0CYP7CTB5": {
+  "precio": "13,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:17"
+ },
+ "B0D2PBRXRG": {
+  "precio": "21,53",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:22"
+ },
+ "B0CJLWD1VM": {
+  "precio": "19,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:27"
+ },
+ "B0D1FSJDD6": {
+  "precio": "13,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:33"
+ },
+ "B0FHWL5Y2K": {
+  "precio": "32,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:38"
+ },
+ "B07BRFF8CL": {
+  "precio": "7,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:43"
+ },
+ "B0C4FRFZW1": {
+  "precio": "39,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:47"
+ },
+ "B09HXQM331": {
+  "precio": "44,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:51"
+ },
+ "B08DLR33HG": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:12:56"
+ },
+ "B0CFZX62BY": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:01"
+ },
+ "B0DMR1LB4F": {
+  "precio": "53,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:06"
+ },
+ "B00KTYXK7W": {
+  "precio": "12,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:11"
+ },
+ "B0G5Q1TSN4": {
+  "precio": "10,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:16"
+ },
+ "B09G187FS4": {
+  "precio": "30,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:20"
+ },
+ "B0DSVR2HZS": {
+  "precio": "69,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:25"
+ },
+ "B00005BAHT": {
+  "precio": "37,67",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:29"
+ },
+ "B0CLQLPHG2": {
+  "precio": "13,70",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:34"
+ },
+ "B0F4KF2WGW": {
+  "precio": "19,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:40"
+ },
+ "B0C2D6LRMM": {
+  "precio": "99,00",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:44"
+ },
+ "B0897R35PN": {
+  "precio": "25,39",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:13:50"
+ },
+ "B0C81P6C84": {
+  "precio": "17,24",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:00"
+ },
+ "B0CPL7VPN4": {
+  "precio": "11,00",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:06"
+ },
+ "B00D6JM5EQ": {
+  "precio": "22,52",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:12"
+ },
+ "B0CJ9S3XB5": {
+  "precio": "16,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:17"
+ },
+ "B07B37TT7F": {
+  "precio": "17,55",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:21"
+ },
+ "B006S9MUPU": {
+  "precio": "34,73",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:26"
+ },
+ "B01B7PEA2A": {
+  "precio": "39,35",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:32"
+ },
+ "B07MPCCDM7": {
+  "precio": "59,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:36"
+ },
+ "B07QVLTW4X": {
+  "precio": "7,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:41"
+ },
+ "B088KS6L86": {
+  "precio": "9,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:47"
+ },
+ "B07J5NPX12": {
+  "precio": "59,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:51"
+ },
+ "B09NPB46FY": {
+  "precio": "39,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:14:55"
+ },
+ "B0C39PCFLT": {
+  "precio": "20,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:01"
+ },
+ "B000YDDF6O": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:05"
+ },
+ "B08X126LFP": {
+  "precio": "24,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:11"
+ },
+ "B01EWU4BIU": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:17"
+ },
+ "B0979KLK4K": {
+  "precio": "15,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:21"
+ },
+ "B003CSADX6": {
+  "precio": "10,68",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:26"
+ },
+ "B09DDBWP9J": {
+  "precio": "13,52",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:31"
+ },
+ "B00HWHO7M6": {
+  "precio": "7,84",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:35"
+ },
+ "B000MM29QY": {
+  "precio": "11,93",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:39"
+ },
+ "B09Q38957J": {
+  "precio": "22,48",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:43"
+ },
+ "B000F8XF86": {
+  "precio": "23,44",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:49"
+ },
+ "B081PDQQJY": {
+  "precio": "18,44",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:54"
+ },
+ "B07HYTVTV3": {
+  "precio": "19,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:15:58"
+ },
+ "B084J34J37": {
+  "precio": "8,05",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:02"
+ },
+ "B0BQCM379W": {
+  "precio": "20,20",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:07"
+ },
+ "B08RRYMNN8": {
+  "precio": "14,39",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:13"
+ },
+ "B0CHJQ3PY7": {
+  "precio": "20,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:22"
+ },
+ "B01GBY72DG": {
+  "precio": "29,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:27"
+ },
+ "B00IL35W2Y": {
+  "precio": "31,56",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:32"
+ },
+ "B083ZRZF7Q": {
+  "precio": "32,40",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:38"
+ },
+ "B00TKXC0DI": {
+  "precio": "64,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:48"
+ },
+ "B003UNN7Y0": {
+  "precio": "96,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:16:52"
+ },
+ "B0DBQ6G3ZF": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:02"
+ },
+ "B01AIFT6MO": {
+  "precio": "16,09",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:11"
+ },
+ "B0BB2BMVNH": {
+  "precio": "14,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:20"
+ },
+ "B078MCYFGY": {
+  "precio": "27,31",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:26"
+ },
+ "B0BRKHF3N7": {
+  "precio": "67,96",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:30"
+ },
+ "B0CK9814RH": {
+  "precio": "50,32",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:35"
+ },
+ "B000SK7DF2": {
+  "precio": "18,98",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:39"
+ },
+ "B0006NM95A": {
+  "precio": "10,45",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:43"
+ },
+ "B00ARSE1A0": {
+  "precio": "10,45",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:48"
+ },
+ "B0050OUOR0": {
+  "precio": "14,48",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:17:54"
+ },
+ "B00KL4VSU6": {
+  "precio": "22,19",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:04"
+ },
+ "B00BHAHATG": {
+  "precio": "11,24",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:10"
+ },
+ "B00IJBM79O": {
+  "precio": "8,75",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:18"
+ },
+ "B0716KVMX8": {
+  "precio": "15,77",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:24"
+ },
+ "B01MZ1DQV4": {
+  "precio": "6,50",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:28"
+ },
+ "B07KWZKHFQ": {
+  "precio": "22,77",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:42"
+ },
+ "B07RRWCBV4": {
+  "precio": "19,98",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:47"
+ },
+ "B08LZPTNKQ": {
+  "precio": "31,93",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:52"
+ },
+ "B09WW3VCKR": {
+  "precio": "33,90",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:18:56"
+ },
+ "B01CML4I3O": {
+  "precio": "43,00",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:12"
+ },
+ "B01NCUSC7V": {
+  "precio": "11,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:23"
+ },
+ "B01J41D4IU": {
+  "precio": "47,23",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:28"
+ },
+ "B00712O2D6": {
+  "precio": "26,54",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:35"
+ },
+ "B003HGHB4W": {
+  "precio": "12,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:40"
+ },
+ "B003HGHHD2": {
+  "precio": "26,98",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:51"
+ },
+ "B07MZM9ZKD": {
+  "precio": "15,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:19:57"
+ },
+ "B000JVVTCI": {
+  "precio": "4,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:02"
+ },
+ "B089VGBM5P": {
+  "precio": "7,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:06"
+ },
+ "B0C39F989D": {
+  "precio": "10,88",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:11"
+ },
+ "B0C9YKZJ6W": {
+  "precio": "27,42",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:16"
+ },
+ "B0CWRXDWD6": {
+  "precio": "10,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:21"
+ },
+ "B00FBW7CNA": {
+  "precio": "14,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:25"
+ },
+ "B06XBRK6K6": {
+  "precio": "15,29",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:31"
+ },
+ "B0B88HND7Q": {
+  "precio": "9,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:37"
+ },
+ "B07NDCWK9G": {
+  "precio": "14,99",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:41"
+ },
+ "B06XCKGB1S": {
+  "precio": "8,95",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:47"
+ },
+ "B0BR5QHP6F": {
+  "precio": "21,60",
+  "moneda": "EUR",
+  "fecha": "2026-08-02T21:20:52"
+ }
+}

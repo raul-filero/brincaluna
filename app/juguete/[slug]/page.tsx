@@ -4,6 +4,7 @@ import {
   PRODUCTOS, productoPorSlug, categoriaPorSlug, tipoPorSlug, etapaPorSlug,
 } from "@/lib/data";
 import AmazonButton from "@/components/AmazonButton";
+import Precio from "@/components/Precio";
 import AvalBadge from "@/components/AvalBadge";
 import JsonLd, { breadcrumbLd } from "@/components/JsonLd";
 import MedicalNote from "@/components/MedicalNote";
@@ -163,7 +164,8 @@ export default function JuguetePage({ params }: { params: { slug: string } }) {
             </p>
           ) : null}
 
-          <AmazonButton url={p.url} asin={p.asin} texto="Ver precio en Amazon" nota />
+          <Precio asin={p.asin} />
+          <AmazonButton url={p.url} asin={p.asin} texto="Comprar en Amazon" nota />
           <AffiliateNote />
           <AvalBadge />
         </div>

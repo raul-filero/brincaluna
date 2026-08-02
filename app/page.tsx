@@ -41,11 +41,19 @@ export default function Home() {
       {/* HERO */}
       <section className="container" style={{ display: "flex", alignItems: "center", gap: 32, flexWrap: "wrap", paddingTop: 48 }}>
         <div style={{ flex: "1 1 380px", display: "flex", flexDirection: "column", gap: 18, minWidth: 0 }}>
-          <h1 style={{ fontWeight: 800, fontSize: "clamp(32px, 5vw, 54px)", margin: 0, maxWidth: 620 }}>
-            Juguetes elegidos para cómo aprende tu hijo
+          {/*
+            El H1 nombra el síndrome de Down de forma explícita. No es una
+            etiqueta de más: quien llega tiene que reconocer en dos segundos que
+            la web es para su hijo, y es la búsqueda por la que compiten estas
+            páginas. El "cómo aprende tu hijo" pasa a la línea de abajo, que es
+            la promesa, no la identificación.
+          */}
+          <h1 style={{ fontWeight: 800, fontSize: "clamp(30px, 5vw, 50px)", margin: 0, maxWidth: 660 }}>
+            Juguetes para niños con síndrome de Down
           </h1>
           <p style={{ margin: 0, fontSize: 22, maxWidth: 540 }}>
-            Cada juguete trabaja una habilidad real. Te explicamos cuál y por qué, sin jerga.
+            Elegidos por la habilidad que trabajan —hablar, manos, calma, moverse— y por
+            la etapa de tu hijo, no por la edad de la caja.
           </p>
           <p style={{ margin: 0, fontSize: 17, color: "var(--color-text-soft)", maxWidth: 540 }}>
             Como un cuento: él salta, tú entiendes el porqué.

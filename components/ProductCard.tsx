@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Producto } from "@/lib/data";
 import { CATEGORIAS, ETAPAS } from "@/lib/data";
 import AmazonButton from "./AmazonButton";
+import Precio from "./Precio";
 import imagenes from "@/data/images.json";
 
 /**
@@ -51,6 +52,7 @@ export default function ProductCard({ p }: { p: Producto }) {
         <p style={{ margin: 0, fontSize: 15, color: "var(--color-primary-ink)" }}><span aria-hidden="true">⚠️</span> {p.nota_seguridad}</p>
       ) : null}
       <div style={{ marginTop: "auto", display: "flex", flexDirection: "column", gap: 6 }}>
+        <Precio asin={p.asin} tamano="pequeno" />
         <AmazonButton url={p.url} asin={p.asin} />
         <Link
           href={`/juguete/${p.slug}/`}
