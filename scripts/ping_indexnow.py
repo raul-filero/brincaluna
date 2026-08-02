@@ -25,7 +25,12 @@ import sys
 import urllib.request
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HOST = "brincaluna.com"
+# CON www: es el host canónico real. El dominio raíz no se pudo activar en
+# Cloudflare Pages porque el DNS vive en Don Dominio y allí el raíz necesita un
+# ANAME, que no expone el CNAME que Cloudflare exige para validar. El host de
+# IndexNow tiene que coincidir con el de las URLs y con el de la clave, o el
+# endpoint rechaza el envío entero.
+HOST = "www.brincaluna.com"
 ENDPOINT = "https://api.indexnow.org/indexnow"
 
 

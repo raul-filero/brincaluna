@@ -6,7 +6,15 @@
  * (Mismo patrón validado en Orbitoys/lib/site.ts.)
  */
 export const SITE_NAME = "Brincaluna";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://brincaluna.com";
+/**
+ * Canónico CON www, y no es un capricho: el DNS vive en Don Dominio, no en
+ * Cloudflare. Para el dominio raíz hay que usar un registro ANAME, que resuelve
+ * por dentro y solo expone direcciones IP — y Cloudflare Pages exige ver un
+ * CNAME para validar la propiedad ("CNAME record not set"). Con `www` sí hay
+ * CNAME real, así que valida y emite certificado. El raíz se redirige a www.
+ * Si algún día se mueven los DNS a Cloudflare, se puede volver al raíz.
+ */
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.brincaluna.com";
 export const SITE_TAGLINE = "Juguetes elegidos para cómo aprende tu hijo";
 
 // --- Amazon Associates ---
