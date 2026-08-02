@@ -31,10 +31,13 @@ export function withTag(url: string): string {
 }
 
 // --- Web hermana (partner cruzado, mismo creador) ---
+// El enlace cruzado se queda, pero la descripción NO nombra el nicho de la web
+// hermana: este bloque se pinta en las 171 páginas y meter ahí la keyword del
+// otro nicho diluía la señal temática de Brincaluna en todo el sitio.
 export const PARTNER_ORBITOYS = {
   nombre: "Orbitoys",
   url: "https://orbitoys.es",
-  descripcion: "Juguetes y herramientas para peques con TDAH, del mismo equipo.",
+  descripcion: "Nuestra otra web de juguetes seleccionados, del mismo equipo.",
 };
 
 // --- Analítica (E8): token del beacon de Cloudflare Web Analytics ---
