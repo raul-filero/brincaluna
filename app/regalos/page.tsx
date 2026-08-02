@@ -30,7 +30,8 @@ export default function RegalosPage() {
           name: "Regalos para niños con síndrome de Down",
           url: `${SITE_URL}/regalos/`,
           numberOfItems: regalos.length,
-          itemListElement: regalos.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.titulo, url: p.url })),
+          // La ficha propia, no Amazon: ver nota en app/[categoria]/page.tsx.
+          itemListElement: regalos.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.titulo, url: `${SITE_URL}/juguete/${p.slug}/` })),
         }}
       />
       <section className="container" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 16 }}>

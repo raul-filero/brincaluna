@@ -49,7 +49,11 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
               "@type": "ListItem",
               position: i + 1,
               name: p.titulo,
-              url: p.url, // el destino real es la ficha de Amazon (sin precio: vive allí)
+              // Los ítems de la lista son páginas NUESTRAS, no de Amazon: el
+              // ItemList describe este hub. Apuntar a amazon.es aquí sacaba al
+              // usuario del sitio y, peor, publicaba una URL de Amazon SIN el
+              // tag de afiliado (el `withTag` solo cubre los <a> visibles).
+              url: `${SITE_URL}/juguete/${p.slug}/`,
             })),
           }}
         />

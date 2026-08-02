@@ -49,7 +49,8 @@ export default function EtapaPage({ params }: { params: { etapa: string } }) {
               "@type": "ListItem",
               position: i + 1,
               name: p.titulo,
-              url: p.url,
+              // La ficha propia, no Amazon: ver nota en app/[categoria]/page.tsx.
+              url: `${SITE_URL}/juguete/${p.slug}/`,
             })),
           }}
         />
