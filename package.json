@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/check-links.mjs && python scripts/gate_aislamiento.py",
-    "gate": "python scripts/gate_aislamiento.py",
+    "build": "next build && node scripts/check-links.mjs && python scripts/gate_aislamiento.py && python scripts/gate_privacidad.py",
+    "gate": "python scripts/gate_aislamiento.py && python scripts/gate_privacidad.py",
     "start": "next start"
   },
   "dependencies": {
