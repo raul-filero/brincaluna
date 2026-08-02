@@ -48,6 +48,26 @@ const SEO_TITLES: Record<string, string> = {
 // leemos el filesystem una sola vez (M2 del dossier cazabugs).
 let cache: Guia[] | null = null;
 
+/**
+ * Devuelve la fecha del frontmatter como "AAAA-MM-DD".
+ *
+ * Hace falta porque el YAML tipa `actualizado: 2026-08-02` como FECHA, y
+ * gray-matter nos entrega un objeto Date: un String() directo daba
+ * "Sun Aug 02 2026 02:00:00 GMT+0200", que no vale ni para el `dateModified`
+ * del schema (schema.org exige ISO 8601) ni para pintarlo en la página.
+ * Se usa la fecha LOCAL, no toISOString(), porque el Date nace a medianoche
+ * local y en zona horaria positiva el UTC se iría al día anterior.
+ */
+function fechaISO(valor: unknown): string {
+  if (valor instanceof Date && !Number.isNaN(valor.getTime())) {
+    const mes = String(valor.getMonth() + 1).padStart(2, "0");
+    const dia = String(valor.getDate()).padStart(2, "0");
+    return `${valor.getFullYear()}-${mes}-${dia}`;
+  }
+  const texto = String(valor ?? "").trim();
+  return /^\d{4}-\d{2}-\d{2}$/.test(texto) ? texto : "";
+}
+
 /** Quita el H1 del cuerpo (la plantilla ya pinta su propio <h1> desde el title). */
 function sinH1(md: string): string {
   return md.replace(/^\s*# .+\n/, "");
@@ -122,7 +142,7 @@ export function todasLasGuias(): Guia[] {
         seoTitle: SEO_TITLES[slug] || title,
         description: String(data.description || ""),
         keyword: String(data.keyword || ""),
-        actualizado: String(data.actualizado || data.date || ""),
+        actualizado: fechaISO(data.actualizado ?? data.date),
         // Las FAQ se leen del markdown ORIGINAL (con su H1), no del recortado:
         // así el orden de las secciones no depende de cómo se limpie el cuerpo.
         faqs: extraerFaqs(content),
